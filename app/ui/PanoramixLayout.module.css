@@ -24,10 +24,16 @@
 
 .masonry > div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 0 2rem;
   width: auto;
   padding: 2rem;
+}
+
+.masonry > div > figure {
+  width: auto;
+  margin: initial;
+  margin-bottom: 2rem;
 }
 
 .masonry > div > figure > img {

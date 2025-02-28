@@ -9,7 +9,9 @@ category:
   - Espacios
 ---
 
-![Mi oficina en la actualidad](./20241022.jpeg)
+![Mi oficina en la actualidad](./20250201.jpeg)
+
+![Mi oficina co un tablero de bambú](./20241022.jpeg)
 
 ![Mi oficina en 2023](./2023-11-22.jpg)
 
