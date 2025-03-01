@@ -16,3 +16,15 @@
 .welcome p span:nth-child(2) {
   color: rgba(var(--color-honey-yellow));
 }
+
+.welcome p span:nth-child(3) {
+  font-family: var(--inter-font);
+  font-size: 0.8rem;
+  line-height: normal;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.welcome p span:nth-child(3) > strong {
+  color: rgba(var(--color-honey-yellow));
+}

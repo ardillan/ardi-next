@@ -1,5 +1,8 @@
 import { ARDI, NAVIGATION } from "@/lib/constants";
 
+export const metersToKM = (meters: number): string =>
+  (meters / 1000).toFixed(1);
+
 export const formatDateTime = (commitTime: string): string => {
   return new Date(commitTime).toLocaleDateString("es-ES", {
     year: "numeric",
