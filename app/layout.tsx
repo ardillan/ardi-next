@@ -1,7 +1,7 @@
 import "@/styles/global.css";
 
-import React, { JSX } from "react";
 import Script from "next/script";
+import React, { JSX } from "react";
 
 import ContextProvider from "@/context/ContextProvider";
 
