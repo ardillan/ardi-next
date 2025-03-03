@@ -1,5 +1,6 @@
 "use client";
 
+import Script from "next/script";
 import React, { JSX } from "react";
 
 import { fontFraiche, fontInter } from "@/appComponents/Fonts";
@@ -15,6 +16,12 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+        <Script
+          data-goatcounter="https://ardi.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+          strategy="afterInteractive"
+        />
       </head>
       <body
         className={`${fontInter.variable} ${fontFraiche.variable}`}
