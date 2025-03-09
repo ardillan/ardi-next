@@ -10,17 +10,17 @@ category:
   - Bicicletas
 ---
 
-Hace tiempo que quiero hacer una entrada de este tipo, sobretodo para compartir algunas de las cosas que me funcionan a mí, personalmente, a la hora de moverme en bici para hacer algo de compra, ir a tomar un café, o ir al trabajo.
+Hace tiempo que quiero hacer una entrada de este tipo, sobre todo para compartir algunas de las cosas que me funcionan a mí, personalmente, a la hora de moverme en bici para hacer algo de compra, ir a tomar un café o ir al trabajo.
 
-Trato de usar el coche lo menos posible. Como muchas personas, he cometido aunténticas atrocidades motivadas principalmente por no querer moverme unos pocos metros andado. Hoy en día creo que eso ha cambiado, mis hábitos son otros y creo que tengo ya un _modus-operandi_ que me funciona bastante bien.
+Trato de usar el coche lo menos posible. Como muchas personas, he cometido aunténticas atrocidades motivadas principalmente por no querer moverme unos pocos metros andado. Hoy en día creo que eso ha cambiado, mis hábitos son otros y diría que tengo ya un _modus-operandi_ que me funciona bastante bien.
 
-Pero mejor voy por partes:
+Pero, mejor, voy por partes.
 
 ## Guardabarros: contra viento y marea
 
 A la hora de hablar de movilidad siempre hay que tener en cuenta varios factores. Uno de ellos es el **factor climático**. Aquí, en Torrelavega (Cantabria), solemos tener un clima más bien lluvioso, aunque quizá ahora no tanto.
 
-Por ello, lo que lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
+Lo que lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
 
 ![Imagen de unos guardabarros](./como-moverme-en-bici-4.jpeg)
 
@@ -42,15 +42,15 @@ En mi caso llevo una alforja que se transforma en mochila gracias a unas cremall
 
 ## Timbre y luces: para expandir tus sentidos
 
-No sólo necesarios si no obligatorios (sí, incluso antes que el casco). Tus salvadores para poder ser visto y oído en la distancia. El timbre es especialmente útil para cuando compartes carril con peatones, como sendas ciclables o vías verdes. La luz hará que te situén en el mapa y te permitirá descubrir qué es lo que hay delante de ti.
+No sólo necesarios si no obligatorios (sí, incluso antes que el casco). Tus salvadores para poder ser visto y oído en la distancia. El timbre es especialmente útil cuando compartes carril con peatones, como sendas ciclables o vías verdes. La luz hará que te sitúen en el mapa y te permitirá descubrir qué es lo que hay delante de ti.
 
 ![Un timbre y una luz. Aparezco yo en el reflejo :)](./como-moverme-en-bici-5.jpeg)
 
 ## Un candado: para atarte a la realidad
 
-Para lo que es obvio: candar la bici en un aparcabicis. Sé que hay varios niveles de candado y, aunque no soy un especialista, cuanto más duro y pesado: mejor.
+Para lo que es obvio: candar la bici en un aparcabicis. Sé que hay varios niveles de candado y, aunque no soy un especialista, cuanto más duro y pesado, mejor.
 
-En mi caso opto por un candado plegable para poder llevarlo cómodamente en el hueco de la ponchera. Se quita y pone fácilmente.
+En mi caso opto por un candado plegable para poder llevarlo cómodamente en el hueco de la ponchera. Se quita y se pone fácilmente.
 
 <div>
 
@@ -78,9 +78,9 @@ Quizá no parece del todo útil, pero siempre está bien plasmar un poco de tu p
 
 Estas son algunas de las técnicas que he ido aprendiendo con el paso del tiempo. Por ahora esto es lo que me funciona en el día a día y me va bastante bien. Rara vez salgo sin alforja y me gusta pensar que mi bici está segura en el aparcabicis.
 
-A parte de lo ya mencionado, estas serían algunas cosas mas que me parecen imprescindibles y que suelo llevar conmigo:
+A parte de lo ya mencionado, estas serían algunas cosas más que me parecen imprescindibles y que suelo llevar conmigo:
 
-- Una pantalón de lluvia. No ocupa nada y te salva la vida de un chaparrón repentino
+- Una pantalón de lluvia. No ocupa nada y te salva la vida de un chaparrón repentino.
 - Una herramienta multiusos. Con llaves de diferentes tipos, para algún arreglo rápido.
 - El casco, para proteger la almendra en las carreteras generales.
 - De vez en cuando un hinchador eléctrico.
