@@ -1,7 +1,7 @@
 ---
 title: "Cómo ir a la oficina en bici"
 subtitle: "O si eres moderno: Commute a la office"
-date: "2025-03-03T17:50:10.0100"
+date: "2025-03-09T17:50:10.0100"
 type: "blog"
 description: "Un resumen de qué cosas me funcionan para moverme en bici por la ciudad y el extrarradio"
 featuredImage: "./como-moverme-en-bici-1.jpeg"
@@ -20,7 +20,7 @@ Pero mejor voy por partes:
 
 A la hora de hablar de movilidad siempre hay que tener en cuenta varios factores. Uno de ellos es el **factor climático**. Aquí, en Torrelavega (Cantabria), solemos tener un clima más bien lluvioso, aunque quizá ahora no tanto.
 
-Por ello, lo que lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un chubasquero y un pantalón de lluvia.
+Por ello, lo que lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
 
 ![Imagen de unos guardabarros](./como-moverme-en-bici-4.jpeg)
 
@@ -28,9 +28,9 @@ Por ello, lo que lo primero que recomiendo es sin duda unos **guardabarros**. Co
 
 Para transportar todo lo que necesito llevar: portátil, llaves, túper, cartera, un libro, cables, una chaqueta... básicamente lo necesario para un día de oficina.
 
-Por supuesto que no es necesario ya que siempre puedes tirar de espalda y llevar mochila. Aunque en verano lo vas a agradecer, muchísimo, por el sudor.
+Por supuesto que no es necesario, siempre puedes tirar de espalda y llevar mochila. Aunque en verano lo vas a agradecer muchísimo por el sudor.
 
-En mi caso llevo una alforja que se transforma en mochila gracias a unas cremalleras. No la más cómoda del mundo como mochila en sí, pero es súper útil a la hora de poner y quitar.
+En mi caso llevo una alforja que se transforma en mochila gracias a unas cremalleras. No es la más cómoda del mundo como mochila, pero es súper útil a la hora de poner, quitar y transportar.
 
 <div>
 
@@ -66,7 +66,7 @@ Parece una tontería, pero es súper cómodo. Te permite hacer paradas rápidas 
 
 Puedes usarla para poder beber agua de una fuente tranquilamente, dejarla un segundo para comprar el pan o incluso para hacerle fotos frente a un idílico puerto cerca de Suances.
 
-![Animación de cómo se desmonta el candado](./como-moverme-en-bici-7.jpeg)
+![Pata de cabra de la bicicleta](./como-moverme-en-bici-7.jpeg)
 
 ## Pegatinas: para molar
 
