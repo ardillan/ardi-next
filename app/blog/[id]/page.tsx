@@ -17,12 +17,15 @@ export async function generateMetadata({ params }) {
   const postData = await getPostData(id);
   if (!postData) return;
 
-  const { title, description } = postData;
+  const { title, description, featuredImage } = postData;
 
   return {
     title: `Blog | ${title}`,
     description: description,
     author: ARDI.nickname,
+    openGraph: {
+      images: [`/posts/${id}/${featuredImage}`],
+    },
   };
 }
 
