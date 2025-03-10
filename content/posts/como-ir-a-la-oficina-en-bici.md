@@ -20,7 +20,7 @@ Pero, mejor, voy por partes.
 
 A la hora de hablar de movilidad siempre hay que tener en cuenta varios factores. Uno de ellos es el **factor climático**. Aquí, en Torrelavega (Cantabria), solemos tener un clima más bien lluvioso, aunque quizá ahora no tanto.
 
-Lo lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
+Lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
 
 ![Imagen de unos guardabarros](./como-moverme-en-bici-4.jpeg)
 
