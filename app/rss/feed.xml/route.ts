@@ -6,8 +6,8 @@ export async function GET() {
 
   const xml = `<?xml version="1.0" encoding="utf-8"?>
                 <feed xmlns="http://www.w3.org/2005/Atom">
-                  <title>RSS de Adrián Alcorta Puente (Ardi)</title>
-                  <subtitle>Un compendio de artículos, reflexiones y notas sobre videojuegos</subtitle>
+                  <title>Ardi RSS</title>
+                  <subtitle>Un compendio de artículos, reflexiones y notas.</subtitle>
                   <link href="https://ardi.monster/" />
                   <link rel="self" href="https://ardi.monster/rss/feed.xml" />
                   <id>https://ardi.monster/</id>
