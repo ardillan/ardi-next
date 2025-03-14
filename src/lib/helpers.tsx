@@ -1,7 +1,24 @@
+import { remark } from "remark";
+import html from "remark-html";
+
 import { ARDI, NAVIGATION } from "@/lib/constants";
 
 export const metersToKM = (meters: number): string =>
   (meters / 1000).toFixed(1);
+
+export const markdownToHtml = async (markdown: string): Promise<string> => {
+  const processedContent = await remark().use(html).process(markdown);
+  return processedContent.toString();
+};
+
+export const escapeHtml = (unsafe: string): string => {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+};
 
 export const sanitizeString = (str) => {
   if (!str) return "";

@@ -1,8 +1,5 @@
-import { remark } from "remark";
-import html from "remark-html";
-
 import { getPostData, getSortedPostsData } from "@/lib/getPostData";
-import { sanitizeString } from "@/lib/helpers";
+import { escapeHtml, markdownToHtml, sanitizeString } from "@/lib/helpers";
 
 export async function GET() {
   const items = await getItems();
@@ -52,18 +49,4 @@ const getItems = async (): Promise<string> => {
   );
 
   return items.filter(Boolean).join("");
-};
-
-export const markdownToHtml = async (markdown: string): Promise<string> => {
-  const processedContent = await remark().use(html).process(markdown);
-  return processedContent.toString();
-};
-
-export const escapeHtml = (unsafe: string): string => {
-  return unsafe
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
 };
