@@ -26,7 +26,7 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
           rel="alternate"
           type="application/atom+xml"
           title="Feed RSS de mis últimas entradas"
-          href="https://ardi.monster/feed.xml"
+          href="https://ardi.monster/rss/feed.xml"
         />
       </head>
       <body
