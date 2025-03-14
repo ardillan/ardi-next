@@ -3,6 +3,31 @@ import { ARDI, NAVIGATION } from "@/lib/constants";
 export const metersToKM = (meters: number): string =>
   (meters / 1000).toFixed(1);
 
+export const sanitizeString = (str) => {
+  if (!str) return "";
+
+  const charMap = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    // eslint-disable-next-line quotes
+    '"': "&quot;",
+    "'": "&apos;",
+    "/": "&#x2F;",
+    "\\": "&#92;",
+    "`": "&#96;",
+    "´": "&#180;",
+    "©": "&copy;",
+    "®": "&reg;",
+  };
+
+  return str
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[&<>"'/\\`´©®]/g, (match) => charMap[match] || match)
+    .replace(/\s+/g, " ")
+    .trim();
+};
 export const formatDateTime = (commitTime: string): string => {
   return new Date(commitTime).toLocaleDateString("es-ES", {
     year: "numeric",
