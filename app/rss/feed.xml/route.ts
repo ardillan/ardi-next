@@ -35,9 +35,6 @@ const getItems = async (): Promise<string> => {
                   <link>https://ardi.monster/blog/${postData.id}</link>
                   <category>${postData.category?.join(", ")}</category>
                   <pubDate>${formattedDate}</pubDate>
-                  <content:encoded><![CDATA[${
-                    postData.contentHtml
-                  }]]></content:encoded>
                 </item>`;
       }
       return null;
