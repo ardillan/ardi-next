@@ -24,10 +24,10 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
         />
         <link
           rel="alternate"
-          type="application/rss+xml"
+          type="application/atom+xml"
           title="Feed RSS de mis últimas entradas"
-          href="https://ardi.monster/rss/feed.xml"
-        ></link>
+          href="https://ardi.monster/feed.xml"
+        />
       </head>
       <body
         className={`${fontInter.variable} ${fontFraiche.variable}`}
