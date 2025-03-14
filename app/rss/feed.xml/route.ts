@@ -1,3 +1,6 @@
+import { remark } from "remark";
+import html from "remark-html";
+
 import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 import { sanitizeString } from "@/lib/helpers";
 
@@ -31,8 +34,9 @@ const getItems = async (): Promise<string> => {
     allPostsData.map(async (post) => {
       if (post.id && post.title && post.date) {
         const postData = await getPostData(post.id);
-        if (!postData) return null;
-
+        if (!postData || !postData.contentHtml) return null;
+        const markdownInHtml = await markdownToHtml(postData.contentHtml);
+        const html = escapeHtml(markdownInHtml);
         return `<entry>
                   <title>${sanitizeString(postData.title)}</title>
                   <link href="https://ardi.monster/blog/${postData.id}" />
@@ -40,9 +44,7 @@ const getItems = async (): Promise<string> => {
                   <updated>${post.date}</updated>
                   <summary>${sanitizeString(postData.description)}</summary>
                   <category>${postData.category?.join(", ")}</category>
-                  <content xml:lang="es" type="html"><![CDATA[${
-                    postData.contentHtml
-                  }]]></content>
+                  <content xml:lang="es" type="html">${html}</content>
                 </entry>`;
       }
       return null;
@@ -50,4 +52,18 @@ const getItems = async (): Promise<string> => {
   );
 
   return items.filter(Boolean).join("");
+};
+
+export const markdownToHtml = async (markdown: string): Promise<string> => {
+  const processedContent = await remark().use(html).process(markdown);
+  return processedContent.toString();
+};
+
+export const escapeHtml = (unsafe: string): string => {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 };
