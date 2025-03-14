@@ -55,6 +55,7 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
+  cursor: help;
 }
 
 .stats > .indicators > .info p {

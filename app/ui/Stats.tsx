@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Tooltip } from "react-tooltip";
 
 import { useMobile } from "@/context/MobileContext";
 import { ARDI } from "@/lib/constants";
@@ -39,14 +40,37 @@ const Stats = () => {
         >
           <progress id="file" value={experience} max="365" />
         </div>
-        <div className={styles.info}>
-          <p>
-            LV.<span className={styles.honeyYellow}>{age}</span> EXP.
-            {experience}
-            <span className={styles.honeyYellow}>/</span>365
-          </p>
-        </div>
+
+        <a
+          className={styles.info}
+          data-tooltip-id="experience"
+          data-tooltip-place="bottom-end"
+          data-tooltip-content={`Aún faltan ${
+            365 - experience
+          } días para mi cumpleaños`}
+        >
+          <div>
+            <p>
+              LV.<span className={styles.honeyYellow}>{age}</span> EXP.
+              {experience}
+              <span className={styles.honeyYellow}>/</span>365
+            </p>
+          </div>
+        </a>
       </div>
+
+      <Tooltip
+        opacity={1}
+        id="experience"
+        data-tooltip-content="Hello world!"
+        style={{
+          backgroundColor: "rgba(var(--color-space-darker))",
+          color: "rgba(var(--color-honey-yellow))",
+          zIndex: 10,
+          fontSize: "0.85rem",
+          fontFamily: "sans-serif",
+        }}
+      />
     </div>
   );
 };
