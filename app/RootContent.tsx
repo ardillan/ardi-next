@@ -22,6 +22,12 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
           src="//gc.zgo.at/count.js"
           strategy="afterInteractive"
         />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Feed RSS de mis últimas entradas"
+          href="https://ardi.monster/rss/feed.xml"
+        ></link>
       </head>
       <body
         className={`${fontInter.variable} ${fontFraiche.variable}`}
