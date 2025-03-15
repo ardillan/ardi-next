@@ -7,7 +7,6 @@ export async function GET() {
     }
   );
   const weather = await weatherResponse.json();
-  console.log(weather);
 
   if (!weather) {
     return new Response("Error getting weather", { status: 400 });
