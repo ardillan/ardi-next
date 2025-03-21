@@ -18,7 +18,7 @@ export async function GET() {
   }
 
   const activitiesResponse = await fetch(
-    `${process.env.STRAVA_API}athlete/activities`,
+    `${process.env.STRAVA_API}athlete/activities?per_page=200`,
     {
       headers: { Authorization: `Bearer ${accessToken}` },
     }
