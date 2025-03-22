@@ -4,7 +4,7 @@ subtitle: "O cuando el pasado ulula"
 date: "2025-03-22T17:00:00.0100"
 type: "blog"
 description: "Una historia interactiva con mucho arte"
-featuredImage: "./when-the-past-was-around-00.png"
+featuredImage: "./when-the-past-was-around-00.jpg"
 category:
   - Videojuegos
 ---
@@ -19,7 +19,7 @@ Recuerdo que en aquella época acababa de terminar [Florence](/blog/florence), o
 
 _When the past was around_ es claramente un juego que no destaca por su dificultad o mecánicas. El propósito del juego es otro: centrarnos en el viaje de Eda, nuestra protagonista, y su historia junto a Búho. Para ello nos apoyamos en su apartado artístico, su banda sonora y lo pausado que es jugar mientras disfrutamos del viaje.
 
-![Búho, a la izquierda y Eda a la derecha](./when-the-past-was-around-01.png)
+![Búho, a la izquierda y Eda a la derecha](./when-the-past-was-around-01.jpg)
 
 Y es que este tipo de aventuras son para saborear lentamente, sin prisa. En esta ocasión nos encontramos con una historia de **conocimiento**, **superación** y **resiliencia** con la que podemos sentirnos identificados.
 
@@ -27,9 +27,9 @@ Veremos cómo, a través de recuerdos, Eda recompone pasajes de su vida junto a 
 
 <div>
 
-![Eda y un personaje misterioso](./when-the-past-was-around-05.png)
+![Eda y un personaje misterioso](./when-the-past-was-around-05.jpg)
 
-![Eda en un su apartamento](./when-the-past-was-around-02.png)
+![Eda en un su apartamento](./when-the-past-was-around-02.jpg)
 
 </div>
 
@@ -39,8 +39,8 @@ No obstante, recomiendo este juego si lo que quieres es relajarte y disfrutar de
 
 <div>
 
-![Eda disfrutando de una caja de música](./when-the-past-was-around-03.png)
+![Eda disfrutando de una caja de música](./when-the-past-was-around-03.jpg)
 
-![Eda viendo una jaula misteriosa](./when-the-past-was-around-04.png)
+![Eda viendo una jaula misteriosa](./when-the-past-was-around-04.jpg)
 
 </div>
