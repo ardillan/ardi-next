@@ -17,11 +17,11 @@ Recuerdo que en aquella época acababa de terminar [Florence](/blog/florence), o
 
 ## La historia de Búho y Eda
 
-_When the past was around_ es claramente un juego que no destaca por su dificultad o mecánicas. El propósito del juego es otro: centrarnos en el viaje de Eda, nuestra protagonista, y su historia junto a Búho. Para ello nos apoyamos en su apartado artístico, su banda sonora y lo pausado que es jugar mientras disfrutamos del viaje.
+_When the past was around_ es claramente un juego que no destaca por su dificultad o mecánicas. El propósito del juego es otro: centrarnos en el viaje de Eda, nuestra protagonista, y su vida junto a Búho. Para ello nos apoyamos en su apartado artístico, su banda sonora y lo pausado que es jugar mientras disfrutamos del viaje.
 
 ![Búho, a la izquierda y Eda a la derecha](./when-the-past-was-around-01.jpg)
 
-Y es que este tipo de aventuras son para saborear lentamente, sin prisa. En esta ocasión nos encontramos con una historia de **conocimiento**, **superación** y **resiliencia** con la que podemos sentirnos identificados.
+Y es que este tipo de aventuras son para saborear lentamente, sin prisa. En esta ocasión nos encontramos con un relato de **conocimiento**, **superación** y **resiliencia** con la que podemos sentirnos identificados.
 
 Veremos cómo, a través de recuerdos, Eda recompone pasajes de su vida junto a Búho. Cómo un encuentro fortuito pudo, gracias a la música, acontecer un encuentro entre ambos y con ello escribir su propia historia.
 
@@ -33,9 +33,9 @@ Veremos cómo, a través de recuerdos, Eda recompone pasajes de su vida junto a 
 
 </div>
 
-Y aunque el juego no pretende batir ningún record, sí que he encontrado cierta deficiencia en su apartado sonoro. Donde creo que debería haber brillado bastante más, sobretodo teniendo en cuenta que la música juega un papel fundamental dentro de la historia.
+Y aunque el juego no pretende batir ningún record, sí que he encontrado cierta deficiencia en su apartado sonoro. Donde creo que debería haber brillado bastante más, sobretodo teniendo en cuenta que la música juega un papel fundamental dentro de la trama.
 
-No obstante, recomiendo este juego si lo que quieres es relajarte y disfrutar de una historia bonita, visualmente increíble y no demasiado larga (creo que dura en torno a hora y media).
+No obstante, recomiendo este juego si lo que quieres es relajarte y disfrutar de una buena narrativa, visualmente increíble y no demasiado larga (creo que dura en torno a hora y media).
 
 <div>
 
