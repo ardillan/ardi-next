@@ -3,7 +3,7 @@ title: "Todas las bicicletas que tuve"
 subtitle: "Libros sobre ruedas"
 date: "2025-03-23T10:30:10.0100"
 type: "blog"
-description: "Una recopilación de libros sobre bicicletas"
+description: "Las bicicletas son máquinas impulsadas por una misma. Una decide hacia dónde quiere desplazarse"
 featuredImage: "./todas-las-bicicletas-que-tuve.jpg"
 category:
   - Libros
@@ -21,6 +21,18 @@ Power Paola nos cuenta sus experiencias sobre ruedas en **«Todas las bicicletas
 Publicado por Sexto Piso y con un número de 120 páginas. Un libro que podrás releer para descubrir entre sus trazos nuevas figuras que, durante la primera lectura, no habían llamado tu atención.
 
 > Las bicicletas son máquinas impulsadas por una misma. Una decide hacia dónde quiere desplazarse.<br> > <small style="color: #ffdc24">Extracto del libro: «Todas las bicicletas que tuve», de Power Paola</small>
+
+Algunos datos de interés:
+
+- Título – Todas las bicicletas que tuve
+- Autora – Powerpaola
+- Editorial – Sexto Piso (México – España)
+- Año – junio de 2022 (1ª edición)
+- 120 páginas
+- Encuadernación rústica
+- ISBN – 978-84-19261-03-8
+- [Sigue a la autora](https://www.instagram.com/powerpaola/?hl=es)
+- [Sigue a la editorial](https://www.instagram.com/editorialsextopiso/)
 
 <div>
 
