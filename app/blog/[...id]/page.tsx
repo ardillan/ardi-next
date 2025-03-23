@@ -14,7 +14,17 @@ import styles from "./Blog.module.css";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
-  const postData = await getPostData(id);
+
+  let category, postID;
+
+  if (Array.isArray(id) && id.length === 2) {
+    [category, postID] = id;
+  } else if (Array.isArray(id) && id.length === 1) {
+    postID = id[0];
+  }
+
+  const postData = await getPostData(postID, category);
+
   if (!postData) return;
 
   const { title, description, featuredImage } = postData;
@@ -24,7 +34,9 @@ export async function generateMetadata({ params }) {
     description: description,
     author: ARDI.nickname,
     openGraph: {
-      images: [`/posts/${id}/${featuredImage}`],
+      images: [
+        `/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
+      ],
     },
   };
 }
@@ -36,7 +48,10 @@ export default async function Post({
 }) {
   const { id } = await params;
 
-  const postData = await getPostData(id);
+  const entryID = id.length === 1 ? id[0] : id[1];
+  const category = id.length > 1 ? id[0] : "";
+
+  const postData = await getPostData(entryID, category);
   const featuredImagePath = `/posts/${
     postData.id
   }/${postData?.featuredImage?.replace("./", "")}`;

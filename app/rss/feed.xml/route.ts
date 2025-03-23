@@ -30,7 +30,11 @@ const getItems = async (): Promise<string> => {
   const items = await Promise.all(
     allPostsData.map(async (post) => {
       if (post.id && post.title && post.date) {
-        const postData = await getPostData(post.id);
+        const [category, id] = post.id.includes("/")
+          ? post.id.split("/")
+          : [undefined, post.id];
+
+        const postData = await getPostData(id, category);
         if (!postData || !postData.contentHtml) return null;
         const markdownInHtml = await markdownToHtml(postData.contentHtml);
         const html = escapeHtml(markdownInHtml);
