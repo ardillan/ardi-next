@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 
-import BasicLayout from "@/appComponents/BasicLayout";
-import BlogLayout from "@/appComponents/BlogLayout";
-import GamesLayout from "@/appComponents/GamesLayout";
-import PageLayout from "@/appComponents/PageLayout";
-import PanoramixLayout from "@/appComponents/PanoramixLayout";
+import BasicLayout from "@/appComponents/layouts/BasicLayout";
+import BlogLayout from "@/appComponents/layouts/BlogLayout";
+import GamesLayout from "@/appComponents/layouts/GamesLayout";
+import PageLayout from "@/appComponents/layouts/PageLayout";
+import PanoramixLayout from "@/appComponents/layouts/PanoramixLayout";
 import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs, getPageData } from "@/lib/getPageData";
 import { layoutSelector } from "@/lib/helpers";

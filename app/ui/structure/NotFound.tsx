@@ -1,6 +1,6 @@
 import React from "react";
 
-import BasicLayout from "@/appComponents/BasicLayout";
+import BasicLayout from "@/appComponents/layouts/BasicLayout";
 
 import styles from "./not-found.module.css";
 

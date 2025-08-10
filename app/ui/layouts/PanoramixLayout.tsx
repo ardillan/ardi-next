@@ -1,9 +1,9 @@
 import React from "react";
 
-import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
-import styles from "../ui/PanoramixLayout.module.css";
+import styles from "../../ui/layouts/PanoramixLayout.module.css";
 
 interface IPanoramixLayout {
   pageContent: IMarkDownData;

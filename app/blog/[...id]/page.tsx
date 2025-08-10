@@ -2,14 +2,14 @@ import Image from "next/image";
 import React from "react";
 import { Fragment } from "react";
 
-import BasicLayout from "@/appComponents/BasicLayout";
-import Date from "@/appComponents/Date";
-import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import BasicLayout from "@/appComponents/layouts/BasicLayout";
+import Date from "@/appComponents/general/Date";
+import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
-import global from "../../ui/Global.module.css";
+import global from "../../ui/general/Global.module.css";
 import styles from "./Blog.module.css";
 
 export async function generateMetadata({ params }) {

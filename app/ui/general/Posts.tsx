@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import Date from "@/appComponents/Date";
+import Date from "@/appComponents/general/Date";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import styles from "./Posts.module.css";

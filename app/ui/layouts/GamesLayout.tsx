@@ -1,11 +1,11 @@
 import React from "react";
 
-import Games from "@/appComponents/Games";
-import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import Games from "@/appComponents/general/Games";
+import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import styles from "./GamesLayout.module.css";
-import global from "./Global.module.css";
+import global from "../general/Global.module.css";
 
 export default function GamesLayout({ ...pageContent }: IMarkDownData) {
   return (

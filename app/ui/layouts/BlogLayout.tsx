@@ -4,9 +4,9 @@ import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import { getSortedPostsData } from "@/lib/getPostData";
 
 import styles from "./BlogLayout.module.css";
-import global from "./Global.module.css";
-import Posts from "./Posts";
-import SuperMarkdown from "./SuperMarkdown";
+import global from "../general/Global.module.css";
+import Posts from "../general/Posts";
+import SuperMarkdown from "../general/SuperMarkdown";
 
 export default async function BlogLayout({
   pageContent,

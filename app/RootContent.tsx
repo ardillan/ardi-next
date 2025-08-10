@@ -3,7 +3,7 @@
 import Script from "next/script";
 import React, { JSX } from "react";
 
-import { fontFraiche, fontInter } from "@/appComponents/Fonts";
+import { fontFraiche, fontInter } from "@/appComponents/structure/Fonts";
 import { useMobile } from "@/context/MobileContext";
 
 import { useTheme } from "./context/ThemeContext";

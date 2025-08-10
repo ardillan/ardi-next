@@ -7,8 +7,6 @@ import { ARDI } from "@/lib/constants";
 import getWeather from "@/lib/getWeather";
 import { getAge, getExperience } from "@/lib/helpers";
 
-import styles from "./Stats.module.css";
-
 export const getHappiness = (temperature: number | undefined) => {
   if (!temperature) return 0;
 
@@ -57,13 +55,16 @@ const Stats = () => {
   }, []);
 
   return (
-    <div className={styles.stats}>
+    <div>
       <Link href="/" {...(isMenuOpen && { onClick: toggleMenuMobile })}>
-        <img src="/sad-ardi.png" alt="Autorretrato en estilo pixel art" />
+        <img
+          src="/sad-ardi.png"
+          alt="Autorretrato en estilo pixel art"
+          width={100}
+        />
       </Link>
-      <div className={styles.indicators}>
+      <div>
         <a
-          className={styles.hearts}
           data-tooltip-id="experience"
           data-tooltip-place="right"
           data-tooltip-content={getText(currentTemperature)}
@@ -75,21 +76,18 @@ const Stats = () => {
                   src={happiness <= index ? "/heart-empty.svg" : "/heart.svg"}
                   alt="Contenedor de vitalidad"
                   title="Contenedor de vitalidad"
+                  width={10}
+                  height={10}
                 />
               </span>
             );
           })}
         </a>
 
-        <div
-          className={`${styles.experience} ${
-            experience === 365 ? styles.birthday : styles.regular
-          }`}
-        >
+        <div>
           <progress id="file" value={experience} max="365" />
         </div>
         <a
-          className={styles.info}
           data-tooltip-id="experience"
           data-tooltip-place="bottom-end"
           data-tooltip-content={`Aún faltan ${
@@ -98,9 +96,9 @@ const Stats = () => {
         >
           <div>
             <p>
-              LV.<span className={styles.honeyYellow}>{age}</span> EXP.
+              LV.<span>{age}</span> EXP.
               {experience}
-              <span className={styles.honeyYellow}>/</span>365
+              <span>/</span>365
             </p>
           </div>
         </a>

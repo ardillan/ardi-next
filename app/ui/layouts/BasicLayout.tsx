@@ -1,7 +1,7 @@
 import React, { JSX } from "react";
 
-import Footer from "@/appComponents/Footer";
-import MainNavigation from "@/appComponents/MainNavigation";
+import Footer from "@/appComponents/structure/Footer";
+import MainNavigation from "@/appComponents/structure/MainNavigation";
 
 interface IBasicLayout {
   children: JSX.Element | JSX.Element[];

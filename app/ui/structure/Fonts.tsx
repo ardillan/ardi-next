@@ -9,7 +9,7 @@ const fontInter = Inter({
 });
 
 const fontFraiche = localFont({
-  src: "../../src/fonts/fraiche/fraiche.otf",
+  src: "../../../src/fonts/fraiche/fraiche.otf",
   variable: "--fraiche-font",
 });
 

@@ -1,10 +1,10 @@
 import React from "react";
 
-import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
-import global from "../ui/Global.module.css";
-import styles from "../ui/PageLayout.module.css";
+import global from "../../ui/general/Global.module.css";
+import styles from "../../ui/layouts/PageLayout.module.css";
 
 interface IPageLayout {
   pageContent: IMarkDownData;
