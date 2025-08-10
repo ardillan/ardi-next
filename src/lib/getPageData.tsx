@@ -65,7 +65,7 @@ export async function getAllPagesSlugs(): Promise<IPageSlug> {
   return allPaths.map((file) => ({
     params: {
       slug: file.name.replace(/\.md$/, ""),
-      folder: file.path,
+      folder: file.parentPath,
     },
   }));
 }

@@ -17,65 +17,68 @@ export type ISuperMarkdown = {
 
 const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
   return (
-    <Markdown
-      rehypePlugins={[rehypeUnwrapImages, rehypeRaw]}
-      remarkPlugins={[remarkGfm]}
-      components={{
-        code: function ({ ...props }) {
-          const { children, className, ...rest } = props;
+    <div className={styles.markdownContent}>
+      <Markdown
+        rehypePlugins={[rehypeUnwrapImages, rehypeRaw]}
+        remarkPlugins={[remarkGfm]}
+        components={{
+          code: function ({ ...props }) {
+            const { children, className, ...rest } = props;
 
-          const match = /language-(\w+)/.exec(className || "");
-          return match ? (
-            <SyntaxHighlighter
-              {...rest}
-              PreTag="div"
-              language={match[1]}
-              style={theme}
-              className={styles.code}
-            >
-              {String(children).replace(/\n$/, "")}
-            </SyntaxHighlighter>
-          ) : (
-            <code {...rest} className={className}>
-              {children}
-            </code>
-          );
-        },
-        h2: function ({ ...props }) {
-          const title = props.node?.children[0].valueOf()["value"];
-          return (
-            <h2 id={`anchor_${title}`}>
-              <a href={`#anchor_${title}`}>{title}</a>
-            </h2>
-          );
-        },
-        img: function ({ ...props }) {
-          if (!props.src) return;
+            const match = /language-(\w+)/.exec(className || "");
+            return match ? (
+              <SyntaxHighlighter
+                {...rest}
+                PreTag="div"
+                language={match[1]}
+                style={theme}
+                className={styles.code}
+              >
+                {String(children).replace(/\n$/, "")}
+              </SyntaxHighlighter>
+            ) : (
+              <code {...rest} className={className}>
+                {children}
+              </code>
+            );
+          },
+          h2: function ({ ...props }) {
+            const title = props.node?.children[0].valueOf()["value"];
+            return (
+              <h2 id={`anchor_${title}`}>
+                <a href={`#anchor_${title}`}>{title}</a>
+              </h2>
+            );
+          },
+          img: function ({ ...props }) {
+            if (!props.src || typeof props.src !== "string") return;
 
-          return (
-            <figure>
-              <Image
-                src={props.src}
-                alt={props.alt ?? ""}
-                title={props.alt}
-                width={900}
-                height={900}
-                sizes="(max-width: 768px) 100vw"
-                style={{
-                  objectFit: "contain",
-                  width: "100%",
-                  position: "relative",
-                }}
-              />
-              {props.alt !== null ? <figcaption>{props.alt}</figcaption> : null}
-            </figure>
-          );
-        },
-      }}
-      className={styles.markdownContent}
-    >
-      {markdownContent}
-    </Markdown>
+            return (
+              <figure>
+                <Image
+                  src={props.src}
+                  alt={props.alt ?? ""}
+                  title={props.alt}
+                  width={900}
+                  height={900}
+                  sizes="(max-width: 768px) 100vw"
+                  style={{
+                    objectFit: "contain",
+                    width: "100%",
+                    position: "relative",
+                  }}
+                />
+                {props.alt !== null ? (
+                  <figcaption>{props.alt}</figcaption>
+                ) : null}
+              </figure>
+            );
+          },
+        }}
+      >
+        {markdownContent}
+      </Markdown>
+    </div>
   );
 };
 
