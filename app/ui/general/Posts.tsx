@@ -6,8 +6,6 @@ import React from "react";
 import Date from "@/appComponents/general/Date";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
-import styles from "./Posts.module.css";
-
 export type IDynamicPost = {
   allPostData?: IMarkDownData[];
 };
@@ -18,7 +16,7 @@ export const PostsImages = ({
   allPostsData: IMarkDownData[];
 }) => {
   return (
-    <ul className={`${styles.default} ${styles.images}`}>
+    <ul>
       {allPostsData.map((post: IMarkDownData) => {
         const featuredImagePath = `/posts/${
           post.id
@@ -27,7 +25,7 @@ export const PostsImages = ({
         return (
           <li key={post.id}>
             <Link href={`/blog/${post.id}`}>
-              <div className={styles.image}>
+              <div>
                 <Image
                   src={`${featuredImagePath}`}
                   alt="Imagen de cabecera"
@@ -40,7 +38,7 @@ export const PostsImages = ({
                   }}
                 />
               </div>
-              <div className={styles.meta}>
+              <div>
                 <p>{post.title}</p>
                 {post.description && <small>{post.description}</small>}
               </div>
@@ -58,7 +56,7 @@ export const PostsList = ({
   allPostsData: IMarkDownData[];
 }) => {
   return (
-    <ul className={`${styles.default} ${styles.list}`}>
+    <ul>
       {allPostsData.map((post: IMarkDownData) => {
         return (
           <li key={post.id}>

@@ -4,7 +4,6 @@ import { IGame } from "@/interfaces/IGame";
 import getNotionGames from "@/lib/getGames";
 import { formatDate } from "@/lib/helpers";
 
-import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
 const Games = async () => {
@@ -21,7 +20,7 @@ const Games = async () => {
         </strong>{" "}
         videojuegos.
       </p>
-      <ul className={styles.games}>
+      <ul>
         {notionGames.length > 0
           ? notionGames.map((game) => {
               return (

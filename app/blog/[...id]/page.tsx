@@ -2,15 +2,12 @@ import Image from "next/image";
 import React from "react";
 import { Fragment } from "react";
 
-import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import Date from "@/appComponents/general/Date";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
+import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
-
-import global from "../../ui/general/Global.module.css";
-import styles from "./Blog.module.css";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -58,12 +55,12 @@ export default async function Post({
 
   return (
     <BasicLayout>
-      <article className={`${styles.article} ${global.container}`}>
+      <article>
         <header>
-          <div className={styles.meta}>
+          <div>
             <h1>{postData.title}</h1>
             <h2>{postData.subtitle}</h2>
-            <div className={styles.info}>
+            <div>
               {postData.date !== undefined ? (
                 <>
                   Escrito el <Date dateString={postData.date} /> <span>|</span>{" "}
@@ -79,7 +76,7 @@ export default async function Post({
               )}
             </div>
           </div>
-          <div className={styles.image}>
+          <div>
             <Image
               src={featuredImagePath}
               alt="Imagen de cabecera"

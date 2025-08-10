@@ -3,7 +3,6 @@
 import Script from "next/script";
 import React, { JSX } from "react";
 
-import { fontFraiche, fontInter } from "@/appComponents/structure/Fonts";
 import { useMobile } from "@/context/MobileContext";
 
 import { useTheme } from "./context/ThemeContext";
@@ -30,7 +29,6 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
         />
       </head>
       <body
-        className={`${fontInter.variable} ${fontFraiche.variable}`}
         style={{ overflow: isMenuOpen ? "hidden" : "initial" }}
         data-dark-theme={darkMode}
       >

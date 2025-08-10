@@ -23,16 +23,7 @@ const CustomTooltip = ({
       >
         {children && children}
       </a>
-      <Tooltip
-        id={id}
-        opacity={1}
-        style={{
-          backgroundColor: "rgba(var(--color-space-darker))",
-          color: "rgba(var(--color-honey-yellow))",
-          zIndex: 10,
-          fontSize: "0.75rem",
-        }}
-      />
+      <Tooltip id={id} opacity={1} style={{}} />
     </>
   );
 };
