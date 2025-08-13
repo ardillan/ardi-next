@@ -1,14 +1,27 @@
 import { INavigationLink } from "@/interfaces/INavigationLink";
 export const NAVIGATION: Array<INavigationLink> = [
   {
-    title: "Inicio",
-    path: "/",
-    layout: "home",
+    title: "Soy Ardi",
+    path: "/sobre-mi",
+    layout: "page",
     position: ["MainNavigation"],
   },
   {
-    title: "Sobre mí",
-    path: "/sobre-mi",
+    title: "Blog",
+    path: "/blog",
+    layout: "blog",
+    position: ["MainNavigation"],
+  },
+
+  {
+    title: "Fotos",
+    path: "/fotos",
+    layout: "page",
+    position: ["MainNavigation"],
+  },
+  {
+    title: "Cocina",
+    path: "/cocina",
     layout: "page",
     position: ["MainNavigation"],
   },
@@ -25,16 +38,10 @@ export const NAVIGATION: Array<INavigationLink> = [
     position: ["Footer"],
   },
   {
-    title: "Blog",
-    path: "/blog",
-    layout: "blog",
-    position: ["MainNavigation"],
-  },
-  {
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
-    position: ["Footer"],
+    position: ["MainNavigation", "Footer"],
   },
 ];
 
