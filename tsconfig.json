@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -12,27 +9,18 @@
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@/appComponents/*": [
-        "./app/ui/*"
-      ],
-      "@/styles/*": [
-        "./src/styles/*"
-      ],
-      "@/lib/*": [
-        "./src/lib/*"
-      ],
-      "@/interfaces/*": [
-        "./src/interfaces/*"
-      ],
-      "@/context/*": [
-        "./app/context/*"
-      ]
+      "@/appComponents/*": ["./app/ui/*"],
+      "@/styles/*": ["./app/styles/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/interfaces/*": ["./src/interfaces/*"],
+      "@/context/*": ["./app/context/*"]
     },
     "plugins": [
       {
@@ -42,13 +30,6 @@
     "strictNullChecks": true,
     "target": "ES2017"
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
