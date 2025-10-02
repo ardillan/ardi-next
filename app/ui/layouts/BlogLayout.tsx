@@ -5,6 +5,7 @@ import { getSortedPostsData } from "@/lib/getPostData";
 
 import Posts from "../general/Posts";
 import SuperMarkdown from "../general/SuperMarkdown";
+import { header } from "./BlogLayout.css";
 
 export default async function BlogLayout({
   pageContent,
@@ -15,7 +16,7 @@ export default async function BlogLayout({
   const allPostsData = getSortedPostsData();
   return (
     <div>
-      <header>
+      <header className={header}>
         <h1>{title}</h1>
         <h3>{description}</h3>
       </header>

@@ -1,12 +1,6 @@
 import { INavigationLink } from "@/interfaces/INavigationLink";
 export const NAVIGATION: Array<INavigationLink> = [
   {
-    title: "Soy Ardi",
-    path: "/sobre-mi",
-    layout: "page",
-    position: ["MainNavigation"],
-  },
-  {
     title: "Blog",
     path: "/blog",
     layout: "blog",
@@ -16,12 +10,6 @@ export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Fotos",
     path: "/fotos",
-    layout: "page",
-    position: ["MainNavigation"],
-  },
-  {
-    title: "Cocina",
-    path: "/cocina",
     layout: "page",
     position: ["MainNavigation"],
   },

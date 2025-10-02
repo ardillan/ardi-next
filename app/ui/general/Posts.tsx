@@ -5,6 +5,17 @@ import React from "react";
 
 import Date from "@/appComponents/general/Date";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
+import { formatDate } from "@/lib/helpers";
+
+import {
+  postDate,
+  postImage,
+  postImageContainer,
+  postImageShadow,
+  postsImagesContainer,
+  postSubtitle,
+  postTitle,
+} from "./Post.css";
 
 export type IDynamicPost = {
   allPostData?: IMarkDownData[];
@@ -16,7 +27,7 @@ export const PostsImages = ({
   allPostsData: IMarkDownData[];
 }) => {
   return (
-    <ul>
+    <ul className={postsImagesContainer}>
       {allPostsData.map((post: IMarkDownData) => {
         const featuredImagePath = `/posts/${
           post.id
@@ -24,23 +35,33 @@ export const PostsImages = ({
 
         return (
           <li key={post.id}>
-            <Link href={`/blog/${post.id}`}>
-              <div>
+            <Link href={`/blog/${post.id}`} className={postImageContainer}>
+              <div style={{ position: "relative" }}>
                 <Image
+                  className={postImage}
                   src={`${featuredImagePath}`}
                   alt="Imagen de cabecera"
-                  width={100}
-                  height={100}
-                  style={{
-                    objectFit: "cover",
-                    width: "100%",
-                    position: "relative",
-                  }}
+                  width={120}
+                  height={120}
+                />
+                <Image
+                  className={postImageShadow}
+                  src={`${featuredImagePath}`}
+                  alt="Imagen de cabecera"
+                  width={120}
+                  height={120}
                 />
               </div>
               <div>
-                <p>{post.title}</p>
-                {post.description && <small>{post.description}</small>}
+                <h3 className={postTitle}>{post.title}</h3>
+                {post.date ? (
+                  <time className={postDate} dateTime={post.date}>
+                    {formatDate(post.date, "readable")}
+                  </time>
+                ) : null}
+                {post.description && (
+                  <p className={postSubtitle}>{post.description}</p>
+                )}
               </div>
             </Link>
           </li>
@@ -80,7 +101,7 @@ const Posts = ({
   layout = "list",
 }: {
   allPostsData: IMarkDownData[];
-  layout: string;
+  layout: "list" | "images";
 }) => {
   const dynamicPosts: { [key: string]: any } = {
     list: PostsList,

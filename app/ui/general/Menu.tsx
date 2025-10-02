@@ -1,13 +1,15 @@
+import "@/styles/common/animations/fire.css";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
+import Stats from "@/appComponents/general/Stats";
 import { useMobile } from "@/context/MobileContext";
 import { useTheme } from "@/context/ThemeContext.tsx";
 import { NAVIGATION } from "@/lib/constants";
 
-import { hamburguer, items, itemsLink } from "./LinkItems.css.ts";
-
+import { hamburguer, items, itemsLink, menuContainer } from "./Menu.css.ts";
 const isActiveClass = (pathName: string): boolean => {
   const currentPathName = usePathname();
   const regex = /\/([^/]+)/;
@@ -20,10 +22,10 @@ const isActiveClass = (pathName: string): boolean => {
   return false;
 };
 
-const LinkItems = () => {
+const Menu = () => {
   const { isMenuOpen, toggleMenuMobile } = useMobile();
 
-  const { toggleDarkMode } = useTheme();
+  const { toggleDarkMode, darkMode } = useTheme();
 
   const handleMobileMenu = () => {
     toggleMenuMobile();
@@ -33,11 +35,11 @@ const LinkItems = () => {
   };
 
   return (
-    <>
+    <div className={menuContainer}>
+      <Stats key="stats" />
       <button onClick={handleMobileMenu} className={hamburguer}>
         MENU MÓVIL {`${isActiveClass.name}`}
       </button>
-      <button onClick={handleTheme}>Cambiar de tema</button>
       <ul className={items} style={{ display: isMenuOpen ? "flex" : "" }}>
         {NAVIGATION.filter((link) =>
           link.position.includes("MainNavigation")
@@ -54,18 +56,32 @@ const LinkItems = () => {
             </li>
           );
         })}
+
         <li>
-          <a
-            href="https://mastodon.social/@ardillan"
-            rel="me"
-            className={itemsLink}
-          >
-            Mastodon
-          </a>
+          <span onClick={handleTheme} className={itemsLink}>
+            {darkMode ? (
+              <div className="fire">
+                <div className="flames">
+                  <div className="flame"></div>
+                  <div className="flame"></div>
+                  <div className="flame"></div>
+                  <div className="flame"></div>
+                </div>
+                <div className="logs"></div>
+              </div>
+            ) : (
+              <div className="smoke">
+                <div className="smoke-part"></div>
+                <div className="smoke-part"></div>
+                <div className="smoke-part"></div>
+                <div className="logs"></div>
+              </div>
+            )}
+          </span>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
-export default LinkItems;
+export default Menu;

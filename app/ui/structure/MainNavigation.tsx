@@ -2,15 +2,14 @@
 
 import React from "react";
 
-import Stats from "@/appComponents/general/Stats";
+import Menu from "@/appComponents/general/Menu";
 
-import LinkItems from "../../ui/general/LinkItems";
+import { navigationContainer } from "./MainNavigation.css";
 
 const MainNavigation = () => {
   return (
-    <nav>
-      <Stats />
-      <LinkItems />
+    <nav className={navigationContainer}>
+      <Menu />
     </nav>
   );
 };

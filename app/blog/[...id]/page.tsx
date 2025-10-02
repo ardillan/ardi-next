@@ -9,6 +9,8 @@ import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
+import { date, header, image, subtitle, title } from "./page.css";
+
 export async function generateMetadata({ params }) {
   const { id } = await params;
 
@@ -56,11 +58,11 @@ export default async function Post({
   return (
     <BasicLayout>
       <article>
-        <header>
+        <header className={header}>
           <div>
-            <h1>{postData.title}</h1>
-            <h2>{postData.subtitle}</h2>
-            <div>
+            <h1 className={title}>{postData.title}</h1>
+            <h2 className={subtitle}>{postData.subtitle}</h2>
+            <div className={date}>
               {postData.date !== undefined ? (
                 <>
                   Escrito el <Date dateString={postData.date} /> <span>|</span>{" "}
@@ -78,10 +80,11 @@ export default async function Post({
           </div>
           <div>
             <Image
+              className={image}
               src={featuredImagePath}
               alt="Imagen de cabecera"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               style={{
                 objectFit: "cover",
                 width: "100%",

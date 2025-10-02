@@ -4,7 +4,7 @@ import Script from "next/script";
 import React, { JSX } from "react";
 
 import { useMobile } from "@/context/MobileContext";
-import { darkTheme, lightTheme } from "@/styles/theme.css";
+import { darkTheme, lightTheme } from "@/styles/common/theme.css";
 
 import { useTheme } from "./context/ThemeContext";
 import { rootStyles } from "./RootContent.css";
