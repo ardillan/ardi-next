@@ -11,7 +11,6 @@ import remarkGfm from "remark-gfm";
 
 import {
   blockquote,
-  blockQuoteParagraph,
   figCaption,
   heading,
   hr,

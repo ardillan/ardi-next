@@ -1,8 +1,6 @@
 import { style } from "@vanilla-extract/css";
 
 import { theme } from "@/styles/common/theme.css";
-import { breakpoints } from "@/styles/common/variables.css";
-import * as vars from "@/styles/common/variables.css";
 
 export const postsImagesContainer = style({
   display: "grid",
