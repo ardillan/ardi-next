@@ -39,6 +39,21 @@ export const NAVIGATION: Array<INavigationLink> = [
   },
 ];
 
+export const RANDOMFACTS = [
+  {
+    fact: "ser fan de {{Scatman}}",
+    link: "https://es.wikipedia.org/wiki/Scatman_John",
+  },
+  {
+    fact: "gustarme la {{pizza con piña}}",
+    link: "https://es.wikipedia.org/wiki/Sam_Panopoulos",
+  },
+  {
+    fact: "adorar a {{Grim Fandango}}",
+    link: "https://es.wikipedia.org/wiki/Grim_Fandango",
+  },
+];
+
 export const ARDI = {
   web: {
     title: "Ardi.Monster",
