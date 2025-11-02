@@ -6,8 +6,9 @@ export const [lightTheme, theme] = createTheme({
   color: {
     background: "#f2f2f2ff",
     text: "#1B1B28",
-    primary: "#2d31a1ff",
-    secondary: "#319c71ff",
+    primary: "#fe9951",
+    secondary: "#3cb484ff",
+    dark: "#ffffff",
   },
   border: {
     regular: "10px",
@@ -25,6 +26,7 @@ export const darkTheme = createTheme(theme, {
     text: "#ffffff",
     primary: "#ffc430",
     secondary: "#F32164",
+    dark: "#13131D",
   },
   border: {
     regular: "10px",

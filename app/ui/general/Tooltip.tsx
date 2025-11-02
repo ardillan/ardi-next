@@ -3,6 +3,8 @@
 import React, { JSX } from "react";
 import { Tooltip } from "react-tooltip";
 
+import styles from "./Tooltip.module.css";
+
 const CustomTooltip = ({
   children,
   id,
@@ -18,12 +20,16 @@ const CustomTooltip = ({
     <>
       <a
         data-tooltip-id={id}
-        data-played={played}
         data-tooltip-content={content}
+        className={styles.tooltip}
       >
-        {children && children}
+        <span data-played={played}>{children && children}</span>
       </a>
-      <Tooltip id={id} opacity={1} style={{}} />
+      <Tooltip
+        id={id}
+        opacity={1}
+        style={{ zIndex: 20, background: "#ffc430", color: "black" }}
+      />
     </>
   );
 };

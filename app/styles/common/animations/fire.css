@@ -1,11 +1,8 @@
-body {
-  background-color: #111217;
-}
-
 .fire {
-    position: relative;
-    height: 20px;
-    width: 19px;
+  position: relative;
+  height: 20px;
+  width: 19px;
+  cursor: pointer;
 }
 
 .fire .flames {
@@ -23,7 +20,7 @@ body {
   bottom: 0%;
   width: 0%;
   height: 0%;
-  background-color: #FFDC01;
+  background-color: #ffdc01;
   border-radius: 1vw;
 }
 
@@ -63,23 +60,24 @@ body {
 .fire .logs:before,
 .fire .logs:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(20deg);
   height: 100%;
   width: 100%;
   border-radius: 1vw;
-  background-color: #70392F;
+  background-color: #70392f;
 }
 
 .fire .logs:before {
   transform: translate(-50%, -50%) rotate(-20deg);
-  background-color: #612E25;
+  background-color: #612e25;
 }
 
 @keyframes flameodd {
-  0%, 100% {
+  0%,
+  100% {
     width: 0%;
     height: 0%;
   }
@@ -88,17 +86,17 @@ body {
     height: 100%;
   }
   0% {
-    background-color: #FFDC01;
+    background-color: #ffdc01;
     z-index: 1000000;
     right: 0%;
     bottom: 0%;
   }
   40% {
-    background-color: #FDAC01;
+    background-color: #fdac01;
     z-index: 1000000;
   }
   100% {
-    background-color: #F73B01;
+    background-color: #f73b01;
     z-index: -10;
     right: 150%;
     bottom: 170%;
@@ -110,7 +108,8 @@ body {
 }
 
 @keyframes flameeven {
-  0%, 100% {
+  0%,
+  100% {
     width: 0%;
     height: 0%;
   }
@@ -119,17 +118,17 @@ body {
     height: 100%;
   }
   0% {
-    background-color: #FFDC01;
+    background-color: #ffdc01;
     z-index: 1000000;
     right: 0%;
     bottom: 0%;
   }
   40% {
-    background-color: #FDAC01;
+    background-color: #fdac01;
     z-index: 1000000;
   }
   100% {
-    background-color: #F73B01;
+    background-color: #f73b01;
     z-index: -10;
     right: 170%;
     bottom: 150%;
@@ -159,19 +158,19 @@ body {
 .smoke .logs:before,
 .smoke .logs:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(20deg);
   height: 100%;
   width: 100%;
   border-radius: 1vw;
-  background-color: #70392F;
+  background-color: #70392f;
 }
 
 .smoke .logs:before {
   transform: translate(-50%, -50%) rotate(-20deg);
-  background-color: #612E25;
+  background-color: #612e25;
 }
 
 .smoke-part {

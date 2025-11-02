@@ -70,7 +70,7 @@ const Stats = () => {
     <div className={container}>
       <Link href="/" {...(isMenuOpen && { onClick: toggleMenuMobile })}>
         <img
-          src="/ardi-of-time.png"
+          src="/ardi-portrait-4.png"
           alt="Autorretrato en estilo pixel art"
           width={100}
           className={avatar}
@@ -95,7 +95,7 @@ const Stats = () => {
         </div>
 
         <div>
-          <progress className={progress} value="45" max="365" />
+          <progress className={progress} value={experience} max="365" />
         </div>
         <div
           data-tooltip-id="experience"

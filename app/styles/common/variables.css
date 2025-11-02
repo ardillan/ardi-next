@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "PicNic";
+  src: local("PicNic"), url("/fonts/PicNic-Regular.otf") format("opentype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "DINish";
+  src: local("DINish"), url("/fonts/DINish.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: local("Noto Serif"),
+    url("/fonts/NotoSerif-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #ffc430;
+  --color-secondary: #f32164;
+  --color-bg: #f2f2f2ff;
+  --color-bg-dark: #13131d;
+
+  /* Fonts */
+  --font-heading: "Picnic";
+}

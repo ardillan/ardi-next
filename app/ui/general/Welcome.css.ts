@@ -1,10 +1,9 @@
 import { style } from "@vanilla-extract/css";
 
 import { theme } from "@/styles/common/theme.css";
-import { sizes } from "@/styles/common/variables.css";
 
 export const welcomeContainer = style({
-  maxWidth: sizes.desktop,
+  maxWidth: 900,
   margin: "auto",
   height: 400,
   display: "flex",
@@ -13,6 +12,12 @@ export const welcomeContainer = style({
   alignItems: "center",
   justifyContent: "center",
   textAlign: "center",
+  "@media": {
+    ["screen and (max-width: 900px)"]: {
+      margin: "3rem auto 5rem auto",
+      height: "auto",
+    },
+  },
 });
 
 export const introduction = style({
@@ -21,6 +26,12 @@ export const introduction = style({
   fontSize: 80,
   lineHeight: "85px",
   margin: 0,
+  "@media": {
+    ["screen and (max-width: 900px)"]: {
+      fontSize: 60,
+      lineHeight: "auto",
+    },
+  },
 });
 
 export const description = style({

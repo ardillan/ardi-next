@@ -1,5 +1,3 @@
-import "@/styles/common/animations/glitch.css";
-
 import Link from "next/link";
 import React from "react";
 
@@ -42,7 +40,7 @@ const Welcome = async () => {
         <h1 className={introduction}>
           <span style={{ color: theme.color.secondary }}>¡Hola!</span>
           <br />
-          <span className="glitch">¡Soy Ardi!</span>
+          <span>¡Soy Ardi!</span>
         </h1>
         <p className={description}>
           <span>

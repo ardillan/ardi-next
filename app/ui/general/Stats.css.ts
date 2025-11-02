@@ -19,6 +19,7 @@ export const avatar = style({
   width: 80,
   marginRight: 20,
   borderRadius: theme.border.regular,
+  border: "1px solid #ffffff0d",
 });
 
 export const info = style({

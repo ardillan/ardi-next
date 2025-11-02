@@ -1,13 +1,11 @@
 import { style } from "@vanilla-extract/css";
 
 import { theme } from "@/styles/common/theme.css";
-import * as vars from "@/styles/common/variables.css";
-import { breakpoints } from "@/styles/common/variables.css";
 
 export const footerContainer = style({
   paddingTop: "5rem",
   "@media": {
-    [breakpoints.desktop]: {
+    ["screen and (max-width: 900px)"]: {
       paddingLeft: "1rem",
       paddingRight: "1rem",
     },
@@ -20,7 +18,13 @@ export const footerData = style({
   gridTemplateColumns: "60px 1fr 1fr",
   gap: "1rem",
   "@media": {
-    [breakpoints.desktop]: {},
+    ["screen and (max-width: 900px)"]: {
+      alignItems: "center",
+      textAlign: "center",
+      justifyContent: "center",
+      display: "flex",
+      flexDirection: "column",
+    },
   },
 });
 
@@ -28,9 +32,6 @@ export const footerLinks = style({
   display: "flex",
   gap: "1rem",
   justifyContent: "flex-end",
-  "@media": {
-    [breakpoints.desktop]: {},
-  },
 });
 
 export const copyright = style({
@@ -38,6 +39,7 @@ export const copyright = style({
   width: "100%",
   display: "block",
   margin: "5rem 0",
+  paddingBottom: "5rem",
 });
 
 export const footerLink = style({
@@ -45,9 +47,6 @@ export const footerLink = style({
   gap: "1rem",
   justifyContent: "flex-end",
   cursor: "pointer",
-  "@media": {
-    [breakpoints.desktop]: {},
-  },
   textDecoration: "none",
   color: theme.color.text,
   fontWeight: 600,

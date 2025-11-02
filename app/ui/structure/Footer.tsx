@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 import Mastodon from "@/icons/mastodon";
+import Torlavega from "@/icons/torlavega";
 import { INavigationLink } from "@/interfaces/INavigationLink";
 import { NAVIGATION } from "@/lib/constants";
 import getGitHub from "@/lib/getGithub";
@@ -24,7 +25,9 @@ const Footer = async () => {
     <footer className={mainContainer}>
       <div className={footerContainer}>
         <div className={footerData}>
-          <p className={factory}>🏭</p>
+          <p className={factory}>
+            <Torlavega />
+          </p>
           <div>
             <p>Creado desde la verde y gris Torrelavega</p>
             {githubData != null ? (

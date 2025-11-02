@@ -1,5 +1,7 @@
 "use client";
 
+import "@/styles/common/variables.css";
+
 import Script from "next/script";
 import React, { JSX } from "react";
 

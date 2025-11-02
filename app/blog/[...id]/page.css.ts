@@ -1,15 +1,23 @@
 import { style } from "@vanilla-extract/css";
 
 import { theme } from "@/styles/common/theme.css";
-import * as vars from "@/styles/common/variables.css";
 
 export const header = style({
-  maxWidth: vars.sizes.desktop,
+  maxWidth: 900,
   display: "grid",
   gridTemplateColumns: "1fr 400px",
   alignItems: "center",
   marginTop: "2rem",
   marginBottom: "4rem",
+  "@media": {
+    ["screen and (max-width: 900px)"]: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: "center",
+    },
+  },
 });
 
 export const title = style({
@@ -17,6 +25,11 @@ export const title = style({
   fontSize: "3rem",
   color: theme.color.primary,
   lineHeight: "2.5rem",
+  "@media": {
+    ["screen and (max-width: 900px)"]: {
+      marginTop: "2rem",
+    },
+  },
 });
 
 export const subtitle = style({
@@ -34,6 +47,21 @@ export const date = style({
 });
 
 export const image = style({
-  maxWidth: vars.sizes.desktop,
+  maxWidth: 900,
   borderRadius: ".85rem",
+  "@media": {
+    ["screen and (max-width: 900px)"]: {
+      marginTop: "1rem",
+    },
+  },
+});
+
+export const background = style({
+  position: "absolute",
+  background: theme.color.dark,
+  width: "100vw",
+  top: 0,
+  left: 0,
+  height: 500,
+  zIndex: -1,
 });

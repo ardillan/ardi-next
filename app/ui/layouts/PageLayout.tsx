@@ -3,6 +3,8 @@ import React from "react";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
+import { header, headerSubtitle, headerTitle } from "./BlogLayout.css";
+
 interface IPageLayout {
   pageContent: IMarkDownData;
   home?: boolean;
@@ -11,9 +13,9 @@ interface IPageLayout {
 
 const PageLayout = ({ pageContent }: IPageLayout) => (
   <div>
-    <header>
-      <h1>{pageContent.title}</h1>
-      <h3>{pageContent.description}</h3>
+    <header className={header}>
+      <h1 className={headerTitle}>{pageContent.title}</h1>
+      <h3 className={headerSubtitle}>{pageContent.description}</h3>
     </header>
     <section>
       {pageContent.contentHtml && (

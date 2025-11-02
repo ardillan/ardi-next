@@ -9,7 +9,7 @@ import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
-import { date, header, image, subtitle, title } from "./page.css";
+import { background, date, header, image, subtitle, title } from "./page.css";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -57,6 +57,7 @@ export default async function Post({
 
   return (
     <BasicLayout>
+      <div className={background} />
       <article>
         <header className={header}>
           <div>

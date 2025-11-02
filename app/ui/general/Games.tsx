@@ -4,6 +4,7 @@ import { IGame } from "@/interfaces/IGame";
 import getNotionGames from "@/lib/getGames";
 import { formatDate } from "@/lib/helpers";
 
+import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
 const Games = async () => {
@@ -12,21 +13,19 @@ const Games = async () => {
   if (!notionGames) return;
 
   return (
-    <>
-      <p>
-        Ahora mismo tengo alrededor de{" "}
-        <strong style={{ color: "rgba(var(--color-honey-yellow))" }}>
-          {notionGames.length}
-        </strong>{" "}
+    <div className={styles.header}>
+      <h1>Mis videojuegos</h1>
+      <h3>
+        Ahora mismo tengo alrededor de <strong>{notionGames.length}</strong>{" "}
         videojuegos.
-      </p>
-      <ul>
+      </h3>
+      <ul className={styles.games}>
         {notionGames.length > 0
           ? notionGames.map((game) => {
               return (
                 <li key={game.id}>
-                  <span>{game.title}</span>
-                  <span>{game.platform?.map((platform) => platform)}</span>
+                  <p>{game.title}</p>
+                  <small>{game.platform?.map((platform) => platform)}</small>
                   <CustomTooltip
                     id={game.id}
                     played={game.played}
@@ -45,7 +44,7 @@ const Games = async () => {
             })
           : null}
       </ul>
-    </>
+    </div>
   );
 };
 
