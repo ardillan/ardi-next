@@ -12,7 +12,12 @@ export const NAVIGATION: Array<INavigationLink> = [
     layout: "blog",
     position: ["MainNavigation"],
   },
-
+  {
+    title: "Memorias",
+    path: "/memorias",
+    layout: "memoirs",
+    position: [],
+  },
   {
     title: "Fotos",
     path: "/fotos",

@@ -4,6 +4,7 @@ import React from "react";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import BlogLayout from "@/appComponents/layouts/BlogLayout";
 import GamesLayout from "@/appComponents/layouts/GamesLayout";
+import MemoirsLayout from "@/appComponents/layouts/MemoirsLayout";
 import PageLayout from "@/appComponents/layouts/PageLayout";
 import PanoramixLayout from "@/appComponents/layouts/PanoramixLayout";
 import PixelfedLayout from "@/appComponents/layouts/PixelfedLayout";
@@ -43,6 +44,7 @@ const DynamicPage = async ({
     games: GamesLayout,
     panoramix: PanoramixLayout,
     pixelfed: PixelfedLayout,
+    memoirs: MemoirsLayout,
   };
 
   const layout = layoutSelector(slug);

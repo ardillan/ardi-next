@@ -9,8 +9,6 @@ import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
-import { background, date, header, image, subtitle, title } from "./page.css";
-
 export async function generateMetadata({ params }) {
   const { id } = await params;
 
@@ -22,7 +20,7 @@ export async function generateMetadata({ params }) {
     postID = id[0];
   }
 
-  const postData = await getPostData(postID, "content/posts/", category);
+  const postData = await getPostData(postID, "content/memorias/", category);
 
   if (!postData) return;
 
@@ -40,7 +38,7 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function Post({
+export default async function Memoir({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -50,20 +48,20 @@ export default async function Post({
   const entryID = id.length === 1 ? id[0] : id[1];
   const category = id.length > 1 ? id[0] : "";
 
-  const postData = await getPostData(entryID, "content/posts/", category);
+  const postData = await getPostData(entryID, category, "content/memorias/");
   const featuredImagePath = `/posts/${
     postData.id
   }/${postData?.featuredImage?.replace("./", "")}`;
 
   return (
     <BasicLayout>
-      <div className={background} />
+      <div />
       <article>
-        <header className={header}>
+        <header>
           <div>
-            <h1 className={title}>{postData.title}</h1>
-            <h2 className={subtitle}>{postData.subtitle}</h2>
-            <div className={date}>
+            <h1>{postData.title}</h1>
+            <h2>{postData.subtitle}</h2>
+            <div>
               {postData.date !== undefined ? (
                 <>
                   Escrito el <Date dateString={postData.date} /> <span>|</span>{" "}
@@ -81,7 +79,6 @@ export default async function Post({
           </div>
           <div>
             <Image
-              className={image}
               src={featuredImagePath}
               alt="Imagen de cabecera"
               width={400}

@@ -25,7 +25,7 @@ export async function GET() {
 }
 
 const getItems = async (): Promise<string> => {
-  const allPostsData = await getSortedPostsData();
+  const allPostsData = await getSortedPostsData("content/posts");
 
   const items = await Promise.all(
     allPostsData.map(async (post) => {
@@ -34,7 +34,7 @@ const getItems = async (): Promise<string> => {
           ? post.id.split("/")
           : [undefined, post.id];
 
-        const postData = await getPostData(id, category);
+        const postData = await getPostData(id, "content/posts/", category);
         if (!postData || !postData.contentHtml) return null;
         const markdownInHtml = await markdownToHtml(postData.contentHtml);
         const html = escapeHtml(markdownInHtml);
