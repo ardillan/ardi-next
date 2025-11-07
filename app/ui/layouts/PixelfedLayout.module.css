@@ -9,7 +9,7 @@
   margin: 1rem auto;
   font-family: var(--font-heading);
   color: var(--color-primary);
-  font-size: clamp(1.5rem, 4vw + 1rem, 80px);
+  font-size: clamp(1.5rem, 4vw + 1rem, 70px);
 }
 
 .header h3 {

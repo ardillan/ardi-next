@@ -13,6 +13,13 @@ export const paragraph = style({
   lineHeight: "1.6rem",
 });
 
+export const anchor = style({
+  textDecoration: "underline wavy",
+  textDecorationColor: "#f42264",
+  textUnderlineOffset: 5,
+  color: theme.color.primary,
+});
+
 export const list = style({
   lineHeight: "1.75rem",
   paddingLeft: "1rem",
@@ -46,7 +53,7 @@ export const heading = style({
   fontSize: "1.5rem",
   marginBottom: "1rem",
   color: theme.color.primary,
-  marginTop: "5rem",
+  marginTop: "3rem",
   fontFamily: theme.font.heading,
 });
 
@@ -56,6 +63,8 @@ export const image = style({
   border: "1px solid #ffffff1a",
   margin: "1rem 0",
   borderRadius: 10,
+  width: "100%",
+  maxWidth: 900,
   boxShadow: `${theme.color.dark} 0px 1px 3px, ${theme.color.dark} 0px 1px 2px`,
   "@media": {
     ["screen and (max-width: 900px)"]: {

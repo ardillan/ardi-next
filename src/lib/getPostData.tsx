@@ -108,11 +108,11 @@ export async function getPostData(
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const matterResult = matter(fileContents);
-
+  console.log("👻", postsDirectory.split("/")[1]);
   const processedContent = await remark()
     .use(transformImgSrc, {
       id: category ? category.concat(`/${id}`) : id,
-      imagesDirectory: "/posts",
+      imagesDirectory: `/${postsDirectory.split("/")[1]}`,
     })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();

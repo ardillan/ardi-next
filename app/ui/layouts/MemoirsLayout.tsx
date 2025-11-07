@@ -7,7 +7,7 @@ import Memoirs from "../general/Memoirs";
 import SuperMarkdown from "../general/SuperMarkdown";
 import { header, headerSubtitle, headerTitle } from "./BlogLayout.css";
 
-export default async function MemoirsLayout({
+export default async function BlogLayout({
   pageContent,
 }: {
   pageContent: Promise<IMarkDownData>;

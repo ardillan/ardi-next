@@ -10,6 +10,7 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkGfm from "remark-gfm";
 
 import {
+  anchor,
   blockquote,
   figCaption,
   heading,
@@ -47,6 +48,15 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
               <code {...rest}>{children}</code>
             );
           },
+          a: function ({ ...props }) {
+            const { children, href } = props;
+            return (
+              <a href={href} className={anchor}>
+                {children}
+              </a>
+            );
+          },
+
           h3: ({ ...props }) => {
             const title = props.node?.children[0].valueOf()["value"];
             return <h3 className={heading}>{title}</h3>;
@@ -81,7 +91,6 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
           },
           img: function ({ ...props }) {
             if (!props.src || typeof props.src !== "string") return;
-
             return (
               <figure>
                 <Image

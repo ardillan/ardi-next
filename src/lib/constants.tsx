@@ -16,7 +16,7 @@ export const NAVIGATION: Array<INavigationLink> = [
     title: "Memorias",
     path: "/memorias",
     layout: "memoirs",
-    position: [],
+    position: ["Footer"],
   },
   {
     title: "Fotos",
@@ -40,11 +40,15 @@ export const NAVIGATION: Array<INavigationLink> = [
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
-    position: ["MainNavigation", "Footer"],
+    position: ["MainNavigation"],
   },
 ];
 
 export const RANDOMFACTS = [
+  {
+    fact: "haber completado {{Super Hexagon}}",
+    link: "https://es.wikipedia.org/wiki/Super_Hexagon",
+  },
   {
     fact: "ser fan de {{Scatman}}",
     link: "https://es.wikipedia.org/wiki/Scatman_John",
@@ -54,7 +58,7 @@ export const RANDOMFACTS = [
     link: "https://es.wikipedia.org/wiki/Sam_Panopoulos",
   },
   {
-    fact: "adorar a {{Grim Fandango}}",
+    fact: "hablar de {{Grim Fandango}}",
     link: "https://es.wikipedia.org/wiki/Grim_Fandango",
   },
 ];

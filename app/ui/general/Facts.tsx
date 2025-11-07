@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import React from "react";
 
@@ -10,28 +8,37 @@ import { theme } from "@/styles/common/theme.css";
 export const Facts = ({ count = 2 }: { count?: number }) => {
   const facts = getRandomFacts(RANDOMFACTS, count);
 
+  const renderFact = (fact: string, link?: string) => {
+    const match = fact.match(/^(.*?){{(.*?)}}(.*?)$/);
+
+    if (!match) return fact;
+
+    const [, before, inside, after] = match;
+
+    return (
+      <>
+        {before}
+        <Link
+          href={link ?? "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: theme.color.primary }}
+        >
+          {inside}
+        </Link>
+        {after}
+      </>
+    );
+  };
+
   return (
     <>
-      {facts.map((item) => {
-        const match = item.fact.match(/^(.*){{(.*)}}(.*)$/);
-        if (!match) return item.fact + ", ";
-
-        const [before, inside, after] = match;
-        return (
-          <React.Fragment key={item.fact}>
-            {before}
-            <Link
-              href={item.link}
-              target="_blank"
-              style={{ color: theme.color.primary }}
-            >
-              {inside}
-            </Link>
-            {after}
-            {", "}
-          </React.Fragment>
-        );
-      })}
+      {facts.map((item, index) => (
+        <React.Fragment key={index}>
+          {renderFact(item.fact, item.link)}
+          {index < facts.length - 1 ? ", " : ""}
+        </React.Fragment>
+      ))}
     </>
   );
 };

@@ -15,7 +15,9 @@ export default function transformImgSrc(options: TransformImgSrcProps) {
       });
 
       if (image) {
-        const fileName = image.url.replace("./", "");
+        const fileName = image.url
+          .replace(/^(\.?\/)?content\/memorias\//, "") // elimina "content/memorias/"
+          .replace(/^(\.?\/)/, ""); // elimina "./" o "/"
         image.url = `${imagesDirectory}/${id}/${fileName}`;
       }
     });

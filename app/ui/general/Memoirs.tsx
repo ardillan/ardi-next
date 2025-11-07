@@ -4,6 +4,7 @@ import React from "react";
 import Date from "@/appComponents/general/Date";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
+import styles from "./Memoirs.module.css";
 export type IDynamicPost = {
   allPostData?: IMarkDownData[];
 };
@@ -14,7 +15,7 @@ export const MemoirsList = ({
   allPostsData: IMarkDownData[];
 }) => {
   return (
-    <ul>
+    <ul className={styles.memoirs}>
       {allPostsData.map((post: IMarkDownData) => {
         return (
           <li key={post.id}>
