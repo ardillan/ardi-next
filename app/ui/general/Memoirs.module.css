@@ -1,0 +1,25 @@
+ul.memoirs {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+ul.memoirs > li > a {
+  background: var(--color-bg-dark);
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+ul.memoirs > li > a > small {
+  color: var(--color-primary);
+}
+
+ul.memoirs > li > a {
+  transition: all 0.15s;
+}
+
+ul.memoirs > li > a:hover {
+  transform: scale(103%);
+}

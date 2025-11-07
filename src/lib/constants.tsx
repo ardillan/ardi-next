@@ -3,13 +3,25 @@ export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Inicio",
     path: "/",
-    layout: "home",
+    layout: "page",
     position: ["MainNavigation"],
   },
   {
-    title: "Sobre mí",
-    path: "/sobre-mi",
-    layout: "page",
+    title: "Blog",
+    path: "/blog",
+    layout: "blog",
+    position: ["MainNavigation"],
+  },
+  {
+    title: "Memorias",
+    path: "/memorias",
+    layout: "memoirs",
+    position: ["Footer"],
+  },
+  {
+    title: "Fotos",
+    path: "/fotos",
+    layout: "pixelfed",
     position: ["MainNavigation"],
   },
   {
@@ -25,16 +37,29 @@ export const NAVIGATION: Array<INavigationLink> = [
     position: ["Footer"],
   },
   {
-    title: "Blog",
-    path: "/blog",
-    layout: "blog",
-    position: ["MainNavigation"],
-  },
-  {
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
-    position: ["Footer"],
+    position: ["MainNavigation"],
+  },
+];
+
+export const RANDOMFACTS = [
+  {
+    fact: "haber completado {{Super Hexagon}}",
+    link: "https://es.wikipedia.org/wiki/Super_Hexagon",
+  },
+  {
+    fact: "ser fan de {{Scatman}}",
+    link: "https://es.wikipedia.org/wiki/Scatman_John",
+  },
+  {
+    fact: "gustarme la {{pizza con piña}}",
+    link: "https://es.wikipedia.org/wiki/Sam_Panopoulos",
+  },
+  {
+    fact: "hablar de {{Grim Fandango}}",
+    link: "https://es.wikipedia.org/wiki/Grim_Fandango",
   },
 ];
 

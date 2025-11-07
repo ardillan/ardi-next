@@ -21,7 +21,7 @@ export const ThemeProvider: React.FC<{ children: JSX.Element }> = ({
 }: {
   children: JSX.Element;
 }) => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => !prevMode);

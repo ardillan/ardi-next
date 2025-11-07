@@ -7,10 +7,12 @@ import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import transformImgSrc from "./transform-img-src";
 
-const postsDirectory = path.join(process.cwd(), "content/posts/");
-
-export function getSortedPostsData(size?: number): IMarkDownData[] {
-  const fileNames = fs.readdirSync(postsDirectory);
+export function getSortedPostsData(
+  entriesPath: string,
+  size?: number
+): IMarkDownData[] {
+  const entriesPathDirectory = path.join(process.cwd(), entriesPath);
+  const fileNames = fs.readdirSync(entriesPathDirectory);
   const postsSize = size ?? fileNames.length;
   const blogPosts: IMarkDownData[] = [];
 
@@ -33,7 +35,7 @@ export function getSortedPostsData(size?: number): IMarkDownData[] {
     if (fileName === ".DS_Store") return;
 
     const id = fileName.replace(/\.md$/, "");
-    const fullPath = path.join(postsDirectory, fileName);
+    const fullPath = path.join(entriesPathDirectory, fileName);
     const stat = fs.statSync(fullPath);
 
     if (stat.isDirectory()) {
@@ -53,39 +55,43 @@ export function getSortedPostsData(size?: number): IMarkDownData[] {
     .slice(0, postsSize);
 }
 
-export async function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory);
+// export async function getAllPostIds() {
+//   const fileNames = fs.readdirSync(postsDirectory);
 
-  return fileNames.map((fileName: string) => {
-    return {
-      params: {
-        id: fileName.replace(/\.md$/, ""),
-      },
-    };
-  });
-}
+//   return fileNames.map((fileName: string) => {
+//     return {
+//       params: {
+//         id: fileName.replace(/\.md$/, ""),
+//       },
+//     };
+//   });
+// }
 
-export async function getAllPostIdsAndCat() {
-  const categories = fs.readdirSync(postsDirectory); // Leer las carpetas (categorías)
+// export async function getAllPostIdsAndCat() {
+//   const categories = fs.readdirSync(postsDirectory);
 
-  const allPostIds = categories.flatMap((category) => {
-    const categoryPath = path.join(postsDirectory, category);
-    const fileNames = fs.readdirSync(categoryPath); // Leer los archivos dentro de cada categoría
+//   const allPostIds = categories.flatMap((category) => {
+//     const categoryPath = path.join(postsDirectory, category);
+//     const fileNames = fs.readdirSync(categoryPath);
 
-    return fileNames.map((fileName: string) => {
-      return {
-        params: {
-          category: category,
-          id: fileName.replace(/\.md$/, ""),
-        },
-      };
-    });
-  });
+//     return fileNames.map((fileName: string) => {
+//       return {
+//         params: {
+//           category: category,
+//           id: fileName.replace(/\.md$/, ""),
+//         },
+//       };
+//     });
+//   });
 
-  return allPostIds;
-}
+//   return allPostIds;
+// }
 
-export const buildFilePath = (id: string, category?: string) => {
+export const buildFilePath = (
+  id: string,
+  postsDirectory: string,
+  category?: string
+) => {
   if (!category) {
     return path.join(postsDirectory, `${decodeURIComponent(id)}.md`);
   } else {
@@ -95,17 +101,18 @@ export const buildFilePath = (id: string, category?: string) => {
 
 export async function getPostData(
   id: string,
+  postsDirectory: string,
   category?: string
 ): Promise<IMarkDownData> {
-  const fullPath = buildFilePath(id, category);
+  const fullPath = buildFilePath(id, postsDirectory, category);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const matterResult = matter(fileContents);
-
+  console.log("👻", postsDirectory.split("/")[1]);
   const processedContent = await remark()
     .use(transformImgSrc, {
       id: category ? category.concat(`/${id}`) : id,
-      imagesDirectory: "/posts",
+      imagesDirectory: `/${postsDirectory.split("/")[1]}`,
     })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();

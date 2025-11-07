@@ -1,19 +1,22 @@
 "use client";
 
+import "@/styles/common/variables.css";
+
 import Script from "next/script";
 import React, { JSX } from "react";
 
-import { fontFraiche, fontInter } from "@/appComponents/Fonts";
 import { useMobile } from "@/context/MobileContext";
+import { darkTheme, lightTheme } from "@/styles/common/theme.css";
 
 import { useTheme } from "./context/ThemeContext";
+import { rootStyles } from "./RootContent.css";
 
 const RootContent = ({ children }: { children: JSX.Element }) => {
   const { isMenuOpen } = useMobile();
   const { darkMode } = useTheme();
 
   return (
-    <html lang="es">
+    <html lang="es" className={darkMode ? darkTheme : lightTheme}>
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
         <Script
@@ -30,7 +33,7 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
         />
       </head>
       <body
-        className={`${fontInter.variable} ${fontFraiche.variable}`}
+        className={rootStyles}
         style={{ overflow: isMenuOpen ? "hidden" : "initial" }}
         data-dark-theme={darkMode}
       >

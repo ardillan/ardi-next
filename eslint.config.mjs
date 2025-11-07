@@ -5,7 +5,6 @@ import { FlatCompat } from "@eslint/eslintrc";
 import js from "@eslint/js";
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
-import cssModules from "eslint-plugin-css-modules";
 import react from "eslint-plugin-react";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import globals from "globals";
@@ -22,18 +21,16 @@ export default [
   {
     ignores: ["**/node_modules/", "src/fonts/", "**/*.css"],
   },
-  ...compat.extends(
+...compat.extends(
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
-    "plugin:css-modules/recommended"
   ),
   {
     plugins: {
       "@typescript-eslint": typescriptEslint,
       react,
       "simple-import-sort": simpleImportSort,
-      "css-modules": cssModules,
     },
 
     languageOptions: {
