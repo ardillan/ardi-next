@@ -25,7 +25,7 @@ export async function GET() {
 }
 
 const getItems = async (): Promise<string> => {
-  const allPostsData = await getSortedPostsData("content/posts");
+  const allPostsData = getSortedPostsData("content/posts");
 
   const items = await Promise.all(
     allPostsData.map(async (post) => {
