@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "ts-node -r tsconfig-paths/register src/lib/generate-rss.ts",
     "start": "next start",
     "lint": "eslint app/** src/interfaces src/lib",
     "lint-fix": "eslint --fix app/** src/interfaces src/lib",
@@ -46,6 +47,8 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "5.9.2"
   }
 }
