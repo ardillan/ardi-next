@@ -23,13 +23,13 @@ Estas fotografías podrían resumir un poco mi año en el mundo de desarrollo we
 
 <div>
 
-![Un standing desk improvisado](./a-link-to-the-past-2024-desarrollo-01.jpeg)
+![Un standing desk improvisado](./a-link-to-the-past-2024-desarrollo-01.jpg)
 
 ![Fotografía de mi escritorio. Se ve a Wario dando vueltas](./a-link-to-the-past-2024-desarrollo-02.gif)
 
 </div>
 
-![Autorretrato. En él se ve a un DJ UVE difuminado por el poder del Funk](./a-link-to-the-past-2024-desarrollo-03.jpeg)
+![Autorretrato. En él se ve a un DJ UVE difuminado por el poder del Funk](./a-link-to-the-past-2024-desarrollo-03.jpg)
 
 ## 📟 Lo de los podcast
 
@@ -51,13 +51,13 @@ Por nombrar alguno de los que he seguido durante el año:
 
 <div>
 
-![Voltaje Cadáver, en la A.C Octubre](./a-link-to-the-past-2024-musica-01.jpeg)
+![Voltaje Cadáver, en la A.C Octubre](./a-link-to-the-past-2024-musica-01.jpg)
 
-![The Covenant, en la Jarradilla](./a-link-to-the-past-2024-musica-02.jpeg)
+![The Covenant, en la Jarradilla](./a-link-to-the-past-2024-musica-02.jpg)
 
-![Weak, en el Espacio Creativo J.M Illera](./a-link-to-the-past-2024-musica-03.jpeg)
+![Weak, en el Espacio Creativo J.M Illera](./a-link-to-the-past-2024-musica-03.jpg)
 
-![Ohil, en el Los bancos de atrás](./a-link-to-the-past-2024-musica-04.jpeg)
+![Ohil, en el Los bancos de atrás](./a-link-to-the-past-2024-musica-04.jpg)
 
 </div>
 
@@ -93,13 +93,13 @@ Me está costando acordarme de todas las bandas que disfruté este año. Así qu
 
 <div>
 
-![Presentación de Torta y Lechi. Se ven textos y componentes de La Humera](./a-link-to-the-past-2024-musica-05.jpeg)
+![Presentación de Torta y Lechi. Se ven textos y componentes de La Humera](./a-link-to-the-past-2024-musica-05.jpg)
 
-![Uruna, en el Rincón Cubano](./a-link-to-the-past-2024-musica-06.jpeg)
+![Uruna, en el Rincón Cubano](./a-link-to-the-past-2024-musica-06.jpg)
 
-![Bifäz, en el Bar Dobra](./a-link-to-the-past-2024-musica-07.jpeg)
+![Bifäz, en el Bar Dobra](./a-link-to-the-past-2024-musica-07.jpg)
 
-![JPEGr, en la Playa de Los Locos](./a-link-to-the-past-2024-musica-08.jpeg)
+![JPEGr, en la Playa de Los Locos](./a-link-to-the-past-2024-musica-08.jpg)
 
 </div>
 
@@ -115,13 +115,13 @@ Quizá el juego con el que mas ha disfrutado ha sido **Firewatch**. Casualmente 
 
 Un juego que tiene una mirada bastante introspectiva, con posibilidad de jugar de una forma contemplativa y con una historia que caló en mí más de lo que pensaba.
 
-![Vista de la torre de vigilancia "Thorofare"](./a-link-to-the-past-2024-videojuegos-03.png)
+![Vista de la torre de vigilancia "Thorofare"](./a-link-to-the-past-2024-videojuegos-03.jpg)
 
 <div>
 
-![Interior de la torre de "Two Forks"](./a-link-to-the-past-2024-videojuegos-01.png)
+![Interior de la torre de "Two Forks"](./a-link-to-the-past-2024-videojuegos-01.jpg)
 
-![Paisaje que encontramos en parque nacional de Shoshone](./a-link-to-the-past-2024-videojuegos-02.png)
+![Paisaje que encontramos en parque nacional de Shoshone](./a-link-to-the-past-2024-videojuegos-02.jpg)
 
 </div>
 
@@ -149,13 +149,13 @@ Gracias a ellos soy mejor persona. Salvo por Red Dead Redemption II. Sí, tiene 
 
 <div>
 
-![Senua, en su viaje](./a-link-to-the-past-2024-videojuegos-04.jpeg)
+![Senua, en su viaje](./a-link-to-the-past-2024-videojuegos-04.jpg)
 
-![Edición especial de Blasphemous](./a-link-to-the-past-2024-videojuegos-05.jpeg)
+![Edición especial de Blasphemous](./a-link-to-the-past-2024-videojuegos-05.jpg)
 
-![Mi televisión donde se ve Zelda Echoes of Wisdom](./a-link-to-the-past-2024-videojuegos-07.jpeg)
+![Mi televisión donde se ve Zelda Echoes of Wisdom](./a-link-to-the-past-2024-videojuegos-07.jpg)
 
-![Wario Land 4, para Game Boy Micro ](./a-link-to-the-past-2024-videojuegos-06.jpeg)
+![Wario Land 4, para Game Boy Micro ](./a-link-to-the-past-2024-videojuegos-06.jpg)
 
 </div>
 
@@ -187,128 +187,128 @@ El resto de cosas podría resumirlo en un listado:
 
 <div>
 
-![Una fachada den Bilbao](./a-link-to-the-past-2024-1.jpeg)
+![Una fachada den Bilbao](./a-link-to-the-past-2024-1.jpg)
 
-![Las vistas desde mi cama](./a-link-to-the-past-2024-2.jpeg)
+![Las vistas desde mi cama](./a-link-to-the-past-2024-2.jpg)
 
-![Una imagen de mi salón y el videojuego TUNIC](./a-link-to-the-past-2024-42.jpeg)
+![Una imagen de mi salón y el videojuego TUNIC](./a-link-to-the-past-2024-42.jpg)
 
-![Un mirlo](./a-link-to-the-past-2024-4.jpeg)
+![Un mirlo](./a-link-to-the-past-2024-4.jpg)
 
 </div>
 
 <div>
 
-![Galletas Tostarica para merendar](./a-link-to-the-past-2024-3.jpeg)
+![Galletas Tostarica para merendar](./a-link-to-the-past-2024-3.jpg)
 
-![Dos libros sobre bicicletas](./a-link-to-the-past-2024-5.jpeg)
+![Dos libros sobre bicicletas](./a-link-to-the-past-2024-5.jpg)
 
 </div>
 
-![Un autorretrato, rodeado de libros](./a-link-to-the-past-2024-6.jpeg)
+![Un autorretrato, rodeado de libros](./a-link-to-the-past-2024-6.jpg)
 
 <div>
 
-![Mi casa, decorada por mi cumpleaños](./a-link-to-the-past-2024-7.jpeg)
+![Mi casa, decorada por mi cumpleaños](./a-link-to-the-past-2024-7.jpg)
 
-![Curasanes de Romanos](./a-link-to-the-past-2024-9.jpeg)
+![Curasanes de Romanos](./a-link-to-the-past-2024-9.jpg)
 
 </div>
 
 ![La bicicleta de mi abuelo](./a-link-to-the-past-2024-8.jpg)
 
-![Un café](./a-link-to-the-past-2024-10.jpeg)
+![Un café](./a-link-to-the-past-2024-10.jpg)
 
-![Concierto de Stupidfacientes](./a-link-to-the-past-2024-11.jpeg)
+![Concierto de Stupidfacientes](./a-link-to-the-past-2024-11.jpg)
 
-![Una merienda y la Keynote de Apple](./a-link-to-the-past-2024-12.jpeg)
+![Una merienda y la Keynote de Apple](./a-link-to-the-past-2024-12.jpg)
 
-![Luka, un perro afable](./a-link-to-the-past-2024-13.jpeg)
+![Luka, un perro afable](./a-link-to-the-past-2024-13.jpg)
 
-![Gorka Urbizu](./a-link-to-the-past-2024-14.jpeg)
+![Gorka Urbizu](./a-link-to-the-past-2024-14.jpg)
 
-![El fantasma Deploy to production ](./a-link-to-the-past-2024-15.jpeg)
+![El fantasma Deploy to production ](./a-link-to-the-past-2024-15.jpg)
 
-![Aros olímpicos](./a-link-to-the-past-2024-16.jpeg)
+![Aros olímpicos](./a-link-to-the-past-2024-16.jpg)
 
-![MIMOSA en Espacio Argumosa](./a-link-to-the-past-2024-17.jpeg)
+![MIMOSA en Espacio Argumosa](./a-link-to-the-past-2024-17.jpg)
 
-![Vista de Verduleras Fest](./a-link-to-the-past-2024-18.jpeg)
+![Vista de Verduleras Fest](./a-link-to-the-past-2024-18.jpg)
 
-![La batería de Viva Belgrado](./a-link-to-the-past-2024-19.jpeg)
+![La batería de Viva Belgrado](./a-link-to-the-past-2024-19.jpg)
 
-![Un autorretraro en Ciclos Esplendor, en Gijón](./a-link-to-the-past-2024-20.jpeg)
+![Un autorretraro en Ciclos Esplendor, en Gijón](./a-link-to-the-past-2024-20.jpg)
 
-![](./a-link-to-the-past-2024-22.jpeg)
+![](./a-link-to-the-past-2024-22.jpg)
 
 <div>
 
-![Gorra de Lodor y disco de Bifäz](./a-link-to-the-past-2024-21.jpeg)
+![Gorra de Lodor y disco de Bifäz](./a-link-to-the-past-2024-21.jpg)
 
-![Pegatina de la banda ESPAÑA](./a-link-to-the-past-2024-24.jpeg)
+![Pegatina de la banda ESPAÑA](./a-link-to-the-past-2024-24.jpg)
 
 </div>
 
-![Charla de Coders Cantabria](./a-link-to-the-past-2024-23.jpeg)
+![Charla de Coders Cantabria](./a-link-to-the-past-2024-23.jpg)
 
-![Otra taza de café](./a-link-to-the-past-2024-25.jpeg)
+![Otra taza de café](./a-link-to-the-past-2024-25.jpg)
 
-![Presentación del libro: Bicicleta y Barbarie, en Torrelavega](./a-link-to-the-past-2024-26.jpeg)
+![Presentación del libro: Bicicleta y Barbarie, en Torrelavega](./a-link-to-the-past-2024-26.jpg)
 
-![Una pegatina de ARDI](./a-link-to-the-past-2024-27.jpeg)
+![Una pegatina de ARDI](./a-link-to-the-past-2024-27.jpg)
 
-![Una planta](./a-link-to-the-past-2024-28.jpeg)
+![Una planta](./a-link-to-the-past-2024-28.jpg)
 
-![Exposición en Torrelavega](./a-link-to-the-past-2024-29.jpeg)
+![Exposición en Torrelavega](./a-link-to-the-past-2024-29.jpg)
 
-![Una planta serpiente](./a-link-to-the-past-2024-30.jpeg)
+![Una planta serpiente](./a-link-to-the-past-2024-30.jpg)
 
-![Bicicleta "Tudanca"](./a-link-to-the-past-2024-31.jpeg)
+![Bicicleta "Tudanca"](./a-link-to-the-past-2024-31.jpg)
 
-![Sara y un pastel](./a-link-to-the-past-2024-32.jpeg)
+![Sara y un pastel](./a-link-to-the-past-2024-32.jpg)
 
-![Un dibujo de "Vermout El Álvaro"](./a-link-to-the-past-2024-33.jpeg)
+![Un dibujo de "Vermout El Álvaro"](./a-link-to-the-past-2024-33.jpg)
 
-![Regalos traídos de Japón](./a-link-to-the-past-2024-34.jpeg)
+![Regalos traídos de Japón](./a-link-to-the-past-2024-34.jpg)
 
-![Una imagen en el carril bici](./a-link-to-the-past-2024-35.jpeg)
+![Una imagen en el carril bici](./a-link-to-the-past-2024-35.jpg)
 
-![Exposición de Vicente Trueba](./a-link-to-the-past-2024-36.jpeg)
+![Exposición de Vicente Trueba](./a-link-to-the-past-2024-36.jpg)
 
-![Cuadro](./a-link-to-the-past-2024-37.jpeg)
+![Cuadro](./a-link-to-the-past-2024-37.jpg)
 
-![Una planta y el sol entrando por la ventana](./a-link-to-the-past-2024-38.jpeg)
+![Una planta y el sol entrando por la ventana](./a-link-to-the-past-2024-38.jpg)
 
-![Concierto de Uruna](./a-link-to-the-past-2024-39.jpeg)
+![Concierto de Uruna](./a-link-to-the-past-2024-39.jpg)
 
-![Autorretrato con un gorro de Pikachu](./a-link-to-the-past-2024-40.jpeg)
+![Autorretrato con un gorro de Pikachu](./a-link-to-the-past-2024-40.jpg)
 
-![Mi bicicleta: "Mikasuki"](./a-link-to-the-past-2024-41.jpeg)
+![Mi bicicleta: "Mikasuki"](./a-link-to-the-past-2024-41.jpg)
 
-![Ensalada](./a-link-to-the-past-2024-43.jpeg)
+![Ensalada](./a-link-to-the-past-2024-43.jpg)
 
-![Exposición de bicicletas en Eíbar ](./a-link-to-the-past-2024-44.jpeg)
+![Exposición de bicicletas en Eíbar ](./a-link-to-the-past-2024-44.jpg)
 
-![Programa en directo de Noche de Rock](./a-link-to-the-past-2024-45.jpeg)
+![Programa en directo de Noche de Rock](./a-link-to-the-past-2024-45.jpg)
 
-![La luz de mi casa](./a-link-to-the-past-2024-46.jpeg)
+![La luz de mi casa](./a-link-to-the-past-2024-46.jpg)
 
-![Cristalera](./a-link-to-the-past-2024-47.jpeg)
+![Cristalera](./a-link-to-the-past-2024-47.jpg)
 
-![Bajando escaleras](./a-link-to-the-past-2024-48.jpeg)
+![Bajando escaleras](./a-link-to-the-past-2024-48.jpg)
 
-![Cuarenta cumpleaños](./a-link-to-the-past-2024-49.jpeg)
+![Cuarenta cumpleaños](./a-link-to-the-past-2024-49.jpg)
 
-![Conferencia de San Emeterio](./a-link-to-the-past-2024-50.jpeg)
+![Conferencia de San Emeterio](./a-link-to-the-past-2024-50.jpg)
 
-![Un autorretrato en mi bici](./a-link-to-the-past-2024-51.jpeg)
+![Un autorretrato en mi bici](./a-link-to-the-past-2024-51.jpg)
 
-![Mi bicicleta en el tren](./a-link-to-the-past-2024-52.jpeg)
+![Mi bicicleta en el tren](./a-link-to-the-past-2024-52.jpg)
 
-![Uruna en Reocín](./a-link-to-the-past-2024-53.jpeg)
+![Uruna en Reocín](./a-link-to-the-past-2024-53.jpg)
 
-![Libro de "Las narrativas de las delicias"](./a-link-to-the-past-2024-54.jpeg)
+![Libro de "Las narrativas de las delicias"](./a-link-to-the-past-2024-54.jpg)
 
-![Exposición de Álvaro Martínez Bueno](./a-link-to-the-past-2024-55.jpeg)
+![Exposición de Álvaro Martínez Bueno](./a-link-to-the-past-2024-55.jpg)
 
-![Portada de la revista: Volata](./a-link-to-the-past-2024-56.jpeg)
+![Portada de la revista: Volata](./a-link-to-the-past-2024-56.jpg)
