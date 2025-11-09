@@ -21,7 +21,7 @@ Además de iniciar mi andadura, me pareció simbólico hacerme la foto con el Do
 
 La jornada la armonicé escuchando punk-rock melódico, especialmente [Not On Tour](https://notontour.bandcamp.com/track/daddy).
 
-![Mi bicicleta en un carril bici, en el Parque de La Viesca](./30DEB-01.jpeg)
+![Mi bicicleta en un carril bici, en el Parque de La Viesca](./30DEB-01.jpg)
 
 ---
 
@@ -29,7 +29,7 @@ La jornada la armonicé escuchando punk-rock melódico, especialmente [Not On To
 
 Día de trabajo normal. Me encanta poder ir a la oficina en bici y disfrutar del amanecer.
 
-![Disfrutando de un amanecer por una carretera secundaria](./30DEB-02.jpeg)
+![Disfrutando de un amanecer por una carretera secundaria](./30DEB-02.jpg)
 
 ---
 
@@ -41,7 +41,7 @@ Como banda sonora elegí _La Parade_, una banda con la que tuve el placer de toc
 
 Me pareció idóneo hacerles este homenaje.
 
-![Mi bicicleta en una carretera autonómica](./30DEB-03.jpeg)
+![Mi bicicleta en una carretera autonómica](./30DEB-03.jpg)
 
 ## Día 4
 
@@ -49,7 +49,7 @@ Durante este día simplemente recorrí los carriles bici de "La ruta del Coleste
 
 A parte de esto, andaba recordando a la banda Cordura. Les he podido ver en unas cuantas ocasiones. Quizá el disco que más me marcó fué "El incendio más largo del mundo", especialmente su tema: "[negar la evidencia](https://cordura.bandcamp.com/track/negar-la-evidencia)".
 
-![Mi bicicleta en un carril bici](./30DEB-04.jpeg)
+![Mi bicicleta en un carril bici](./30DEB-04.jpg)
 
 ---
 
@@ -64,7 +64,7 @@ _ó mi sed"_ <br>
 
 **Las buenas noches**
 
-![Carril bici al lado del río Besaya](./30DEB-05.jpeg)
+![Carril bici al lado del río Besaya](./30DEB-05.jpg)
 
 ---
 
@@ -76,7 +76,7 @@ Afortunadamente todo fué bien, pude disfrutar de la la Vía Verde del Pas, un r
 
 La banda sonora estuvo a cargo de los franceses [Totorro](https://totorro.bandcamp.com/track/yaaaago)
 
-![Vía Verde del Pas](./30DEB-06.jpeg)
+![Vía Verde del Pas](./30DEB-06.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ Los domingos **no son mi día favorito**. Cogí la bicicleta temprano y fui a co
 
 Crucé Cartes, como de costumbre: desierto y sin nada de ruido. Me recordó en cierta medida a [La Ciudad del Santo Nombre](https://thegamekitchen.bandcamp.com/track/del-santo-nombre), de Blasphemous.
 
-![Calle del camino Real de Cartes](./30DEB-07.jpeg)
+![Calle del camino Real de Cartes](./30DEB-07.jpg)
 
 ---
 
@@ -98,7 +98,7 @@ Quizá una de las mejoras inversiones que he hecho para mi bici ha sido el traje
 
 No tenía nada importante que hacer, salvo alguna compra. Así que pasé a ver lo que iba quedando de SNIACE mientras [sonaba Baiuca](https://raso.bandcamp.com/track/caroi-feat-aliboria).
 
-![La fábrica SNIACE con mi bici en primer plano](./30DEB-08.jpeg)
+![La fábrica SNIACE con mi bici en primer plano](./30DEB-08.jpg)
 
 ---
 
@@ -110,7 +110,7 @@ A pesar de todo, creo que la bici aguantará unos días con un radio suelto, per
 
 Afortunadamente **tengo unas cuantas más**.
 
-![Mi bicicleta en un carril bici segregado](./30DEB-09.jpeg)
+![Mi bicicleta en un carril bici segregado](./30DEB-09.jpg)
 
 ---
 
@@ -122,7 +122,7 @@ Me gusta recorrer ese tramo, es que hacía con mi padre allá por mediados de lo
 
 De fondo [sonaba Accidente](https://accidente.bandcamp.com/track/las-victorias-m-s-bellas).
 
-![Mi bicicleta por una senda ciclable](./30DEB-10.jpeg)
+![Mi bicicleta por una senda ciclable](./30DEB-10.jpg)
 
 ---
 
@@ -134,7 +134,7 @@ Ese día un paseo por [Mar](<https://es.wikipedia.org/wiki/Mar_(Cantabria)>).
 
 Por la tarde un amigo llegó escuchando [Envy](https://envy.bandcamp.com/track/further-ahead-of-warp) a todo trapo en su furgoneta. Me puse contento al recordarlos, por lo que decidí dedicarle el día a ellos.
 
-![Mi bicicleta por una carretera comarcal](./30DEB-11.jpeg)
+![Mi bicicleta por una carretera comarcal](./30DEB-11.jpg)
 
 ---
 
@@ -144,7 +144,7 @@ El viernes estaba libre, ya que no trabajaba. Decidí hacer _mis labores_ pronto
 
 El día brillaba y el cielo estaba azul, lo que me recordó al estrenado "[Cancionero de los cielos](https://vivabelgrado.bandcamp.com/track/gemini)", de Viva Belgrado.
 
-![Mi bicicleta por novísimo carril bici](./30DEB-12.jpeg)
+![Mi bicicleta por novísimo carril bici](./30DEB-12.jpg)
 
 ---
 
@@ -154,7 +154,7 @@ Sábado sin más. Sol y bastante cálido en general. Ese mismo día, por la tard
 
 Me dediqué a escuchar bastante su disco para ir preparado.
 
-![Mi bicicleta por novísimo carril bici](./30DEB-13.jpeg)
+![Mi bicicleta por novísimo carril bici](./30DEB-13.jpg)
 
 ---
 
@@ -164,7 +164,7 @@ El domingo ha sido un día un poco caótico. Mi bicicleta amanecía con una rued
 
 No obstante, el día se animó ya que asistí al Market Freak que había en Torrelvega. Para mejorarlo aún más, decidí escuchar [Hidden Orquestra](https://hiddenorchestra.bandcamp.com/track/overture)
 
-![Mi bicicleta por un camino antiguo](./30DEB-14.jpeg)
+![Mi bicicleta por un camino antiguo](./30DEB-14.jpg)
 
 ---
 
@@ -176,7 +176,7 @@ Me acerqué al Barrio Covadonga para asistir a una de sus charlas mientras un _c
 
 Mientras pedaleaba, recordé cuánto me gustó jugar a [Machinarium](https://innerfx.bandcamp.com/track/mr-handagote) en su día.
 
-![Mi bicicleta por carril bici al anocecher](./30DEB-15.jpeg)
+![Mi bicicleta por carril bici al anocecher](./30DEB-15.jpg)
 
 ---
 
@@ -191,7 +191,7 @@ _el río: ¿me entiendes?"_
 
 **Pony Bravo.**
 
-![Mi bicicleta al lado del río Saja](./30DEB-16.jpeg)
+![Mi bicicleta al lado del río Saja](./30DEB-16.jpg)
 
 ---
 
@@ -209,7 +209,7 @@ Ese día anduve con ojo avizor y capté un instante frente a un toro que result�
 
 Por otro lado, no soy fanático de las canciones versionadas, generalmente, pero sí de [Me first and the gimme gimmes](https://gimmegimmes.bandcamp.com/track/believe).
 
-![Mi bicicleta en frente a un toro](./30DEB-18.jpeg)
+![Mi bicicleta en frente a un toro](./30DEB-18.jpg)
 
 ---
 
@@ -219,7 +219,7 @@ Los viernes son mi día favorito (cómo no). Afronté la jornada con ganas graci
 
 Una cosa de la que creo que peco bastante es de ir quizá un poquitín rápido con la bici. Aunque no considero que sea culpa mía, mas bien diría que es culpa de [Perro](https://perro.bandcamp.com/track/bicicleta-2).
 
-![Mi bicicleta camino a la oficina](./30DEB-19.jpeg)
+![Mi bicicleta camino a la oficina](./30DEB-19.jpg)
 
 ---
 
@@ -227,7 +227,7 @@ Una cosa de la que creo que peco bastante es de ir quizá un poquitín rápido c
 
 ¡Sábado! Paseo matutino con un sol radiante y sin rumbo. De fondo sonaba [Thundercat](https://thundercat.bandcamp.com/track/them-changes-2).
 
-![Mi bicicleta en un puente sobre el río Saja](./30DEB-20.jpeg)
+![Mi bicicleta en un puente sobre el río Saja](./30DEB-20.jpg)
 
 ---
 
@@ -237,7 +237,7 @@ El domingo también amaneció con bastante sol. Quise acercarme al puerto para v
 
 Mientras veía las ondas que produce la ria recordé cuánto me gustan [The Mercury Program](https://themercuryprogram.bandcamp.com/track/dance-pact). A su vez, vigilaba con el rabillo del ojo a un labrador cercano que andaba algo nervioso.
 
-![Mi bicicleta en frente al puerto de Requejada](./30DEB-21.jpeg)
+![Mi bicicleta en frente al puerto de Requejada](./30DEB-21.jpg)
 
 ---
 
@@ -247,7 +247,7 @@ Inicié la semana con bastantes ganas.
 
 Insisto en que me encanta poder ir a trabajar en bicicleta. A pesar de que los trenes no son lo suficientemente frecuentes y lo suficientemente eficaces, me permite volver a escuchar bandas como [Brokeback](https://brokeback.bandcamp.com/track/will-be-arriving).
 
-![Mi bicicleta en una carretera. De fondo amanece.](./30DEB-22.jpeg)
+![Mi bicicleta en una carretera. De fondo amanece.](./30DEB-22.jpg)
 
 ---
 
@@ -255,7 +255,7 @@ Insisto en que me encanta poder ir a trabajar en bicicleta. A pesar de que los t
 
 Día del libro. Sin mucho que reseñar más allá del paseo hacia la oficina. Amenicé el día escuchando [Cordura](https://cordura.bandcamp.com/track/negar-la-evidencia).
 
-![Mi bicicleta al lado de varias casas.](./30DEB-23.jpeg)
+![Mi bicicleta al lado de varias casas.](./30DEB-23.jpg)
 
 ---
 
@@ -265,7 +265,7 @@ A pesar de estar en primavera, el frío sigue siendo una constante, lo que hace 
 
 Mientras pedaleaba, recordé a [KillKill](https://thekillkill.bandcamp.com/track/dios-el-viaje-de-negocios), un dúo de bajo y batería.
 
-![Mi bicicleta por un carril bici, rodeado de árboles.](./30DEB-24.jpeg)
+![Mi bicicleta por un carril bici, rodeado de árboles.](./30DEB-24.jpg)
 
 ---
 
@@ -275,7 +275,7 @@ Otro día con la rutina como base: "vivan los días iguales, quiero perder la cu
 
 De vuelta hacia la estación de tren reflexionaba sobre "Firewatch"; un videojuego que jugué hace poquito y que me dejó bastante impactado. Incluída [su banda sonora](https://camposantogames.bandcamp.com/track/stay-in-your-tower-and-watch).
 
-![Mi bicicleta en una carretera autonómica.](./30DEB-25.jpeg)
+![Mi bicicleta en una carretera autonómica.](./30DEB-25.jpg)
 
 ---
 
@@ -289,7 +289,7 @@ Aproveché que tenía algo de tiempo libre para sentarme conmigo mismo y escucha
 
 Me lo pasé increíblemente bien escuchándoles y bebiendo cerveza.
 
-![Mi bicicleta sobre un puente.](./30DEB-26.jpeg)
+![Mi bicicleta sobre un puente.](./30DEB-26.jpg)
 
 ---
 
@@ -301,7 +301,7 @@ La dejé en una tienda para que la echasen un vistazo y volví a casa andando, a
 
 Afortunadamente ese día comía tarta.
 
-![Mi bicicleta en un carril bici.](./30DEB-27.jpeg)
+![Mi bicicleta en un carril bici.](./30DEB-27.jpg)
 
 ---
 
@@ -311,7 +311,7 @@ Un domingo de lo más normal. Sin mucha novedad. Lo más curioso de todo es que 
 
 Me puse bastante contento por ello, por lo que decidí escuchar durante el resto del día a [Fleet Foxes](https://fleetfoxes.bandcamp.com/track/mykonos).
 
-![Mi bicicleta en un carril bici.](./30DEB-28.jpeg)
+![Mi bicicleta en un carril bici.](./30DEB-28.jpg)
 
 ---
 
@@ -321,7 +321,7 @@ Lunes y principio de semana. A pesar de ser días intensos en la oficina, pude p
 
 El sol andaba bastante brillante, lo que me recordó que [Repión](https://soundcloud.com/repion/el-dia-no-me-da) habían sacado tema nuevo hacía no mucho.
 
-![Mi bicicleta en una senda ciclable.](./30DEB-29.jpeg)
+![Mi bicicleta en una senda ciclable.](./30DEB-29.jpg)
 
 ---
 
@@ -331,4 +331,4 @@ El sol andaba bastante brillante, lo que me recordó que [Repión](https://sound
 
 En resumen, día de celebración por todo ello. De fondo suenan [Strawberry Girls](https://strawberrygirls.bandcamp.com/track/dream-girl). Una banda que descubrí hace poco y que no paran de sonar.
 
-![Mi bicicleta en un carril bici.](./30DEB-30.jpeg)
+![Mi bicicleta en un carril bici.](./30DEB-30.jpg)
