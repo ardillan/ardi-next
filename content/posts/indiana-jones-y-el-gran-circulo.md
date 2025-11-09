@@ -21,13 +21,13 @@ La principal causa por la que quise probarlo fue que era un juego en primera per
 
 <div>
 
-![Indiana en el aire](./indiana-jones-01.png)
+![Indiana en el aire](./indiana-jones-01.jpg)
 
-![Gina, una de las protagonistas](./indiana-jones-02.png)
+![Gina, una de las protagonistas](./indiana-jones-02.jpg)
 
-![Indiana Jones en Guiza](./indiana-jones-03.png)
+![Indiana Jones en Guiza](./indiana-jones-03.jpg)
 
-![Un soldado mirando al cielo](./indiana-jones-04.png)
+![Un soldado mirando al cielo](./indiana-jones-04.jpg)
 
 </div>
 
@@ -39,12 +39,12 @@ No quiero comentar mucho más en esta nota; al fin y al cabo, **no es una reseñ
 
 <div>
 
-![Indy y un escorpión](./indiana-jones-05.png)
+![Indy y un escorpión](./indiana-jones-05.jpg)
 
-![Gran Pirámide de Guiza](./indiana-jones-06.png)
+![Gran Pirámide de Guiza](./indiana-jones-06.jpg)
 
-![Una vista general del juego](./indiana-jones-07.png)
+![Una vista general del juego](./indiana-jones-07.jpg)
 
-![Indiana Jones disfrazado](./indiana-jones-08.png)
+![Indiana Jones disfrazado](./indiana-jones-08.jpg)
 
 </div>
