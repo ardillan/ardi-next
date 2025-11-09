@@ -22,7 +22,7 @@ A la hora de hablar de movilidad siempre hay que tener en cuenta varios factores
 
 Lo primero que recomiendo es sin duda unos **guardabarros**. Con ellos vas a conseguir evitar mojarte los pantalones y espalda. El combo perfecto lo completan un **chubasquero** y un **pantalón de lluvia**.
 
-![Imagen de unos guardabarros](./como-moverme-en-bici-4.jpeg)
+![Imagen de unos guardabarros](./como-moverme-en-bici-4.jpg)
 
 ## Una alforja: para dominarlas a todas
 
@@ -34,9 +34,9 @@ En mi caso llevo una alforja que se transforma en mochila gracias a unas cremall
 
 <div>
 
-![Una parrilla ó rack](./como-moverme-en-bici-2.jpeg)
+![Una parrilla ó rack](./como-moverme-en-bici-2.jpg)
 
-![Una alforja que se transforma en mochila](./como-moverme-en-bici-8.jpeg)
+![Una alforja que se transforma en mochila](./como-moverme-en-bici-8.jpg)
 
 </div>
 
@@ -44,7 +44,7 @@ En mi caso llevo una alforja que se transforma en mochila gracias a unas cremall
 
 No sólo necesarios si no obligatorios (sí, incluso antes que el casco). Tus salvadores para poder ser visto y oído en la distancia. El timbre es especialmente útil cuando compartes carril con peatones, como sendas ciclables o vías verdes. La luz hará que te sitúen en el mapa y te permitirá descubrir qué es lo que hay delante de ti.
 
-![Un timbre y una luz. Aparezco yo en el reflejo :)](./como-moverme-en-bici-5.jpeg)
+![Un timbre y una luz. Aparezco yo en el reflejo :)](./como-moverme-en-bici-5.jpg)
 
 ## Un candado: para atarte a la realidad
 
@@ -54,7 +54,7 @@ En mi caso opto por un candado plegable para poder llevarlo cómodamente en el h
 
 <div>
 
-![Un candado plegable](./como-moverme-en-bici-10.jpeg)
+![Un candado plegable](./como-moverme-en-bici-10.jpg)
 
 ![Animación de cómo se desmonta el candado](./como-moverme-en-bici-6.gif)
 
@@ -66,13 +66,13 @@ Parece una tontería, pero es súper cómodo. Te permite hacer paradas rápidas 
 
 Puedes usarla para poder beber agua de una fuente tranquilamente, dejarla un segundo para comprar el pan o incluso para hacerle fotos frente a un idílico puerto cerca de Suances.
 
-![Pata de cabra de la bicicleta](./como-moverme-en-bici-7.jpeg)
+![Pata de cabra de la bicicleta](./como-moverme-en-bici-7.jpg)
 
 ## Pegatinas: para molar
 
 Quizá no parece del todo útil, pero siempre está bien plasmar un poco de tu personalidad en la bici. En mi caso, como fanático de Nintendo, he decidido pegar una de Bob-omb.
 
-![Una pegatina de Bob-omb](./como-moverme-en-bici-3.jpeg)
+![Una pegatina de Bob-omb](./como-moverme-en-bici-3.jpg)
 
 ## Algunas cosas más
 
@@ -86,4 +86,4 @@ A parte de lo ya mencionado, estas serían algunas cosas más que me parecen imp
 - De vez en cuando un hinchador eléctrico.
 - Agua, por una mera cuestión de supervivencia.
 
-![Mi bicicleta: Mikasuka](./como-moverme-en-bici-9.jpeg)
+![Mi bicicleta: Mikasuka](./como-moverme-en-bici-9.jpg)
