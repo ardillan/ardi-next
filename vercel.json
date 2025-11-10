@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/**/*.js": {
+      "excludeFiles": "public/posts/**"
+    },
+    "pages/**/*.js": {
+      "excludeFiles": "public/posts/**"
+    },
+    "api/**/*.js": {
+      "excludeFiles": "public/posts/**"
+    }
+  }
+}
