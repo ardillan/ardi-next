@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+
 import Image from "next/image";
 import React from "react";
 import { Fragment } from "react";
