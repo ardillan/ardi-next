@@ -4,7 +4,7 @@ subtitle: "O si eres moderno: Commute a la office"
 date: "2025-03-09T17:50:10.0100"
 type: "blog"
 description: "Un resumen de qué cosas me funcionan para moverme en bici por la ciudad y el extrarradio"
-featuredImage: "./como-moverme-en-bici-1.jpeg"
+featuredImage: "./como-moverme-en-bici-1.jpg"
 category:
   - Reflexión
   - Bicicletas
