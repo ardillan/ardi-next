@@ -1,12 +1,12 @@
 {
   "functions": {
-    "app/**/*.js": {
+    "app/**/route.js": {
       "excludeFiles": "public/posts/**"
     },
-    "pages/**/*.js": {
+    "app/**/page.js": {
       "excludeFiles": "public/posts/**"
     },
-    "api/**/*.js": {
+    "app/**/[...*].js": {
       "excludeFiles": "public/posts/**"
     }
   }
