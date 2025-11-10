@@ -42,15 +42,3 @@ export const postImage = style({
   pointerEvents: "none",
   objectFit: "cover",
 });
-
-export const postImageShadow = style({
-  borderRadius: ".85rem",
-  position: "absolute",
-  left: 0,
-  zIndex: 10,
-  selectors: {
-    "&:hover": {
-      filter: "blur(25px)",
-    },
-  },
-});
