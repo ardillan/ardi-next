@@ -1,6 +1,3 @@
-export const dynamic = "force-dynamic";
-export const runtime = "nodejs";
-
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 

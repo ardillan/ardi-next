@@ -1,6 +1,3 @@
-export const dynamic = "force-dynamic";
-export const runtime = "nodejs";
-
 import React from "react";
 
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
