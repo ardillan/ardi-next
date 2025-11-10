@@ -1,5 +1,3 @@
-export const dynamic = "force-dynamic";
-
 import Image from "next/image";
 import React, { Fragment } from "react";
 
@@ -7,6 +5,7 @@ import Date from "@/appComponents/general/Date";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import { ARDI } from "@/lib/constants";
+import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
 import { background, date, header, image, subtitle, title } from "./page.css";
@@ -26,24 +25,26 @@ export async function generateMetadata({ params }) {
 
   if (!postData) return;
 
+  const { title, description, featuredImage } = postData;
+
   return {
-    title: `Blog | ${postData.title}`,
-    description: postData.description,
+    title: `Blog | ${title}`,
+    description: description,
     author: ARDI.nickname,
     openGraph: {
       images: [
-        `/posts/${category ? `${category}/` : ""}${postID}/${
-          postData.featuredImage
-        }`,
+        `/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
       ],
     },
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default async function Post({ params }: { params: any }) {
-  const awaitedParams = await params;
-  const { id } = awaitedParams;
+export default async function Post({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
 
   const entryID = id.length === 1 ? id[0] : id[1];
   const category = id.length > 1 ? id[0] : "";
@@ -51,7 +52,7 @@ export default async function Post({ params }: { params: any }) {
   const postData = await getPostData(entryID, "content/posts/", category);
   const featuredImagePath = `/posts/${
     postData.id
-  }/${postData.featuredImage?.replace("./", "")}`;
+  }/${postData?.featuredImage?.replace("./", "")}`;
 
   return (
     <BasicLayout>
@@ -62,16 +63,19 @@ export default async function Post({ params }: { params: any }) {
             <h1 className={title}>{postData.title}</h1>
             <h2 className={subtitle}>{postData.subtitle}</h2>
             <div className={date}>
-              {postData.date && (
+              {postData.date !== undefined ? (
                 <>
                   Escrito el <Date dateString={postData.date} /> <span>|</span>{" "}
                 </>
+              ) : null}
+
+              {postData.category?.map(
+                (cat: string, index: number, categories: string[]) => (
+                  <Fragment key={cat}>{`${cat}${
+                    index === categories.length - 1 ? "" : ", "
+                  }`}</Fragment>
+                )
               )}
-              {postData.category?.map((cat, i, arr) => (
-                <Fragment key={cat}>{`${cat}${
-                  i === arr.length - 1 ? "" : ", "
-                }`}</Fragment>
-              ))}
             </div>
           </div>
           <div>
@@ -90,11 +94,19 @@ export default async function Post({ params }: { params: any }) {
           </div>
         </header>
         <section>
-          {postData.contentHtml && (
+          {postData.contentHtml ? (
             <SuperMarkdown markdownContent={postData.contentHtml} />
-          )}
+          ) : null}
         </section>
       </article>
     </BasicLayout>
   );
+}
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  const pages = await getAllPagesSlugs();
+  return pages.map((page) => {
+    return {
+      slug: page.params.slug,
+    };
+  });
 }
