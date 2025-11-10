@@ -40,6 +40,7 @@ export const postImage = style({
   zIndex: 20,
   position: "relative",
   pointerEvents: "none",
+  objectFit: "cover",
 });
 
 export const postImageShadow = style({

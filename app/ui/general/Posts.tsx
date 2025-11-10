@@ -44,13 +44,6 @@ export const PostsImages = ({
                   width={120}
                   height={120}
                 />
-                <Image
-                  className={postImageShadow}
-                  src={`${featuredImagePath}`}
-                  alt="Imagen de cabecera"
-                  width={120}
-                  height={120}
-                />
               </div>
               <div>
                 <h3 className={postTitle}>{post.title}</h3>
