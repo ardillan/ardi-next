@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -rf .next/cache && next build",
     "postbuild": "ts-node -r tsconfig-paths/register src/lib/generate-rss.ts",
     "start": "next start",
     "lint": "eslint app/** src/interfaces src/lib",
