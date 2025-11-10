@@ -11,7 +11,6 @@ import {
   postDate,
   postImage,
   postImageContainer,
-  postImageShadow,
   postsImagesContainer,
   postSubtitle,
   postTitle,
