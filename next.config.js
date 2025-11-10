@@ -7,11 +7,9 @@ const nextConfig = {
   images: {
     formats: ["image/webp"], 
   },
-  experimental: {
-    // Excluye los posts grandes del bundle de funciones serverless
-    outputFileTracingExcludes: {
-      "public/posts/**": true,
-    },
+  // ← Mueve outputFileTracingExcludes fuera de experimental
+  outputFileTracingExcludes: {
+    "public/posts/**": true,
   },
 };
 
