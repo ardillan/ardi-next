@@ -9,13 +9,13 @@ category:
   - Videojuegos
 ---
 
-Qué puedo decir de Hollow Knight. Hace seis años terminaba su primera parte y escribía [esta pequeña nota]("https://www.ardi.monster/blog/hollow-knight"). Leyendo el texto de nuevo, me doy cuenta de lo poco que hablé sobre lo que significó para mí este juego.
+Qué puedo decir de Hollow Knight. Hace seis años terminaba su primera parte y escribía [esta pequeña nota](https://www.ardi.monster/blog/hollow-knight). Al leer el texto de nuevo, me doy cuenta de lo poco que hablé sobre lo que significó para mí este juego.
 
-En ningún momento comento lo genial que fué descubrir la historia de los **Wyrm** o del **Rey Pálido**; lo estresante que supuso terminar la batalla contra a esos dichosos bichos bola; o el halo de misterio que volaba alrededor de una especie de araña llamada **Hornet**.
+En ningún momento comento lo genial que fue descubrir la historia de los **Wyrm** o del **Rey Pálido**; lo estresante que resultó terminar la batalla contra esos dichosos bichos bola; o el halo de misterio que rodeaba a una especie de araña llamada **Hornet**.
 
-### La decandencia de Telalejana
+### La decadencia de Telalejana
 
-O _Pharloom_, en su versión original. Ya que es aquí donde se desarrolla la historia de Hollow Knight: Silksong. Un nuevo _metroidvania_ donde nos ponemos en la piel de Hornet, una simpática bicha-araña que, tras escapar de sus raptores al principio del juego, tendrá que ascender a través de diferentes biomas para descubrir los misterios que tiene presos a cientos de bichos peregrinos en la basta tierra de **Telalejana**.
+O _Pharloom_, en su versión original. Es aquí donde se desarrolla la historia de Hollow Knight: Silksong, un nuevo _metroidvania_ en el que nos ponemos en la piel de Hornet, una simpática bicha-araña que, tras escapar de sus raptores al principio del juego, deberá ascender a través de diferentes biomas para descubrir los misterios que mantienen presos a cientos de bichos peregrinos en la vasta tierra de **Telalejana**.
 
 <div>
 
@@ -33,13 +33,13 @@ O _Pharloom_, en su versión original. Ya que es aquí donde se desarrolla la hi
 
 Al no querer hacer una reseña al uso, no voy a centrarme en hablar de mecánicas o la dificultad del juego.
 
-En lo que sí quiero hacer hincapié es en recordar cuánto he disfrutado mientras visitaba la **Ciudadela**, **Campanilla** o **La Losa**. No se me irá de la cabeza las veces que habré imitado las canciones de Sherma o Shakra o lo horrible que ha sido ascender por Telalejana al son de su perfecta y milimétrica banda sonora.
+En lo que sí quiero hacer hincapié es en recordar cuánto he disfrutado mientras visitaba la **Ciudadela**, **Campanilla** o **La Losa**. No se me irá de la cabeza las veces que habré imitado las canciones de Sherma o Shakra, o lo horrible que ha sido ascender por Telalejana al son de su perfecta y milimétrica banda sonora.
 
 <iframe style="border: 0; max-width: 500px; width: 100%; height: 120px; margin-bottom: 2rem; margin-top:1rem;" src="https://bandcamp.com/EmbeddedPlayer/album=2861197113/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/track=4201204172/transparent=true/" seamless></iframe>
 
-Tampoco dejaré de pensar en que este es el primer juego que he terminado tras el nacimiento de Bosco. Juego que, entre pañal y pañal, he conseguido terminar en ochenta y cinco horas.
+Tampoco dejaré de pensar en que este es el primer juego que he terminado tras el nacimiento de Bosco. Un juego que, entre pañal y pañal, he conseguido completar en ochenta y cinco horas.
 
-Solo deseo que en un futuro, dentro no mucho, sea él quien pueda disfrutar y sufrir en sus propias manos lo que supone todo este ascenso hacia las cumbres de Telalejana.
+Solo deseo que, en un futuro no muy lejano, sea él quien pueda disfrutar y sufrir en sus propias manos lo que supone todo este ascenso hacia las cumbres de Telalejana.
 
 <div>
 
