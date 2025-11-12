@@ -21,16 +21,27 @@ export async function generateMetadata({ params }) {
 
   if (!postData) return;
 
-  const { title, description, featuredImage } = postData;
+  const { title, description } = postData;
 
   return {
     title: `Blog | ${title}`,
     description: description,
     author: ARDI.nickname,
     openGraph: {
+      title: title,
+      description: description,
+      url: "https://ardi.monster",
+      siteName: "Ardi | Memorias",
       images: [
-        `/memorias/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
+        {
+          url: "/open-graph.png",
+          width: 1200,
+          height: 630,
+          alt: "Ardi Monster | Memorias",
+        },
       ],
+      locale: "es_ES",
+      type: "website",
     },
   };
 }
@@ -47,7 +58,7 @@ export default async function Memoir({
   const postData = await getPostData(entryID, "content/memorias/", category);
   return (
     <BasicLayout>
-      <PageLayout pageContent={postData} />
+      <PageLayout pageContent={postData} showDescription={false} />
     </BasicLayout>
   );
 }

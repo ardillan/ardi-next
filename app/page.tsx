@@ -8,6 +8,22 @@ export async function generateMetadata() {
     title: ARDI.web.title,
     description: ARDI.web.description,
     author: ARDI.nickname,
+    openGraph: {
+      title: ARDI.web.title,
+      description: ARDI.web.description,
+      url: "https://ardi.monster",
+      siteName: "Ardi Monster",
+      images: [
+        {
+          url: "/open-graph.png",
+          width: 1200,
+          height: 630,
+          alt: "Ardi Monster — Blog",
+        },
+      ],
+      locale: "es_ES",
+      type: "website",
+    },
   };
 }
 

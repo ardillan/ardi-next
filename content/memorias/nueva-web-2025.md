@@ -1,9 +1,9 @@
 ---
 title: "Rediseño mi web (sale mal)"
-subtitle: ""
+subtitle: "Mi periplo a través del CSS Tipado"
 date: "2024-08-08T17:50:10.0100"
 type: "blog"
-description: ""
+description: "Cada uno o dos años me gusta dar un lavado de cara de mi web. Esta vez intenté usar una librería de CSS que, desgraciadmente, no funcionó."
 featuredImage: ""
 category:
   - Memorias
