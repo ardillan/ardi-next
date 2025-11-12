@@ -5,11 +5,17 @@ import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import styles from "./PageLayout.module.css";
 
-const PageLayout = ({ pageContent }: { pageContent: IMarkDownData }) => (
+const PageLayout = ({
+  pageContent,
+  showDescription = true,
+}: {
+  pageContent: IMarkDownData;
+  showDescription?: boolean;
+}) => (
   <div>
     <header className={styles.header}>
       <h1>{pageContent.title}</h1>
-      <h3>{pageContent.description}</h3>
+      {showDescription && <h3>{pageContent.description}</h3>}
     </header>
     <section>
       <div className={styles.content}>
