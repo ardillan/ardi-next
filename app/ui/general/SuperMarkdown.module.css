@@ -19,3 +19,17 @@
 .markdownContent > div > figure > img {
   height: auto;
 }
+
+.markdownContent iframe {
+  margin-bottom: 25px;
+}
+
+.markdownContent :global(.mastodon-embed) {
+  max-width: 100%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background: white;
+  margin-bottom: 15px;
+}

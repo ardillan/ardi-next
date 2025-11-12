@@ -9,6 +9,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkGfm from "remark-gfm";
 
+import Iframe from "./Iframe";
 import {
   anchor,
   blockquote,
@@ -110,6 +111,9 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
                   ) : null}
                 </figure>
               );
+            },
+            iframe: ({ ...props }) => {
+              return <Iframe {...props} />;
             },
           }}
         >

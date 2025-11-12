@@ -23,11 +23,11 @@ Comencé dándole vueltas a varias opciones como _Tailwind_, _Styled Components_
 
 Aún con la decisión tomada, decidí preguntar en **Mastodon** la opinión del público.
 
-<iframe src="https://mastodon.social/@ardillan/115168997259086722/embed" className="mastodon-embed" style="max-width:100%;height: 420px;width: 100%;border: 2px solid white;border-radius:10px;padding-bottom: 20px;background: white;margin-bottom: 15px;" width="100%" height="600"> </iframe>
+<iframe src="https://mastodon.social/@ardillan/115168997259086722/embed" class="mastodon-embed"  width="100%" > </iframe>
 
 A lo que mi compadre Víctor respondió:
 
-<iframe src="https://mastodon.social/@dj_uve/115169502512009524/embed" className="mastodon-embed" style="max-width:100%;height: 300px;width: 100%;border: 2px solid white;border-radius: 10px;padding-bottom: 20px;background: white;margin-bottom: 15px;" width="100%" height="800"> </iframe>
+<iframe src="https://mastodon.social/@dj_uve/115169502512009524/embed" class="mastodon-embed" width="100%" > </iframe>
 
 ## Tenía que haberle hecho caso
 
