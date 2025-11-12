@@ -113,7 +113,10 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
               );
             },
             iframe: ({ ...props }) => {
-              return <Iframe {...props} />;
+              const { src } = props;
+              if (!src) return;
+
+              return <Iframe src={src} {...props} />;
             },
           }}
         >
