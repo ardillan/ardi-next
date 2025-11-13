@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "rm -rf .next/cache && next build",
-    "postbuild": "ts-node -r tsconfig-paths/register src/lib/generate-rss.ts",
+    "postbuild": "tsx src/lib/generate-rss.ts",
     "start": "next start",
     "lint": "eslint app/** src/interfaces src/lib",
     "lint-fix": "eslint --fix app/** src/interfaces src/lib",
@@ -49,6 +49,7 @@
     "husky": "^9.1.7",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.20.6",
     "typescript": "5.9.2"
   }
 }
