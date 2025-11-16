@@ -2,7 +2,7 @@ import { style } from "@vanilla-extract/css";
 
 export const navigationContainer = style({
   maxWidth: 900,
-  marginTop: 50,
+  paddingTop: 50,
   marginRight: "auto",
   marginLeft: "auto",
   "@media": {

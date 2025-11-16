@@ -9,15 +9,7 @@ import getWeather from "@/lib/getWeather";
 import { getAge, getExperience } from "@/lib/helpers";
 import { theme } from "@/styles/common/theme.css";
 
-import {
-  avatar,
-  container,
-  heart,
-  heartContainer,
-  info,
-  progress,
-  statsContainer,
-} from "./Stats.css";
+import styles from "./Stats.module.css";
 
 export const getHappiness = (temperature: number | undefined) => {
   if (!temperature) return 0;
@@ -53,6 +45,7 @@ const Stats = () => {
   const age = getAge();
   const hearts = [1, 2, 3, 4];
   const experience = getExperience(ARDI.birthday);
+
   const { isMenuOpen, toggleMenuMobile } = useMobile();
   const [currentTemperature, setCurrentTemperature] = useState<number>(0);
   const happiness = getHappiness(currentTemperature);
@@ -67,26 +60,26 @@ const Stats = () => {
   }, []);
 
   return (
-    <div className={container}>
+    <div className={styles.container}>
       <Link href="/" {...(isMenuOpen && { onClick: toggleMenuMobile })}>
         <img
           src="/ardi-portrait-4.png"
           alt="Autorretrato en estilo pixel art"
           width={100}
-          className={avatar}
+          className={styles.avatar}
         />
       </Link>
-      <div className={statsContainer}>
+      <div className={styles.statsContainer}>
         <div
           data-tooltip-id="experience"
           data-tooltip-place="right"
           data-tooltip-content={getText(currentTemperature)}
-          className={heartContainer}
+          className={styles.heartContainer}
         >
           {hearts.map((value: number, index: number) => {
             return (
               <Heart
-                className={heart}
+                className={styles.heart}
                 key={value}
                 type={happiness <= index ? "empty" : "full"}
               />
@@ -95,8 +88,9 @@ const Stats = () => {
         </div>
 
         <div>
-          <progress className={progress} value={experience} max="365" />
+          <progress className={styles.progress} value={experience} max="365" />
         </div>
+
         <div
           data-tooltip-id="experience"
           data-tooltip-place="bottom-end"
@@ -105,9 +99,9 @@ const Stats = () => {
           } días para mi cumpleaños`}
         >
           <div>
-            <p className={info}>
-              LV.<span>{age}</span> EXP{" "}
-              <span style={{ color: theme.color.secondary }}>•</span>{" "}
+            <p className={styles.info}>
+              LV.<span>{age}</span>{" "}
+              <span style={{ color: theme.color.secondary }}>•</span> EXP{" "}
               {experience}
               <span>/</span>365
             </p>
@@ -118,25 +112,13 @@ const Stats = () => {
       <Tooltip
         opacity={1}
         id="experience"
-        style={{
-          backgroundColor: "rgba(var(--color-space-darker))",
-          color: "rgba(var(--color-honey-yellow))",
-          zIndex: 10,
-          fontSize: "0.85rem",
-          fontFamily: "sans-serif",
-        }}
+        style={{ zIndex: 20, background: "#ffc430", color: "black" }}
       />
 
       <Tooltip
         opacity={1}
         id="happiness"
-        style={{
-          backgroundColor: "rgba(var(--color-space-darker))",
-          color: "rgba(var(--color-honey-yellow))",
-          zIndex: 10,
-          fontSize: "0.85rem",
-          fontFamily: "sans-serif",
-        }}
+        style={{ zIndex: 20, background: "#ffc430", color: "black" }}
       />
     </div>
   );
