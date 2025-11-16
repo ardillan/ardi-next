@@ -1,7 +1,5 @@
 import React, { JSX } from "react";
 
-import Footer from "@/appComponents/structure/Footer";
-import MainNavigation from "@/appComponents/structure/MainNavigation";
 import { mainContainer } from "@/styles/common/grid.css";
 
 interface IBasicLayout {
@@ -12,11 +10,7 @@ interface IBasicLayout {
 export const siteTitle = "Ardi Next";
 
 const BasicLayout = ({ children }: IBasicLayout): JSX.Element => (
-  <>
-    <MainNavigation />
-    <main className={mainContainer}>{children}</main>
-    <Footer />
-  </>
+  <main className={mainContainer}>{children}</main>
 );
 
 export default BasicLayout;
