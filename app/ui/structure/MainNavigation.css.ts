@@ -5,11 +5,12 @@ export const navigationContainer = style({
   paddingTop: 50,
   marginRight: "auto",
   marginLeft: "auto",
+  zIndex: 10,
+  position: "relative",
   "@media": {
     ["screen and (max-width: 900px)"]: {
       paddingLeft: "1rem",
       paddingRight: "1rem",
-      marginTop: "1rem",
     },
   },
 });

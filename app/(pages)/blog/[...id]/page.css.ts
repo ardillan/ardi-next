@@ -9,6 +9,8 @@ export const header = style({
   alignItems: "center",
   marginTop: "2rem",
   marginBottom: "4rem",
+  position: "relative",
+  zIndex: 10,
   "@media": {
     ["screen and (max-width: 900px)"]: {
       display: "flex",
@@ -63,5 +65,4 @@ export const background = style({
   top: 0,
   left: 0,
   height: 500,
-  zIndex: -1,
 });
