@@ -1,4 +1,4 @@
-import React, { JSX } from "react";
+import React, { ReactNode } from "react";
 
 import MainNavigation from "@/appComponents/structure/MainNavigation";
 import ContextProvider from "@/context/ContextProvider";
@@ -6,7 +6,7 @@ import ContextProvider from "@/context/ContextProvider";
 import RootContent from "./RootContent";
 import Footer from "./ui/structure/Footer";
 
-export default function RootLayout({ children }: { children: JSX.Element }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
       <head>
