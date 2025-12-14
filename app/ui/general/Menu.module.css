@@ -57,6 +57,11 @@
     z-index: 40;
   }
 
+  .hamburguer svg {
+    width: 30px;
+    height: 30px;
+  }
+
   .hamburguer:hover svg {
     transition: all 0.2s ease-in-out;
     background: #141b2b;

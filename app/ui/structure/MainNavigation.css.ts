@@ -5,7 +5,7 @@ export const navigationContainer = style({
   paddingTop: 50,
   marginRight: "auto",
   marginLeft: "auto",
-  zIndex: 10,
+  zIndex: 40,
   position: "relative",
   "@media": {
     ["screen and (max-width: 900px)"]: {
