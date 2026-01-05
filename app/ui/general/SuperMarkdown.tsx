@@ -10,17 +10,6 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkGfm from "remark-gfm";
 
 import Iframe from "./Iframe";
-import {
-  anchor,
-  blockquote,
-  figCaption,
-  heading,
-  hr,
-  image,
-  list,
-  paragraph,
-  superMarkdown,
-} from "./SuperMarkdown.css";
 import styles from "./SuperMarkdown.module.css";
 
 export type ISuperMarkdown = {
@@ -29,7 +18,7 @@ export type ISuperMarkdown = {
 
 const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
   return (
-    <div className={superMarkdown}>
+    <div>
       <div className={styles.markdownContent}>
         <Markdown
           rehypePlugins={[rehypeUnwrapImages, rehypeRaw]}
@@ -52,47 +41,25 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
                 <code {...rest}>{children}</code>
               );
             },
-            a: function ({ ...props }) {
-              const { children, href } = props;
-              return (
-                <a href={href} className={anchor}>
-                  {children}
-                </a>
-              );
-            },
 
-            h3: ({ ...props }) => {
-              const title = props.node?.children[0].valueOf()["value"];
-              return <h3 className={heading}>{title}</h3>;
-            },
             h2: function ({ ...props }) {
               const title = props.node?.children[0].valueOf()["value"];
               return (
-                <h2 className={heading} id={`anchor_${title}`}>
+                <h2 id={`anchor_${title}`}>
                   <a href={`#anchor_${title}`}>{title}</a>
                 </h2>
               );
             },
 
-            p: function ({ ...props }) {
-              const { children } = props;
-
-              return <p className={paragraph}>{children}</p>;
+            h3: function ({ ...props }) {
+              const title = props.node?.children[0].valueOf()["value"];
+              return (
+                <h3 id={`anchor_${title}`}>
+                  <a href={`#anchor_${title}`}>{title}</a>
+                </h3>
+              );
             },
 
-            hr: function () {
-              return <hr className={hr} />;
-            },
-            ul: function ({ ...props }) {
-              const { children } = props;
-
-              return <ul className={list}>{children}</ul>;
-            },
-            blockquote: function ({ ...props }) {
-              const { children } = props;
-
-              return <blockquote className={blockquote}>{children}</blockquote>;
-            },
             img: function ({ ...props }) {
               if (!props.src || typeof props.src !== "string") return;
               return (
@@ -103,11 +70,10 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
                     title={props.alt}
                     width={900}
                     height={900}
-                    className={image}
                     sizes="(max-width: 768px) 100vw"
                   />
                   {props.alt !== null ? (
-                    <figcaption className={figCaption}>{props.alt}</figcaption>
+                    <figcaption>{props.alt}</figcaption>
                   ) : null}
                 </figure>
               );

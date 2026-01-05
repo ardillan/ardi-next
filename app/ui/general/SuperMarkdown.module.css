@@ -1,9 +1,12 @@
+.markdownContent {
+  font-family: "Noto Serif";
+}
 .markdownContent > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: calc(1000px - 100px);
   grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
+  grid-row-gap: 0;
   margin: 3rem 0;
 
   @media (max-width: 900px) {
@@ -12,12 +15,63 @@
   }
 }
 
-.markdownContent > div > figure {
-  height: auto;
+.markdownContent img {
+  border-radius: 10px;
+  border: 1px solid #ffffff1a;
+  box-shadow: var(--color-dark) 0px 1px 3px, var(--color-dark) 0px 1px 2px;
+  height: max-content;
+  margin: 1rem 0;
+  max-width: 900px;
+  object-fit: contain;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    width: "100%";
+  }
 }
 
-.markdownContent > div > figure > img {
-  height: auto;
+.markdownContent figcaption {
+  font-family: var(--font-subtitle);
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.markdownContent ul {
+  line-height: 2rem;
+  list-style-type: initial;
+  padding-left: 1rem;
+
+  li::marker {
+    color: var(--color-primary);
+  }
+}
+
+.markdownContent blockquote {
+  padding: 1rem 1.5rem;
+  margin: 0 0 1.5rem;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #00000059;
+  max-width: 500px;
+  width: max-content;
+  border-color: rgba(255, 220, 36, 1) rgba(255, 92, 160, 1)
+    rgba(92, 236, 102, 1) rgba(113, 203, 243, 1);
+  line-height: 1.5rem;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.markdownContent hr {
+  border-color: #4d4d5f;
+  border-bottom: 2px solid #21212d;
+  margin: 1rem 0 1rem 0;
+  border-right-color: transparent;
+  border-left-color: transparent;
 }
 
 .markdownContent iframe {
@@ -25,11 +79,64 @@
 }
 
 .markdownContent :global(.mastodon-embed) {
-  max-width: 100%;
   width: 100%;
-  border: 2px solid white;
   border-radius: 10px;
   padding-bottom: 20px;
-  background: white;
   margin-bottom: 15px;
+  border: 2px solid var(--color-secondary) !important;
+  background: #181821;
+}
+
+.markdownContent > p {
+  max-width: 500px;
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.markdownContent a {
+  color: var(--color-primary);
+  text-decoration: underline wavy;
+  text-decoration-color: var(--color-secondary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Safari */
+@supports (font: -apple-system-body) {
+  .markdownContent a {
+    text-decoration: underline solid;
+    font-weight: 800;
+    text-decoration-color: var(--color-secondary);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+}
+
+.markdownContent h3 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.3rem;
+  margin-top: 2rem;
+  max-width: 500px;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.markdownContent h2 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.3rem;
+  margin-top: 2rem;
+  max-width: 500px;
+
+  a {
+    text-decoration: none;
+  }
 }
