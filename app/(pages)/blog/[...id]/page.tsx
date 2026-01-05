@@ -5,8 +5,7 @@ import Date from "@/appComponents/general/Date";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import { ARDI } from "@/lib/constants";
-import { getAllPagesSlugs } from "@/lib/getPageData";
-import { getPostData } from "@/lib/getPostData";
+import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 
 import { background, date, header, image, subtitle, title } from "./page.css";
 
@@ -102,11 +101,17 @@ export default async function Post({
     </BasicLayout>
   );
 }
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  const pages = await getAllPagesSlugs();
-  return pages.map((page) => {
+
+export async function generateStaticParams() {
+  const posts = getSortedPostsData("content/posts/");
+
+  return posts.map((post) => {
+    const idParts = post.id?.split("/") || [];
+
     return {
-      slug: page.params.slug,
+      id: idParts,
     };
   });
 }
+
+export const dynamicParams = false;

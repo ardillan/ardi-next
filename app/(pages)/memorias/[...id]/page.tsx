@@ -3,8 +3,7 @@ import React from "react";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import PageLayout from "@/appComponents/layouts/PageLayout";
 import { ARDI } from "@/lib/constants";
-import { getAllPagesSlugs } from "@/lib/getPageData";
-import { getPostData } from "@/lib/getPostData";
+import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -63,11 +62,16 @@ export default async function Memoir({
   );
 }
 
-export async function generateStaticParams(): Promise<{ slug: string }[]> {
-  const pages = await getAllPagesSlugs();
-  return pages.map((page) => {
+export async function generateStaticParams() {
+  const memoirs = getSortedPostsData("content/memorias/");
+
+  return memoirs.map((memoir) => {
+    const idParts = memoir.id?.split("/") || [];
+
     return {
-      slug: page.params.slug,
+      id: idParts,
     };
   });
 }
+
+export const dynamicParams = false;
