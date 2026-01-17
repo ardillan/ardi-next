@@ -3,7 +3,8 @@ import React from "react";
 
 import { RANDOMFACTS } from "@/lib/constants";
 import { getRandomFacts } from "@/lib/getRandomFacts";
-import { theme } from "@/styles/common/theme.css";
+
+import styles from "./Facts.module.css";
 
 export const Facts = ({ count = 2 }: { count?: number }) => {
   const facts = getRandomFacts(RANDOMFACTS, count);
@@ -19,10 +20,10 @@ export const Facts = ({ count = 2 }: { count?: number }) => {
       <>
         {before}
         <Link
+          className={styles.facts}
           href={link ?? "#"}
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: theme.color.primary }}
         >
           {inside}
         </Link>

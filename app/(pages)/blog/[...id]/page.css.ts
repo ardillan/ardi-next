@@ -60,7 +60,7 @@ export const image = style({
 
 export const background = style({
   position: "absolute",
-  background: theme.color.dark,
+  background: "#00000066",
   width: "100vw",
   top: 0,
   left: 0,

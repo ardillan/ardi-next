@@ -64,7 +64,8 @@ export default async function Post({
             <div className={date}>
               {postData.date !== undefined ? (
                 <>
-                  Escrito el <Date dateString={postData.date} /> <span>|</span>{" "}
+                  Escrito el <Date dateString={postData.date} />{" "}
+                  <span>|</span>{" "}
                 </>
               ) : null}
 
@@ -73,7 +74,7 @@ export default async function Post({
                   <Fragment key={cat}>{`${cat}${
                     index === categories.length - 1 ? "" : ", "
                   }`}</Fragment>
-                )
+                ),
               )}
             </div>
           </div>
