@@ -1,29 +1,66 @@
 @font-face {
   font-family: "PicNic";
-  src: local("PicNic"), url("/fonts/PicNic-Regular.otf") format("opentype");
+  src:
+    local("PicNic"),
+    url("/fonts/PicNic-Regular.otf") format("opentype");
   font-weight: 200;
 }
 
 @font-face {
   font-family: "DINish";
-  src: local("DINish"), url("/fonts/DINish.ttf") format("truetype");
+  src:
+    local("DINish"),
+    url("/fonts/DINish.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Noto Serif";
-  src: local("Noto Serif"),
+  src:
+    local("Noto Serif"),
     url("/fonts/NotoSerif-VariableFont_wdth,wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 :root {
-  --color-primary: #ffc430;
-  --color-secondary: #f32164;
-  --color-bg: #f2f2f2ff;
-  --color-bg-dark: #13131d;
+  /* Colors */
+  --honey-yellow: #ffc430;
+  --pink-phanter: #f32164;
+  --dark-navy: #13131d;
+  --phantom-white: #f2f2f2ff;
+
+  --vanilla-love: #faf7f2;
+  --red-wine: #c72a5a;
+  --sweet-brown: #ecbe84;
+  --text-marine: #2a2a2a;
 
   /* Fonts */
   --font-heading: "Picnic";
+  --font-body: "Noto Serif";
+  --font-subtitle: "DINish";
+}
+
+/* Tema claro */
+:root[data-theme="light"] {
+  --color-primary: var(--red-wine);
+  --color-secondary: var(--sweet-brown);
+
+  --card-background: var(--phantom-white);
+
+  --background: var(--vanilla-love);
+
+  --font-color-primary: var(--text-marine);
+}
+
+/* Tema oscuro */
+:root[data-theme="dark"] {
+  --color-primary: var(--honey-yellow);
+  --color-secondary: var(--pink-phanter);
+
+  --card-background: var(--dark-navy);
+
+  --background: var(--dark-navy);
+
+  --font-color-primary: var(--phantom-white);
 }
