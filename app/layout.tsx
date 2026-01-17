@@ -1,3 +1,8 @@
+import "@/styles/common/variables.css";
+import "@/styles/common/vanilla-variables.css";
+import "@/styles/common/reset.css";
+import "@/styles/common/global.css";
+
 import React, { ReactNode } from "react";
 
 import MainNavigation from "@/appComponents/structure/MainNavigation";
@@ -8,7 +13,7 @@ import Footer from "./ui/structure/Footer";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="es">
+    <html lang="es" data-theme="dark">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
         <link
