@@ -21,6 +21,7 @@
     "eslint-config-next": "^15.4.6",
     "gray-matter": "^4.0.3",
     "next": "^15.5.9",
+    "next-cloudinary": "^6.17.5",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-markdown": "^10.1.0",

@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 // TODO: Look how to type Markdown props
-import Image from "next/image";
 import React from "react";
 import Markdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -9,9 +8,9 @@ import rehypeRaw from "rehype-raw";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 import remarkGfm from "remark-gfm";
 
+import CustomImage from "./CustomImage";
 import Iframe from "./Iframe";
 import styles from "./SuperMarkdown.module.css";
-
 export type ISuperMarkdown = {
   markdownContent: string;
 };
@@ -63,19 +62,7 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
             img: function ({ ...props }) {
               if (!props.src || typeof props.src !== "string") return;
               return (
-                <figure>
-                  <Image
-                    src={props.src}
-                    alt={props.alt ?? ""}
-                    title={props.alt}
-                    width={900}
-                    height={900}
-                    sizes="(max-width: 768px) 100vw"
-                  />
-                  {props.alt !== null ? (
-                    <figcaption>{props.alt}</figcaption>
-                  ) : null}
-                </figure>
+                <CustomImage src={props.src} alt={props.alt ?? "Imagen"} />
               );
             },
             iframe: ({ ...props }) => {
