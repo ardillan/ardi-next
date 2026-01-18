@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -7,6 +6,7 @@ import Date from "@/appComponents/general/Date";
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import { formatDate } from "@/lib/helpers";
 
+import CustomImage from "./CustomImage";
 import {
   postDate,
   postImage,
@@ -36,7 +36,7 @@ export const PostsImages = ({
           <li key={post.id}>
             <Link href={`/blog/${post.id}`} className={postImageContainer}>
               <div style={{ position: "relative" }}>
-                <Image
+                <CustomImage
                   className={postImage}
                   src={`${featuredImagePath}`}
                   alt="Imagen de cabecera"

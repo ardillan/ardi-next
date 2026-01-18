@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React, { Fragment } from "react";
 
+import CustomImage from "@/appComponents/general/CustomImage";
 import Date from "@/appComponents/general/Date";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
@@ -79,17 +79,12 @@ export default async function Post({
             </div>
           </div>
           <div>
-            <Image
-              className={image}
+            <CustomImage
               src={featuredImagePath}
-              alt="Imagen de cabecera"
               width={400}
               height={400}
-              style={{
-                objectFit: "cover",
-                width: "100%",
-                position: "relative",
-              }}
+              alt="Imagen de cabecera"
+              className={image}
             />
           </div>
         </header>
