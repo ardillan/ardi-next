@@ -73,3 +73,8 @@ export const ARDI = {
   nickname: "Ardi",
   birthday: "Aug 23 1988 13:50:00 GMT+0200 (CEST)",
 };
+
+export const CONFIG = {
+  IMAGES_LOCATION:
+    "https://res.cloudinary.com/bestiario/image/upload/v1/ardi-monster",
+};
