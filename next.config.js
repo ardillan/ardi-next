@@ -21,6 +21,7 @@ const nextConfig = {
       "node_modules/webpack",
       "node_modules/rollup",
       "node_modules/terser",
+      "_assets/**",
     ],
   },
 };
