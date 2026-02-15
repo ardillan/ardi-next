@@ -9,7 +9,7 @@ const CustomImage = ({
   width,
   height,
   className,
-  showCaption = false,
+  showCaption = true,
 }: {
   src: string;
   alt: string;
