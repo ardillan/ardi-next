@@ -37,6 +37,7 @@ export const PostsImages = ({
             <Link href={`/blog/${post.id}`} className={postImageContainer}>
               <div style={{ position: "relative" }}>
                 <CustomImage
+                  showCaption={false}
                   className={postImage}
                   src={`${featuredImagePath}`}
                   alt="Imagen de cabecera"
