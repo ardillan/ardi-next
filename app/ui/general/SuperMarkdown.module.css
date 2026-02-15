@@ -18,7 +18,9 @@
 .markdownContent img {
   border-radius: 10px;
   border: 1px solid #ffffff1a;
-  box-shadow: var(--color-dark) 0px 1px 3px, var(--color-dark) 0px 1px 2px;
+  box-shadow:
+    var(--color-dark) 0px 1px 3px,
+    var(--color-dark) 0px 1px 2px;
   height: max-content;
   margin: 1rem 0;
   max-width: 900px;
@@ -38,14 +40,33 @@
   margin-bottom: 2rem;
 }
 
+.markdownContent ol {
+  line-height: 2rem;
+  list-style-type: decimal;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  ::marker {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    font-weight: 800;
+  }
+}
+
 .markdownContent ul {
   line-height: 2rem;
   list-style-type: initial;
   padding-left: 1rem;
-
+  margin-bottom: 1.5rem;
   li::marker {
     color: var(--color-primary);
   }
+}
+
+.markdownContent iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  border-radius: 1rem;
 }
 
 .markdownContent blockquote {
@@ -100,6 +121,10 @@
   text-decoration-color: var(--color-secondary);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+}
+
+.markdownContent a:hover {
+  filter: brightness(1.2);
 }
 
 /* Safari */
