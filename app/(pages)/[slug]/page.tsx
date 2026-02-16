@@ -25,6 +25,22 @@ export async function generateMetadata({ params }) {
     title: title,
     description: description,
     author: ARDI.nickname,
+    openGraph: {
+      title: title,
+      description: description,
+      url: `https://ardi.monster/${slug}`,
+      siteName: `Ardi | ${title}`,
+      images: [
+        {
+          url: "/open-graph.png",
+          width: 1200,
+          height: 630,
+          alt: "Ardi Monster",
+        },
+      ],
+      locale: "es_ES",
+      type: "website",
+    },
   };
 }
 
