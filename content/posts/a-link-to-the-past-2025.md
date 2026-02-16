@@ -39,11 +39,11 @@ En el trabajo he tenido la oportunidad de crear un Dashboard que, aparentemente,
 
 </div>
 
-## 📟 Lo de los podcast
+## 📟 Lo de los pódcasts
 
-Como es habitual, sigo escuchando **más de lo mismo** mientras trato de descubrir nuevos programas que me enganchen, aunque muy lentamente. Si tuviera que resaltar algunos, serían: [Blodec Podcast](https://blodec.es), un podcast de videojuegos que, además, sus integrantes se reunen físicamente, cosa que no ocurre tan a menudo.
+Como es habitual, sigo escuchando **más de lo mismo** mientras trato de descubrir nuevos programas que me enganchen, aunque muy lentamente. Si tuviera que resaltar algunos, serían: [Blodec Podcast](https://blodec.es), un pódcast de videojuegos cuyos integrantes, además, se reúnen físicamente, algo que no ocurre tan a menudo.
 
-También destacaría [Pixel Sonoro](https://www.ivoox.com/podcast-pixel-sonoro_sq_f11160455_1.html). Un programa donde se habla de música de videojuegos. Un grandísimo descubrimiento, sobretodo porque llena el vacío que tenía desde años, cuando dejaron de emitir Podcast Replay.
+También destacaría [Pixel Sonoro](https://www.ivoox.com/podcast-pixel-sonoro_sq_f11160455_1.html). Un programa donde se habla de música de videojuegos. Un grandísimo descubrimiento, sobre todo porque llena el vacío que tenía desde hace años, cuando dejaron de emitir Podcast Replay.
 
 ## 🎧 Lo de la música
 
@@ -90,9 +90,9 @@ Y algunos más, seguramente.
 
 ![A Nice Day for an Earthquake](./a-link-to-the-past-2025-musica-1.jpg)
 
-![Sastraka en el XX Aniverario de Desenterrador](./a-link-to-the-past-2025-musica-2.jpg)
+![Sastraka en el XX Aniversario de Desenterrador](./a-link-to-the-past-2025-musica-2.jpg)
 
-![Actuación el Los Bancos de Atrás](./a-link-to-the-past-2025-musica-4.jpg)
+![Actuación en Los Bancos de Atrás](./a-link-to-the-past-2025-musica-4.jpg)
 
 ![Ray Idiota en el Anticuario](./a-link-to-the-past-2025-musica-10.jpg)
 
@@ -102,38 +102,38 @@ Y algunos más, seguramente.
 
 ## 🧩 Lo de los videojuegos
 
-A parte del lanzamiento de Nintendo Switch 2 y el chasco que me he llevado con los famosos _Gamekey Cards_ tampoco ha ido nada mal. Por lo que veo he termiado diez (10) videojuegos este año. En este orden:
+Aparte del lanzamiento de Nintendo Switch 2 y el chasco que me he llevado con las famosas _Gamekey Cards_, no ha ido nada mal. Por lo que veo, he terminado diez (10) videojuegos este año. En este orden:
 
 1. Indiana Jones y el gran círculo
 2. Genesis Noir,
 3. Hauntii,
 4. Doom Eternal,
-5. Blasphemos II: Mea culpa,
-6. When the past was around,
+5. Blasphemous II: Mea Culpa,
+6. When the Past Was Around,
 7. Mario Kart World,
-8. The Witcher: Enhanced edition,
+8. The Witcher: Enhanced Edition,
 9. Donkey Kong Bananza
 10. Hollow Knight: Silksong.
 
-Donde destacaría, por encima de todo, los siguentes títulos:
+De ellos, destacaría por encima de todo los siguientes títulos:
 
 ### Indiana Wow!
 
-El juego de **Indiana** (del cual [dejé esta nota](https://ardi.monster/blog/indiana-jones-y-el-gran-circulo)). No son muchas las ocasiones que experimento el _efecto wow_ ultimamente, especialmente cuando se trata de videojuegos. Creo que el hecho de ser un título en primera persona, en combinación con la calma y desasoiego del _gameplay_ (mucha investigación) hicieron que disfrutase de cada momento de la aventura, sin ser yo un fan de Indiana.
+El juego de **Indiana** (del cual [dejé esta nota](https://ardi.monster/blog/indiana-jones-y-el-gran-circulo)). No son muchas las ocasiones en las que experimento el _efecto wow_ últimamente, especialmente cuando se trata de videojuegos. Creo que el hecho de ser un título en primera persona, en combinación con la calma y el desasosiego del _gameplay_ (mucha investigación), hizo que disfrutase de cada momento de la aventura, sin ser yo un fan de Indiana.
 
 ### Geraldo de Rivia
 
-Otro de los grandes que me han dejado un sabor de boca excepcional es _The Witcher_. Lo intenté empezar hace años y no cuajó del todo, con razón; es un título de 2007 que quizá no haya tenido la mejor de las vejeras.
+Otro de los grandes que me ha dejado un sabor de boca excepcional es _The Witcher_. Lo intenté empezar hace años y no cuajó del todo, con razón; es un título de 2007 que quizá no haya tenido la mejor de las vejeces.
 
-Aún así, la historia, el sistema de combate, **la música**... todo parecía estar perfectamente combinado para que alguien como yo, que no ha jugado nunca a sus secuelas pero que sí se ha leído sus libros (¡siete en total!) tenga muchísimas ganas de afrontar The Witcher 2 este año. ¡Veremos!
+Aun así, la historia, el sistema de combate, **la música**... todo parecía estar perfectamente combinado para que alguien como yo, que no ha jugado nunca a sus secuelas pero que sí se ha leído sus libros (¡siete en total!), tenga muchísimas ganas de afrontar _The Witcher 2_ este año. ¡Veremos!
 
 ## 🍼 Lo demás
 
-¡Ah! Qué voy a decir. A principios de año (más bien a finales del anterior) me dieron una de las mejoras noticias que se le puede dar a alguien: **iba a ser padre**.
+¡Ah! Qué voy a decir. A principios de año (más bien a finales del anterior) me dieron una de las mejores noticias que se le puede dar a alguien: **iba a ser padre**.
 
-Desde los inicios del embarazo y hasta la llegada del bebé, ha sido toda una odisea que no cambiaría por nada del mundo. Hemos actualizado la casa para la llegada de un nuevo inquilino, aprendido cómo funciona y evoluciona un cuerpo gestante, hemos discutido, reido y llorado. He entrado en contacto con mi yo más personal y hablado conmigo mismo en retrospectiva (quizá elabore esto más en otra entrada) y, por lo general, hemos preparado el nido para que nuestro pequeño Bosco se encuentre lo más agusto posible.
+Desde el inicio del embarazo y hasta la llegada del bebé, ha sido toda una odisea que no cambiaría por nada del mundo. Hemos actualizado la casa para la llegada de un nuevo inquilino, aprendido cómo funciona y evoluciona un cuerpo gestante; hemos discutido, reído y llorado. He entrado en contacto con mi yo más personal y hablado conmigo mismo en retrospectiva (quizá elabore esto más en otra entrada) y, por lo general, hemos preparado el nido para que nuestro pequeño Bosco se encuentre lo más a gusto posible.
 
-A parte de la odisea de la parternidad, ha habido unos cuantos hitos que no quiero dejar de lado:
+Aparte de la odisea de la paternidad, ha habido unos cuantos hitos que no quiero dejar de lado:
 
 - Mi amigo invisible me regaló el disco de "Plantasía" en vinilo.
 - Mi abuela Salus tuvo que dejar su casa y, en consecuencia, pude rescatar un montón de juguetes de mi infancia.
@@ -141,23 +141,23 @@ A parte de la odisea de la parternidad, ha habido unos cuantos hitos que no quie
 - Asistí a Bilbostack y conocí a Midudev. Fan total.
 - Después de cuatro años, actualicé mi ordenador. Macbook Pro M4.
 - Decidí migrar a redes federadas como [Mastodon](https://mastodon.social/@ardillan) y [Pixelfed](https://pixelfed.social/ardi).
-- Al conocer que iba a ser padre, me dejé bigote por primera vez en mi vida. Me dió bastante verguenza.
-- Fuí a ver una exposición de Chema Madoz.
-- Rode con mi bici desde Astillero a Puente Viesgo. En varias ocasiones.
+- Al conocer que iba a ser padre, me dejé bigote por primera vez en mi vida. Me dio bastante vergüenza.
+- Fui a ver una exposición de Chema Madoz.
+- Rodé con mi bici desde Astillero a Puente Viesgo, en varias ocasiones.
 - Asistí a un _escape room_ de la Asociación Octubre. De los más guays a los que he ido.
 - Me aficioné a tomar Kajún, de Redneck™.
 - Engordé bastante (es lo que hay).
 - Pude ver a Isidro Ferrer en Los Corrales de Buelna. Aún no me lo creo.
 - La Pindia organizó una charla sobre bicicletas hechas a mano. Una auténtica delicia.
-- Compramos y nos pusieron una armario nuevo. Increíble cómo nos ha cambiado la casa.
+- Compramos y nos pusieron un armario nuevo. Increíble cómo nos ha cambiado la casa.
 - Realicé un informe de puntos negros que aún no he presentado.
-- Hice mi primer video como cicloturista.
+- Hice mi primer vídeo como cicloturista.
 - Participé en mi primer concurso de tortillas.
-- Dobra Bar cerró sus puertas. Me alegro haber sido partícipe de su aventura.
+- Dobra Bar cerró sus puertas. Me alegro de haber sido partícipe de su aventura.
 - Me corté la melena, nuevamente.
 - Asistí a un parto. Espeluznante.
 
-Además, me he estrenado como videoaficionado. Aquí un vídeo desde Torrelavega a Suances en bicicleta:
+Además, me he estrenado como videoaficionado. Aquí va un vídeo de Torrelavega a Suances en bicicleta:
 
 ### Desde que amanece, apetece
 
@@ -173,13 +173,13 @@ Además, me he estrenado como videoaficionado. Aquí un vídeo desde Torrelavega
 
 ![Unos edificios](./a-link-to-the-past-2025-7.jpg)
 
-![Un autoretrao mío con el disco de Plantasia](./a-link-to-the-past-2025-4.jpg)
+![Un autorretrato mío con el disco de Plantasia](./a-link-to-the-past-2025-4.jpg)
 
 </div>
 
 <div>
 
-![Un mapa de trenes de Cantbria de 1952](./a-link-to-the-past-2025-3.jpg)
+![Un mapa de trenes de Cantabria de 1952](./a-link-to-the-past-2025-3.jpg)
 
 ![Mis juguetes de cuando era niño](./a-link-to-the-past-2025-8.jpg)
 
@@ -237,9 +237,9 @@ Además, me he estrenado como videoaficionado. Aquí un vídeo desde Torrelavega
 
 ![Carlos con una cena copiosa](./a-link-to-the-past-2025-30.jpg)
 
-![Un retato con mi nuevo mandil](./a-link-to-the-past-2025-28.jpg)
+![Un retrato con mi nuevo mandil](./a-link-to-the-past-2025-28.jpg)
 
-![Lee libros y monta en bici, pero no hagas la dos cosas a la vez](./a-link-to-the-past-2025-27.jpg)
+![Lee libros y monta en bici, pero no hagas las dos cosas a la vez](./a-link-to-the-past-2025-27.jpg)
 
 ![Un reloj de cuco moderno](./a-link-to-the-past-2025-29.jpg)
 
@@ -263,7 +263,7 @@ Además, me he estrenado como videoaficionado. Aquí un vídeo desde Torrelavega
 
 ![Un retrato mío. Con bigote y visera](./a-link-to-the-past-2025-40.jpg)
 
-![Un retraro con Bosco](./a-link-to-the-past-2025-41.jpg)
+![Un retrato con Bosco](./a-link-to-the-past-2025-41.jpg)
 
 ![Una Redneck](./a-link-to-the-past-2025-42.jpg)
 
