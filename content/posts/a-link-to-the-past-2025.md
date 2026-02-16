@@ -121,11 +121,35 @@ De ellos, destacaría por encima de todo los siguientes títulos:
 
 El juego de **Indiana** (del cual [dejé esta nota](https://ardi.monster/blog/indiana-jones-y-el-gran-circulo)). No son muchas las ocasiones en las que experimento el _efecto wow_ últimamente, especialmente cuando se trata de videojuegos. Creo que el hecho de ser un título en primera persona, en combinación con la calma y el desasosiego del _gameplay_ (mucha investigación), hizo que disfrutase de cada momento de la aventura, sin ser yo un fan de Indiana.
 
+<div>
+
+![Un primer plano de Indiana](./a-link-to-the-past-2025-videojuegos-1.png)
+
+![Un fragmento del juego](./a-link-to-the-past-2025-videojuegos-2.png)
+
+![Una conversación de Indy con un personaje](./a-link-to-the-past-2025-videojuegos-3.png)
+
+![Indiana tumbado en el suelo](./a-link-to-the-past-2025-videojuegos-4.png)
+
+</div>
+
 ### Geraldo de Rivia
 
 Otro de los grandes que me ha dejado un sabor de boca excepcional es _The Witcher_. Lo intenté empezar hace años y no cuajó del todo, con razón; es un título de 2007 que quizá no haya tenido la mejor de las vejeces.
 
 Aun así, la historia, el sistema de combate, **la música**... todo parecía estar perfectamente combinado para que alguien como yo, que no ha jugado nunca a sus secuelas pero que sí se ha leído sus libros (¡siete en total!), tenga muchísimas ganas de afrontar _The Witcher 2_ este año. ¡Veremos!
+
+<div>
+
+![Una zona de cloacas](./a-link-to-the-past-2025-videojuegos-5.png)
+
+![Una lamia en un calabozo](./a-link-to-the-past-2025-videojuegos-6.png)
+
+![Geralt contra un lobisome](./a-link-to-the-past-2025-videojuegos-7.png)
+
+![Una vista de personajes](./a-link-to-the-past-2025-videojuegos-8.png)
+
+</div>
 
 ## 🍼 Lo demás
 
