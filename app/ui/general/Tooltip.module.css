@@ -5,7 +5,7 @@
   padding: 3px;
   width: 15px;
   height: 15px;
-  z-index: 50;
+  z-index: 5;
   display: flex;
 
   @media (max-width: 900px) {

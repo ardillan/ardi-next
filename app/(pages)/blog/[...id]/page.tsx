@@ -82,8 +82,9 @@ export default async function Post({
             <CustomImage
               src={featuredImagePath}
               width={400}
+              showCaption={false}
               height={400}
-              alt="Imagen de cabecera"
+              alt="Imagen destacada"
               className={image}
             />
           </div>
