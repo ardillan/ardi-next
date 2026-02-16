@@ -4,7 +4,7 @@ import CustomImage from "@/appComponents/general/CustomImage";
 import Date from "@/appComponents/general/Date";
 import SuperMarkdown from "@/appComponents/general/SuperMarkdown";
 import BasicLayout from "@/appComponents/layouts/BasicLayout";
-import { ARDI } from "@/lib/constants";
+import { ARDI, CONFIG } from "@/lib/constants";
 import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 
 import { background, date, header, image, subtitle, title } from "./page.css";
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
     author: ARDI.nickname,
     openGraph: {
       images: [
-        `/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
+        `${CONFIG.IMAGES_LOCATION}/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
       ],
     },
   };
