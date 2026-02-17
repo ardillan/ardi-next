@@ -7,67 +7,55 @@ import { INavigationLink } from "@/interfaces/INavigationLink";
 import { NAVIGATION } from "@/lib/constants";
 import getGitHub from "@/lib/getGithub";
 import { formatDate } from "@/lib/helpers";
-import { mainContainer } from "@/styles/common/grid.css";
 
-import {
-  copyright,
-  factory,
-  footerContainer,
-  footerData,
-  footerLink,
-  footerLinks,
-} from "./Footer.css";
+import styles from "./Footer.module.css";
 
 const Footer = async () => {
   const githubData = await getGitHub();
   const getYear = new Date();
   return (
-    <footer className={mainContainer}>
-      <div className={footerContainer}>
-        <div className={footerData}>
-          <p className={factory}>
-            <Torlavega />
-          </p>
-          <div>
-            <p>Creado desde la verde y gris Torrelavega</p>
-            {githubData != null ? (
-              <small>
-                Última actualización el {formatDate(githubData.pushed_at)}
-              </small>
-            ) : null}
+    <footer className={styles.footer}>
+      <div className={styles.content}>
+        <p>
+          <Torlavega />
+        </p>
+        <div>
+          <p>Creado desde la verde y gris Torrelavega</p>
+          {githubData != null ? (
             <small>
-              <br />{" "}
-              <a
-                target="_blank"
-                href="https://ardi.goatcounter.com"
-                rel="noreferrer"
-              >
-                Estadísticas del sitio{" "}
-              </a>
+              Última actualización el {formatDate(githubData.pushed_at)}
             </small>
-          </div>
-          <ul className={footerLinks}>
-            {NAVIGATION.filter((link: INavigationLink) =>
-              link.position.includes("Footer")
-            ).map((link: INavigationLink) => (
-              <Link key={link.path} className={footerLink} href={link.path}>
-                <li>{link.title}</li>
-              </Link>
-            ))}
+          ) : null}
+          <small>
+            <a
+              target="_blank"
+              href="https://ardi.goatcounter.com"
+              rel="noreferrer"
+            >
+              Estadísticas del sitio{" "}
+            </a>
+          </small>
+        </div>
+        <ul>
+          {NAVIGATION.filter((link: INavigationLink) =>
+            link.position.includes("Footer"),
+          ).map((link: INavigationLink) => (
+            <li key={link.path}>
+              <Link href={link.path}>{link.title}</Link>
+            </li>
+          ))}
+          <li>
             <a
               href="https://mastodon.social/@ardillan"
-              className={footerLink}
               rel="me noreferrer"
               target="_blank"
             >
               <Mastodon />
             </a>
-          </ul>
-        </div>
+          </li>
+        </ul>
       </div>
-      <small
-        className={copyright}
-      >{`Ardi Monster ${getYear.getFullYear()}`}</small>
+      <small>{`Ardi Monster ${getYear.getFullYear()}`}</small>
     </footer>
   );
 };
