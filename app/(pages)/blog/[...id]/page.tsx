@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
     author: ARDI.nickname,
     openGraph: {
       images: [
-        `${CONFIG.IMAGES_LOCATION}/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
+        `${CONFIG.CLOUDINARY_URL}/posts/${category ? `${category}/` : ""}${postID}/${featuredImage}`,
       ],
     },
   };

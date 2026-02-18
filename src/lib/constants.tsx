@@ -66,7 +66,7 @@ export const RANDOMFACTS = [
 export const ARDI = {
   web: {
     title: "Ardi.Monster",
-    description: "Página personal de Ardi",
+    description: "Página personal de Adrián Alcorta Puente",
     url: "https://www.ardi.monster",
   },
   name: "Adrián Alcorta Puente",
@@ -75,6 +75,6 @@ export const ARDI = {
 };
 
 export const CONFIG = {
-  IMAGES_LOCATION:
+  CLOUDINARY_URL:
     "https://res.cloudinary.com/bestiario/image/upload/v1/ardi-monster",
 };
