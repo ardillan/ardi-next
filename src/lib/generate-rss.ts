@@ -1,8 +1,14 @@
 import fs from "fs";
 import path from "path";
 
+import { ARDI } from "@/lib/constants";
 import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 import { escapeHtml, markdownToHtml, sanitizeString } from "@/lib/helpers";
+
+const SITE_URL = ARDI.web.url.replace(/\/$/, "");
+const FEED_URL = `${SITE_URL}/rss/feed.xml`;
+const RSS_ICON_URL = `${SITE_URL}/favicon.png`;
+const RSS_LOGO_URL = `${SITE_URL}/open-graph.png`;
 
 async function generateRss() {
   const items = await getItems(); // tu misma función
@@ -10,10 +16,12 @@ async function generateRss() {
   <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Feed de Ardi</title>
     <subtitle>Un compendio de artículos, reflexiones y notas.</subtitle>
-    <link href="https://ardi.monster/" />
-    <link rel="self" href="https://ardi.monster/rss/feed.xml" />
-    <id>https://ardi.monster/</id>
+    <link href="${SITE_URL}" />
+    <link rel="self" href="${FEED_URL}" />
+    <id>${SITE_URL}</id>
     <author><name>Ardi</name></author>
+    <icon>${RSS_ICON_URL}</icon>
+    <logo>${RSS_LOGO_URL}</logo>
     ${items}
   </feed>`;
   const filePath = path.join(process.cwd(), "public/rss/feed.xml");
@@ -37,8 +45,8 @@ const getItems = async (): Promise<string> => {
         const html = escapeHtml(markdownInHtml);
         return `<entry>
                   <title>${sanitizeString(postData.title)}</title>
-                  <link href="https://ardi.monster/blog/${postData.id}" />
-                  <id>https://ardi.monster/blog/${postData.id}</id>
+                  <link href="${SITE_URL}/blog/${postData.id}" />
+                  <id>${SITE_URL}/blog/${postData.id}</id>
                   <updated>${post.date}</updated>
                   <summary>${sanitizeString(postData.description)}</summary>
                   <category>${postData.category?.join(", ")}</category>
