@@ -78,16 +78,12 @@ export default async function Post({
               )}
             </div>
           </div>
-          <div>
-            <CustomImage
-              src={featuredImagePath}
-              width={400}
-              showCaption={false}
-              height={400}
-              alt="Imagen destacada"
-              className={image}
-            />
-          </div>
+          <CustomImage
+            src={featuredImagePath}
+            showCaption={false}
+            alt="Imagen destacada"
+            className={image}
+          />
         </header>
         <section>
           {postData.contentHtml ? (

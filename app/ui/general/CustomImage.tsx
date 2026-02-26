@@ -3,6 +3,7 @@
 import { CldImage } from "next-cloudinary";
 import React from "react";
 
+import styles from "./CustomImage.module.css";
 const CustomImage = ({
   src,
   alt,
@@ -19,7 +20,7 @@ const CustomImage = ({
   showCaption?: boolean;
 }) => {
   return (
-    <figure>
+    <figure className={styles.custom}>
       <CldImage
         src={`ardi-monster${src}`}
         alt={alt}

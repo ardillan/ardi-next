@@ -50,12 +50,12 @@ export const date = style({
 
 export const image = style({
   maxWidth: 900,
-  minHeight: 400,
-  minWidth: 400,
   borderRadius: ".85rem",
   objectFit: "cover",
   width: "100%",
   position: "relative",
+  aspectRatio: "1 / 1",
+  height: "auto",
   "@media": {
     ["screen and (max-width: 900px)"]: {
       marginTop: "1rem",
