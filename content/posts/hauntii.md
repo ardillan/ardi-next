@@ -1,7 +1,7 @@
 ---
 title: "Hauntii"
 subtitle: "La vida entre Fantasmas"
-date: "2026-03-26T23:00:00.0100"
+date: "2026-02-26T23:00:00.0100"
 type: "blog"
 description: "Un videojuego de puzzles entre fantasmas muy bonito"
 featuredImage: "./hauntii-thumb.jpg"
