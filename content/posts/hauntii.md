@@ -11,7 +11,7 @@ category:
 
 Normalmente suelo escribir notas sobre casi todos los títulos a los que juego. Algunas veces no lo hago, aunque no tantas. No por nada, si no porque no me apetece o bien lo voy dejando pasar hasta que lo olvido.
 
-Revisando mis capturas de Xbox, vi que tenía guardadas unas pocas (un montón, más bien) de **Hauntii**, un videojuego que si bien no me impactó especialmente, sí que me gustó. Al instanté pensé: "debería dejar constancia de esto".
+Revisando mis capturas de Xbox, vi que tenía guardadas unas pocas (un montón, más bien) de **Hauntii**, un videojuego que si bien no me impactó especialmente, sí que me gustó. Al instante pensé: "debería dejar constancia de esto".
 
 > Como otras veces, te recomiendo que pongas la banda sonora del juego de fondo.
 
@@ -23,13 +23,13 @@ Revisando mis capturas de Xbox, vi que tenía guardadas unas pocas (un montón, 
 
 Quizá lo que más llame la atención del juego es su **estilo artístico**. Un grafismo a dos colores con ausencia en el detalle, pero a la vez sobrecargado de elementos. La paleta se va actualizando a medida que avanzamos en la historia.
 
-Justo es aquí donde empieza a brillar todo, ya que nuestro protagonista comienza su aventura llegando a una especia de limbo donde estrena su condición de **fantasma** y que además, mo recuerda nada de su antigua vida. En nuestro viaje del héroe tendremos que atravesar diferentes escenarios y biomas a la vez de ir resolviendo multitud de puzzles con la capacidad de exortizar objetos de toda clase para resolverlos. Todo ello para poder llegar así al descanso eterno.
+Justo es aquí donde empieza a brillar todo, ya que nuestro protagonista comienza su aventura llegando a una especie de limbo donde estrena su condición de **fantasma** y que además, no recuerda nada de su antigua vida. En nuestro viaje del héroe tendremos que atravesar diferentes escenarios y biomas a la vez de ir resolviendo multitud de puzzles con la capacidad de exorcizar objetos de toda clase para resolverlos. Todo ello para poder llegar así al descanso eterno.
 
-![El progragonista flotando en un abismo de oscuridad y color](./hauntii-2.png)
+![El protagonista flotando en un abismo de oscuridad y color](./hauntii-2.png)
 
-A medida que avanzamos, las mecánicas del juego nos van mostrando escenas de nuestra antigua vida, dándonos la posibilidad de conocer quiénes fuimos en realidad. Todo ello con una fuerte carga emocional. La **asuencia de diálogos** y la **ambientación sonora** (insisto, escuchad la banda sonora) consiguen meterte más de lleno en la historia.
+A medida que avanzamos, las mecánicas del juego nos van mostrando escenas de nuestra antigua vida, dándonos la posibilidad de conocer quiénes fuimos en realidad. Todo ello con una fuerte carga emocional. La **ausencia de diálogos** y la **ambientación sonora** (insisto, escuchad la banda sonora) consiguen meterte más de lleno en la historia.
 
-![El protanogista en primer plano](./hauntii-5.png)
+![El protagonista en primer plano](./hauntii-5.png)
 
 <div>
 
