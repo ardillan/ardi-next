@@ -4,11 +4,11 @@ import React from "react";
 
 import Menu from "@/appComponents/general/Menu";
 
-import { navigationContainer } from "./MainNavigation.css";
+import styles from "./MainNavigation.module.css";
 
 const MainNavigation = () => {
   return (
-    <nav className={navigationContainer}>
+    <nav className={styles.navigationContainer}>
       <Menu />
     </nav>
   );

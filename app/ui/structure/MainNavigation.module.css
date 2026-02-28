@@ -1,0 +1,15 @@
+.navigationContainer {
+  max-width: 900px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 40;
+  position: relative;
+}
+
+@media screen and (max-width: 900px) {
+  .navigationContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
