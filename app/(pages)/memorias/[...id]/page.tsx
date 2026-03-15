@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   const { title, description } = postData;
 
   return {
-    title: `Blog | ${title}`,
+    title: `Memorias | ${title}`,
     description: description,
     author: ARDI.nickname,
     openGraph: {

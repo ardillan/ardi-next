@@ -6,7 +6,7 @@
 }
 
 .games li {
-  background: rgba(0, 0, 0, 0.256);
+  background: var(--card-background);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
