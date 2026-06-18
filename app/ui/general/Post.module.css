@@ -1,0 +1,55 @@
+.postImages {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  list-style: none;
+  margin: auto;
+  max-width: 900px;
+  padding: 0;
+
+  @media (max-width: 900px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.postImages a {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  column-gap: 1.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.postImages img {
+  border-radius: 0.85rem;
+  aspect-ratio: 1/1;
+  z-index: 20;
+  position: relative;
+  pointer-events: none;
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+}
+
+.postImages h3 {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.postImages time {
+  font-size: 0.75rem;
+  color: var(--phantom-white);
+  opacity: 0.4;
+  margin: 0.1rem 0;
+  display: block;
+}
+
+.postImages p {
+  font-size: 0.85rem;
+  margin: 0;
+}

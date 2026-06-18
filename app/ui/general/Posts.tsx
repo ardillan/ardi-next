@@ -7,14 +7,7 @@ import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import { formatDate } from "@/lib/helpers";
 
 import CustomImage from "./CustomImage";
-import {
-  postDate,
-  postImage,
-  postImageContainer,
-  postsImagesContainer,
-  postSubtitle,
-  postTitle,
-} from "./Post.css";
+import styles from "./Post.module.css";
 
 export type IDynamicPost = {
   allPostData?: IMarkDownData[];
@@ -26,7 +19,7 @@ export const PostsImages = ({
   allPostsData: IMarkDownData[];
 }) => {
   return (
-    <ul className={postsImagesContainer}>
+    <ul className={styles.postImages}>
       {allPostsData.map((post: IMarkDownData) => {
         const featuredImagePath = `/posts/${
           post.id
@@ -34,11 +27,10 @@ export const PostsImages = ({
 
         return (
           <li key={post.id}>
-            <Link href={`/blog/${post.id}`} className={postImageContainer}>
+            <Link href={`/blog/${post.id}`}>
               <div style={{ position: "relative" }}>
                 <CustomImage
                   showCaption={false}
-                  className={postImage}
                   src={`${featuredImagePath}`}
                   alt="Imagen de cabecera"
                   width={120}
@@ -46,15 +38,13 @@ export const PostsImages = ({
                 />
               </div>
               <div>
-                <h3 className={postTitle}>{post.title}</h3>
+                <h3>{post.title}</h3>
                 {post.date ? (
-                  <time className={postDate} dateTime={post.date}>
+                  <time dateTime={post.date}>
                     {formatDate(post.date, "readable")}
                   </time>
                 ) : null}
-                {post.description && (
-                  <p className={postSubtitle}>{post.description}</p>
-                )}
+                {post.description && <p>{post.description}</p>}
               </div>
             </Link>
           </li>
