@@ -21,7 +21,7 @@ export default [
   {
     ignores: ["**/node_modules/", "src/fonts/", "**/*.css"],
   },
-...compat.extends(
+  ...compat.extends(
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
