@@ -27,7 +27,6 @@ export const sanitizeString = (str) => {
     "&": "&amp;",
     "<": "&lt;",
     ">": "&gt;",
-    // eslint-disable-next-line quotes
     '"': "&quot;",
     "'": "&apos;",
     "/": "&#x2F;",
