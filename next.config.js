@@ -5,9 +5,9 @@ const path = require("path");
 const nextConfig = {
   turbopack: {
     root: path.join(__dirname, ".."),
-    images: {
-      remotePatterns: [{ protocol: "https", hostname: "res.cloudinary.com" }],
-    },
+  },
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "res.cloudinary.com" }],
   },
 };
 
