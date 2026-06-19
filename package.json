@@ -10,7 +10,7 @@
     "build": "rm -rf .next/cache && next build",
     "postbuild": "tsx src/lib/generate-rss.ts",
     "start": "next start",
-    "lint": "eslint app/** src/interfaces src/lib",
+    "lint": "eslint",
     "lint-fix": "eslint --fix app/** src/interfaces src/lib",
     "prepare": "husky install"
   },
