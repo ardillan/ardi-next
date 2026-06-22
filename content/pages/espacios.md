@@ -9,40 +9,42 @@ category:
   - Espacios
 ---
 
-![Mi oficina en la actualidad](./20250201.jpeg)
+![Mi oficina en la actualidad](./20260622.webp)
 
-![Mi oficina co un tablero de bambú](./20241022.jpeg)
+![Espacio compartido](./20250201.webp)
 
-![Mi oficina en 2023](./2023-11-22.jpg)
+![Mi oficina co un tablero de bambú](./20241022.webp)
 
-![Mi CAOC durante la pandemia](./2020-11-15.jpg)
+![Mi oficina en 2023](./2023-11-22.webp)
 
-![Visita a una nueva cafetería con mi portátil](./2020-09-10.jpg)
+![Mi CAOC durante la pandemia](./2020-11-15.webp)
 
-![Rutina de viernes](./2020-06-01.jpg)
+![Visita a una nueva cafetería con mi portátil](./2020-09-10.webp)
 
-![Setup de inicio durante la pandemia](./2020-03-23.jpg)
+![Rutina de viernes](./2020-06-01.webp)
 
-![Sábado cualquiera](./2020-02-01.jpg)
+![Setup de inicio durante la pandemia](./2020-03-23.webp)
 
-![Durante esta época acabé mi primer sideproject](./2019-12-10.jpg)
+![Sábado cualquiera](./2020-02-01.webp)
 
-![Un espacio que apenas usé](./2019-01-02.jpg)
+![Durante esta época acabé mi primer sideproject](./2019-12-10.webp)
 
-![Una orquídea como compañera](./2019-01-01.jpg)
+![Un espacio que apenas usé](./2019-01-02.webp)
 
-![De mis primeras sesiones "en remoto"](./2018-11-10.jpg)
+![Una orquídea como compañera](./2019-01-01.webp)
 
-![Disposición con mi Macbook Air](./2018-03-01.jpg)
+![De mis primeras sesiones "en remoto"](./2018-11-10.webp)
 
-![Mi iMac en su última época](./2018-01-01.jpg)
+![Disposición con mi Macbook Air](./2018-03-01.webp)
+
+![Mi iMac en su última época](./2018-01-01.webp)
 
 ![Mi portátil junto al de Paulo](./2017-01-01.png)
 
-![Mi habitación, hace años. 2012](./2012-01-02.jpg)
+![Mi habitación, hace años. 2012](./2012-01-02.webp)
 
-![Mi portátil en un piso de alquiler. 2011.](./2011-07-01.jpg)
+![Mi portátil en un piso de alquiler. 2011.](./2011-07-01.webp)
 
 ![Hace años. Mi primer trabajo de oficina. 2009](./2009-06-01.png)
 
-![Mi portátil de 17 pulgadas. 2008](./2008-06-01.jpg)
+![Mi portátil de 17 pulgadas. 2008](./2008-06-01.webp)

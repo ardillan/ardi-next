@@ -16,7 +16,7 @@ const PanoramixLayout = ({ pageContent }: IPanoramixLayout) => {
         <h1>{pageContent.title}</h1>
         <h3>{pageContent.description}</h3>
       </header>
-      <section>
+      <section className={styles.section}>
         {pageContent.contentHtml && (
           <SuperMarkdown markdownContent={pageContent.contentHtml} />
         )}
