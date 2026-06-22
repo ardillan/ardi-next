@@ -27,7 +27,6 @@ export const sanitizeString = (str) => {
     "&": "&amp;",
     "<": "&lt;",
     ">": "&gt;",
-    // eslint-disable-next-line quotes
     '"': "&quot;",
     "'": "&apos;",
     "/": "&#x2F;",
@@ -58,7 +57,7 @@ export const formatDateTime = (commitTime: string): string => {
 
 export const formatDate = (
   postDate: string,
-  type: string = "readable"
+  type: string = "readable",
 ): string => {
   switch (type) {
     case "readable":
@@ -110,7 +109,7 @@ export function getExperience(birthdateString: string): number {
   const nextBirthday = new Date(
     today.getFullYear(),
     birthdate.getMonth(),
-    birthdate.getDate()
+    birthdate.getDate(),
   );
 
   // If the next birthday has already occurred this year, set it to next year

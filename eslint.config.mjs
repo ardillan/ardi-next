@@ -1,6 +1,5 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-
 import { FlatCompat } from "@eslint/eslintrc";
 import js from "@eslint/js";
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
@@ -19,36 +18,39 @@ const compat = new FlatCompat({
 
 export default [
   {
-    ignores: ["**/node_modules/", "src/fonts/", "**/*.css"],
+    ignores: [
+      "**/node_modules/",
+      "**/.next/",
+      "**/.vercel/",
+      "src/fonts/",
+      "**/*.css",
+      "**/app/styles/**",
+    ],
   },
-...compat.extends(
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-  ),
   {
-    plugins: {
-      "@typescript-eslint": typescriptEslint,
-      react,
-      "simple-import-sort": simpleImportSort,
-    },
-
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-      },
-
-      parser: tsParser,
-      ecmaVersion: "latest",
-      sourceType: "module",
-    },
-
     settings: {
       react: {
         version: "detect",
       },
     },
-
+  },
+  {
+    files: [
+      "app/**/*.{js,jsx,ts,tsx}",
+      "src/interfaces/**/*.{js,ts}",
+      "src/lib/**/*.{js,ts}",
+    ],
+    plugins: {
+      "@typescript-eslint": typescriptEslint,
+      react,
+      "simple-import-sort": simpleImportSort,
+    },
+    languageOptions: {
+      globals: { ...globals.browser },
+      parser: tsParser,
+      ecmaVersion: "latest",
+      sourceType: "module",
+    },
     rules: {
       "simple-import-sort/imports": "error",
       "linebreak-style": ["error", "unix"],
@@ -57,4 +59,9 @@ export default [
       "react/no-unescaped-entities": 0,
     },
   },
+  ...compat.extends(
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+  ),
 ];

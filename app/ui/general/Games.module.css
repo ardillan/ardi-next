@@ -3,6 +3,11 @@
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin-top: 5rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  @media (max-width: 900px) {
+    padding: 0 1rem;
+  }
 }
 
 .games li {

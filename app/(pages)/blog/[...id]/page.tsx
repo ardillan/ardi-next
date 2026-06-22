@@ -7,7 +7,7 @@ import BasicLayout from "@/appComponents/layouts/BasicLayout";
 import { ARDI, CONFIG } from "@/lib/constants";
 import { getPostData, getSortedPostsData } from "@/lib/getPostData";
 
-import { background, date, header, image, subtitle, title } from "./page.css";
+import styles from "./page.module.css";
 
 export async function generateMetadata({ params }) {
   const { id } = await params;
@@ -55,13 +55,13 @@ export default async function Post({
 
   return (
     <BasicLayout>
-      <div className={background} />
+      <div className={styles.background} />
       <article>
-        <header className={header}>
+        <header className={styles.header}>
           <div>
-            <h1 className={title}>{postData.title}</h1>
-            <h2 className={subtitle}>{postData.subtitle}</h2>
-            <div className={date}>
+            <h1 className={styles.title}>{postData.title}</h1>
+            <h2 className={styles.subtitle}>{postData.subtitle}</h2>
+            <div className={styles.date}>
               {postData.date !== undefined ? (
                 <>
                   Escrito el <Date dateString={postData.date} />{" "}
@@ -82,10 +82,10 @@ export default async function Post({
             src={featuredImagePath}
             showCaption={false}
             alt="Imagen destacada"
-            className={image}
+            className={styles.image}
           />
         </header>
-        <section>
+        <section className={styles.section}>
           {postData.contentHtml ? (
             <SuperMarkdown markdownContent={postData.contentHtml} />
           ) : null}

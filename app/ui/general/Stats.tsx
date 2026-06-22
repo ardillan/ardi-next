@@ -7,7 +7,6 @@ import Heart from "@/icons/heart";
 import { ARDI } from "@/lib/constants";
 import getWeather from "@/lib/getWeather";
 import { getAge, getExperience } from "@/lib/helpers";
-import { theme } from "@/styles/common/theme.css";
 
 import styles from "./Stats.module.css";
 
@@ -100,9 +99,7 @@ const Stats = () => {
         >
           <div>
             <p className={styles.info}>
-              LV.<span>{age}</span>{" "}
-              <span style={{ color: theme.color.secondary }}>•</span> EXP{" "}
-              {experience}
+              LV.<span>{age}</span> <span>•</span> EXP {experience}
               <span>/</span>365
             </p>
           </div>

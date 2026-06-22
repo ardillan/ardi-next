@@ -20,3 +20,12 @@
   font-size: 1rem;
   margin: auto;
 }
+.section {
+  max-width: 900px;
+  margin: auto;
+
+  @media (max-width: 900px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

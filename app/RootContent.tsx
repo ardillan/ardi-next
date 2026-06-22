@@ -6,7 +6,6 @@ import Script from "next/script";
 import React, { JSX, useEffect } from "react";
 
 import { useMobile } from "@/context/MobileContext";
-import { darkTheme, lightTheme } from "@/styles/common/theme.css";
 
 import { useTheme } from "./context/ThemeContext";
 
@@ -23,7 +22,7 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
 
   return (
     <div
-      className={`${darkMode ? darkTheme : lightTheme}`}
+      className={`${darkMode ? "darkTheme" : "lightTheme"}`}
       style={{ overflow: isMenuOpen ? "hidden" : "initial" }}
     >
       <Script

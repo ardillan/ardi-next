@@ -1,6 +1,5 @@
 import React from "react";
 
-import { IGame } from "@/interfaces/IGame";
 import getNotionGames from "@/lib/getGames";
 import { formatDate } from "@/lib/helpers";
 
@@ -8,7 +7,7 @@ import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
 const Games = async () => {
-  const notionGames: IGame[] = await getNotionGames();
+  const notionGames = await getNotionGames();
 
   if (!notionGames) return;
 

@@ -65,7 +65,7 @@ const Menu = () => {
         style={{ display: isMenuOpen ? "flex" : "" }}
       >
         {NAVIGATION.filter((link) =>
-          link.position.includes("MainNavigation")
+          link.position.includes("MainNavigation"),
         ).map((link) => {
           return (
             <li key={link.title}>

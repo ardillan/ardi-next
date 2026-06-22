@@ -1,5 +1,4 @@
 import "@/styles/common/variables.css";
-import "@/styles/common/vanilla-variables.css";
 import "@/styles/common/reset.css";
 import "@/styles/common/global.css";
 
