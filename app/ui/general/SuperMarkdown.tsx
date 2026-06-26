@@ -23,6 +23,20 @@ const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
           rehypePlugins={[rehypeUnwrapImages, rehypeRaw]}
           remarkPlugins={[remarkGfm]}
           components={{
+            a: function ({ ...props }) {
+              const { href, children, ...rest } = props;
+
+              return (
+                <a
+                  href={href}
+                  target={href?.includes("http") ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                  {...rest}
+                >
+                  {children}
+                </a>
+              );
+            },
             code: function ({ ...props }) {
               const { children, className, ...rest } = props;
 
