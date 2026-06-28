@@ -24,10 +24,41 @@ const Games = async () => {
               return (
                 <li key={game.id}>
                   <p>{game.title}</p>
+                  {game.dlcs?.length ? (
+                    <small className={styles.dlc}>
+                      {game.dlcs?.map((dlc) => (
+                        <span
+                          key={dlc.id}
+                          className={
+                            dlc.played
+                              ? styles.dlcComplete
+                              : styles.dlcUncomplete
+                          }
+                        >
+                          <CustomTooltip
+                            id={dlc.id}
+                            type="plain"
+                            content={
+                              dlc.played
+                                ? `Completado ${
+                                    dlc.finished_on
+                                      ? `el ${formatDate(dlc.finished_on)}`
+                                      : ""
+                                  }`
+                                : "Sin completar"
+                            }
+                          >
+                            {dlc.title}
+                          </CustomTooltip>
+                        </span>
+                      ))}
+                    </small>
+                  ) : null}
                   <small>{game.platform?.map((platform) => platform)}</small>
                   <CustomTooltip
                     id={game.id}
                     played={game.played}
+                    type="bubble"
                     content={
                       game.played
                         ? `Completado ${

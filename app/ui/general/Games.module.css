@@ -25,3 +25,14 @@
   font-size: 0.75rem;
   color: var(--color-primary);
 }
+
+.games li small.dlc {
+  font-size: 0.75rem;
+  color: white;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dlcUncomplete {
+  opacity: 0.5;
+}

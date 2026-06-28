@@ -20,6 +20,12 @@
   }
 }
 
+.tooltipDLC {
+  position: initial;
+  display: inline-block;
+  cursor: help;
+}
+
 .tooltip > span {
   border-radius: 50%;
   cursor: help;

@@ -3,16 +3,59 @@ import type { PageObjectResponse } from "@notionhq/client/build/src/api-endpoint
 
 import type { IGame } from "@/interfaces/IGame";
 
+const mapNotionPageToGame = (page: PageObjectResponse): IGame => ({
+  id: page.id,
+  finished_on:
+    page.properties["Terminado el"]?.type === "date"
+      ? (page.properties["Terminado el"].date?.start ?? null)
+      : null,
+  format:
+    page.properties["Formato"]?.type === "multi_select"
+      ? page.properties["Formato"].multi_select.map((format) => format.name)
+      : null,
+  title:
+    page.properties["Nombre"]?.type === "title"
+      ? page.properties["Nombre"].title[0]?.plain_text
+      : null,
+  played:
+    page.properties["Jugado"]?.type === "checkbox"
+      ? page.properties["Jugado"].checkbox
+      : false,
+  purchased:
+    page.properties["Comprado"]?.type === "checkbox"
+      ? page.properties["Comprado"].checkbox
+      : null,
+  purchase_date:
+    page.properties["Fecha compra"]?.type === "date"
+      ? (page.properties["Fecha compra"].date?.start ?? null)
+      : null,
+  platform:
+    page.properties["Plataforma"]?.type === "multi_select"
+      ? page.properties["Plataforma"].multi_select.map(
+          (platform) => platform.name,
+        )
+      : null,
+  dlcs: [],
+});
+
 const getNotionGames = async (): Promise<IGame[] | null> => {
   try {
-    const notionClient = new Client({ auth: process.env.NOTION_TOKEN });
+    const notionToken = process.env.NOTION_TOKEN;
+    const gamesDataSourceId = process.env.NOTION_GAMES;
+
+    if (!notionToken || !gamesDataSourceId) {
+      console.warn("Notion env vars are not configured");
+      return [];
+    }
+
+    const notionClient = new Client({ auth: notionToken });
     const gamesDatabase: PageObjectResponse[] = [];
     let hasMore = true;
     let startCursor: string | undefined = undefined;
 
     while (hasMore) {
       const gamesDatabaseQuery = await notionClient.dataSources.query({
-        data_source_id: process.env.NOTION_GAMES ?? "",
+        data_source_id: gamesDataSourceId,
         page_size: 100,
         start_cursor: startCursor,
         sorts: [
@@ -36,43 +79,44 @@ const getNotionGames = async (): Promise<IGame[] | null> => {
       gamesDatabase.push(...filteredResults);
     }
 
-    const gamesMapper = gamesDatabase.map((game): IGame => {
-      return {
-        id: game.id,
-        finished_on:
-          game.properties["Terminado el"]?.type === "date"
-            ? (game.properties["Terminado el"].date?.start ?? null)
-            : null,
-        format:
-          game.properties["Formato"]?.type === "multi_select"
-            ? game.properties["Formato"].multi_select.map(
-                (format) => format.name,
+    const gamesMapper = await Promise.all(
+      gamesDatabase.map(async (game): Promise<IGame> => {
+        const subItemProperty = game.properties["Sub-item"];
+        const relationIds =
+          subItemProperty?.type === "relation"
+            ? subItemProperty.relation.map((relation) => relation.id)
+            : [];
+
+        const dlcs = relationIds.length
+          ? (
+              await Promise.all(
+                relationIds.map(async (relationId) => {
+                  try {
+                    const relatedPage = (await notionClient.pages.retrieve({
+                      page_id: relationId,
+                    })) as PageObjectResponse;
+
+                    return relatedPage
+                      ? mapNotionPageToGame(relatedPage)
+                      : null;
+                  } catch (error) {
+                    console.warn(
+                      `Failed to retrieve DLC page ${relationId}`,
+                      error,
+                    );
+                    return null;
+                  }
+                }),
               )
-            : null,
-        title:
-          game.properties["Nombre"]?.type === "title"
-            ? game.properties["Nombre"].title[0]?.plain_text
-            : null,
-        played:
-          game.properties["Jugado"]?.type === "checkbox"
-            ? game.properties["Jugado"].checkbox
-            : false,
-        purchased:
-          game.properties["Comprado"]?.type === "checkbox"
-            ? game.properties["Comprado"].checkbox
-            : null,
-        purchase_date:
-          game.properties["Fecha compra"]?.type === "date"
-            ? (game.properties["Fecha compra"].date?.start ?? null)
-            : null,
-        platform:
-          game.properties["Plataforma"]?.type === "multi_select"
-            ? game.properties["Plataforma"].multi_select.map(
-                (platform) => platform.name,
-              )
-            : null,
-      };
-    });
+            ).filter((dlc): dlc is IGame => dlc !== null)
+          : [];
+
+        return {
+          ...mapNotionPageToGame(game),
+          dlcs,
+        };
+      }),
+    );
 
     return gamesMapper;
   } catch (error) {
