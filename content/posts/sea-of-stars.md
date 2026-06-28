@@ -11,7 +11,7 @@ category:
 
 Han sido varias horas las que me ha llevado terminar Sea of Stars, unas cuarenta y cinco (incluyendo su DLC: _Throes of the Watchmaker_). Por un lado tenía ganas de acabarlo, quería ver cómo terminaba el periplo de Zale, Valere y Garl. Por otro lado, temía que la "[depresión post-juego](https://www.news-medical.net/news/20260319/Study-explores-post-game-depression-and-emotional-impact-on-players.aspx)" fuera a ser más grande que otras veces.
 
-![Una vista del Valle del Sol](./sea-of-stars-02.webp)
+![Zale y Valere a través de un puente colgante](./sea-of-stars-02.webp)
 
 ## Solen y Luana
 
@@ -23,9 +23,9 @@ Y no es para menos. Sea of Stars combina varios elementos que me vuelven loco:
 
 <div>
 
-![Una vista del Valle del Sol](./sea-of-stars-01.webp)
+![Una vista del Castillo Mecánico](./sea-of-stars-01.webp)
 
-![Una vista del Valle del Sol](./sea-of-stars-03.webp)
+![Minimapa interactivo del juego](./sea-of-stars-03.webp)
 
 </div>
 
@@ -33,7 +33,7 @@ Una aventura épica, al menos desde mi punto de vista. Ya desde el inicio se nos
 
 Tras una serie de acontecimientos, deciden embarcarse en un viaje a través de los mares, donde conoceremos a nuevos compañeros, nuevos biomas, reminiscencias a otros juegos y una ingente cantidad de enemigos a los que habrá que derrotar.
 
-![Una vista del Valle del Sol](./sea-of-stars-04.webp)
+![Un atardecer con nuestros protagonistas](./sea-of-stars-04.webp)
 
 Y es ahí donde brilla todo. Mientras exploramos el vasto mundo que rodea a nuestros héroes, iremos viendo cómo evoluciona su amistad y su forma de entender la vida. Cómo la frustración, el duelo, la alegría o la aceptación van formando parte de su camino. Todo ello, insisto, bajo una estética pixelada que aprovecha a la perfección los motores gráficos actuales para jugar con las luces, siendo estas muy importantes ya que tanto el día como la noche, el alba o el crepúsculo forman parte de la historia del juego.
 
