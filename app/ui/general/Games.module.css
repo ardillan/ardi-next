@@ -36,5 +36,5 @@
 }
 
 .dlcUncomplete {
-  opacity: 0.5;
+  color: var(--font-color-primary);
 }

@@ -35,6 +35,11 @@ const mapNotionPageToGame = (page: PageObjectResponse): IGame => ({
           (platform) => platform.name,
         )
       : null,
+  type:
+    page.properties["Tipo"]?.type === "select"
+      ? page.properties["Tipo"]?.select?.name
+      : "",
+
   dlcs: [],
 });
 

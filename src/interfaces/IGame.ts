@@ -8,4 +8,5 @@ export type IGame = {
   purchase_date: string | null;
   platform: string[] | null;
   dlcs: IGame[] | null;
+  type?: string;
 };

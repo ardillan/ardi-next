@@ -20,58 +20,60 @@ const Games = async () => {
       </h3>
       <ul className={styles.games}>
         {notionGames.length > 0
-          ? notionGames.map((game) => {
-              return (
-                <li key={game.id}>
-                  <p>{game.title}</p>
-                  {game.dlcs?.length ? (
-                    <small className={styles.dlc}>
-                      {game.dlcs?.map((dlc) => (
-                        <span
-                          key={dlc.id}
-                          className={
-                            dlc.played
-                              ? styles.dlcComplete
-                              : styles.dlcUncomplete
-                          }
-                        >
-                          <CustomTooltip
-                            id={dlc.id}
-                            type="plain"
-                            content={
+          ? notionGames
+              .filter((game) => game.type !== "DLC")
+              .map((game) => {
+                return (
+                  <li key={game.id}>
+                    <p>{game.title}</p>
+                    {game.dlcs?.length ? (
+                      <small className={styles.dlc}>
+                        {game.dlcs?.map((dlc) => (
+                          <span
+                            key={dlc.id}
+                            className={
                               dlc.played
-                                ? `Completado ${
-                                    dlc.finished_on
-                                      ? `el ${formatDate(dlc.finished_on)}`
-                                      : ""
-                                  }`
-                                : "Sin completar"
+                                ? styles.dlcComplete
+                                : styles.dlcUncomplete
                             }
                           >
-                            {dlc.title}
-                          </CustomTooltip>
-                        </span>
-                      ))}
-                    </small>
-                  ) : null}
-                  <small>{game.platform?.map((platform) => platform)}</small>
-                  <CustomTooltip
-                    id={game.id}
-                    played={game.played}
-                    type="bubble"
-                    content={
-                      game.played
-                        ? `Completado ${
-                            game.finished_on
-                              ? `el ${formatDate(game.finished_on)}`
-                              : ""
-                          }`
-                        : "Sin completar"
-                    }
-                  />
-                </li>
-              );
-            })
+                            <CustomTooltip
+                              id={dlc.id}
+                              type="plain"
+                              content={
+                                dlc.played
+                                  ? `DLC Completado ${
+                                      dlc.finished_on
+                                        ? `el ${formatDate(dlc.finished_on)}`
+                                        : ""
+                                    }`
+                                  : "DLC sin completar"
+                              }
+                            >
+                              {dlc.title}
+                            </CustomTooltip>
+                          </span>
+                        ))}
+                      </small>
+                    ) : null}
+                    <small>{game.platform?.map((platform) => platform)}</small>
+                    <CustomTooltip
+                      id={game.id}
+                      played={game.played}
+                      type="bubble"
+                      content={
+                        game.played
+                          ? `Completado ${
+                              game.finished_on
+                                ? `el ${formatDate(game.finished_on)}`
+                                : ""
+                            }`
+                          : "Sin completar"
+                      }
+                    />
+                  </li>
+                );
+              })
           : null}
       </ul>
     </div>
