@@ -26,15 +26,22 @@ const Footer = async () => {
               Última actualización el {formatDate(githubData.pushed_at)}
             </small>
           ) : null}
-          <small>
-            <a
-              target="_blank"
-              href="https://ardi.goatcounter.com"
-              rel="noreferrer"
-            >
-              Estadísticas del sitio{" "}
-            </a>
-          </small>
+          <div className={styles.links}>
+            <small>
+              <a
+                target="_blank"
+                href="https://ardi.goatcounter.com"
+                rel="noreferrer"
+              >
+                Estadísticas del sitio{" "}
+              </a>
+            </small>
+            <small>
+              <a target="_blank" href="/rss/feed.xml" rel="noreferrer">
+                RSS{" "}
+              </a>
+            </small>
+          </div>
         </div>
         <ul>
           {NAVIGATION.filter((link: INavigationLink) =>

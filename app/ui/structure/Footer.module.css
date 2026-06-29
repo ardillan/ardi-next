@@ -36,6 +36,12 @@
   }
 }
 
+.content div.links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
 .content > ul {
   align-items: center;
   display: flex;
