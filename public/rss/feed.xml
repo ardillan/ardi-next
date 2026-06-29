@@ -1,15 +1,269 @@
 <?xml version="1.0" encoding="utf-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Ardi RSS</title>
+    <title>Feed de Ardi</title>
     <subtitle>Un compendio de artículos, reflexiones y notas.</subtitle>
-    <link href="https://ardi.monster/" />
-    <link rel="self" href="https://ardi.monster/rss/feed.xml" />
-    <id>https://ardi.monster/</id>
+    <link href="https://www.ardi.monster" />
+    <link rel="self" href="https://www.ardi.monster/rss/feed.xml" />
+    <id>https://www.ardi.monster</id>
     <author><name>Ardi</name></author>
+    <icon>https://www.ardi.monster/favicon.png</icon>
+    <logo>https://www.ardi.monster/open-graph.png</logo>
     <entry>
+                  <title>Sea of stars</title>
+                  <link href="https://www.ardi.monster/blog/sea-of-stars" />
+                  <id>https://www.ardi.monster/blog/sea-of-stars</id>
+                  <updated>2026-06-24T15:30:00.0100</updated>
+                  <summary>Un juego de combate por turnos con unos graficos a los Super Nintendo</summary>
+                  <category>Videojuegos</category>
+                  <content xml:lang="es" type="html">&lt;p&gt;Han sido varias horas las que me ha llevado terminar Sea of Stars, unas cuarenta y cinco (incluyendo su DLC: &lt;em&gt;Throes of the Watchmaker&lt;/em&gt;). Por un lado tenía ganas de acabarlo, quería ver cómo terminaba el periplo de Zale, Valere y Garl. Por otro lado, temía que la &quot;&lt;a href=&quot;https://www.news-medical.net/news/20260319/Study-explores-post-game-depression-and-emotional-impact-on-players.aspx&quot;&gt;depresión post-juego&lt;/a&gt;&quot; fuera a ser más grande que otras veces.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/sea-of-stars/sea-of-stars-02.webp&quot; alt=&quot;Zale y Valere a través de un puente colgante&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Solen y Luana&lt;/h2&gt;
+&lt;p&gt;Y no es para menos. Sea of Stars combina varios elementos que me vuelven loco:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un estilo artístico con estética de 16 bits&lt;/li&gt;
+&lt;li&gt;Una buena historia con mecánicas clásicas&lt;/li&gt;
+&lt;li&gt;Una banda sonora de infarto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/sea-of-stars/sea-of-stars-01.webp&quot; alt=&quot;Una vista del Castillo Mecánico&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/sea-of-stars/sea-of-stars-03.webp&quot; alt=&quot;Minimapa interactivo del juego&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Una aventura épica, al menos desde mi punto de vista. Ya desde el inicio se nos presenta a nuestros héroes (Zale y Valere), ambos considerados los &lt;strong&gt;Niños del Solsticio&lt;/strong&gt;. Una suerte de niños elegidos que tendrán un papel trascendental tanto para el pueblo de Cunaluna como para el mundo entero.&lt;/p&gt;
+&lt;p&gt;Tras una serie de acontecimientos, deciden embarcarse en un viaje a través de los mares, donde conoceremos a nuevos compañeros, nuevos biomas, reminiscencias a otros juegos y una ingente cantidad de enemigos a los que habrá que derrotar.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/sea-of-stars/sea-of-stars-04.webp&quot; alt=&quot;Un atardecer con nuestros protagonistas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Y es ahí donde brilla todo. Mientras exploramos el vasto mundo que rodea a nuestros héroes, iremos viendo cómo evoluciona su amistad y su forma de entender la vida. Cómo la frustración, el duelo, la alegría o la aceptación van formando parte de su camino. Todo ello, insisto, bajo una estética pixelada que aprovecha a la perfección los motores gráficos actuales para jugar con las luces, siendo estas muy importantes ya que tanto el día como la noche, el alba o el crepúsculo forman parte de la historia del juego.&lt;/p&gt;
+&lt;p&gt;Bajo este paraguas nos acompaña una &lt;strong&gt;banda sonora exquisita&lt;/strong&gt; compuesta por Eric W. Brown (Rainbowdragoneyes) que además cuenta con arreglos del legendario Yasunori Mitsuda (Chrono Trigger). Destacaría no sólo la calidad de las melodías, sino también los guiños que tiene con la banda sonora de The Messenger (también compuesta por Rainbowdragoneyes). Un juego que comparte &lt;em&gt;lore&lt;/em&gt; y que añade un toque de nostalgia a la aventura ya que ambos mundos están conectados.&lt;/p&gt;
+&lt;p&gt;Sinceramente, no puedo dejar de pensar cómo será el siguiente título de Sabotage.&lt;/p&gt;
+</content>
+                </entry><entry>
+                  <title>Metroid Prime Beyond</title>
+                  <link href="https://www.ardi.monster/blog/metroid-prime-beyond" />
+                  <id>https://www.ardi.monster/blog/metroid-prime-beyond</id>
+                  <updated>2026-02-28T15:30:00.0100</updated>
+                  <summary>Cuarta entrega de la saga Prime con Samus a traves del desierto</summary>
+                  <category>Videojuegos</category>
+                  <content xml:lang="es" type="html">&lt;p&gt;Voy a dejar mis impresiones de Metroid 4. Si bien no me ha parecido una de las mejores entregas (al menos de la saga Prime), sí que quiero sacar a relucir que &lt;strong&gt;no creo que merezca tanta crítica negativa&lt;/strong&gt; como ha recibido. Al menos no toda.&lt;/p&gt;
+&lt;h2&gt;Metroidvaina&lt;/h2&gt;
+&lt;p&gt;Que no &lt;em&gt;metroidvania&lt;/em&gt;. No voy a entrar a defender si tiene más o menos del género ni mucho menos a explicarlo. Solo quiero transmitir mis impresiones tras haberlo terminado. Mi veredicto: &lt;strong&gt;bueno, no está tan mal&lt;/strong&gt;. Sí, hay alguna parte que es un auténtico tedio y que no encaja de la mejor manera. Pero yo no he tenido un mal sabor de boca en general.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/metroid-prime-beyond/metroid-prime-beyond-01.jpg&quot; alt=&quot;Samus en todo su esplendor&quot;&gt;&lt;/p&gt;
+&lt;p&gt;El juego nos sitúa en la piel de Samus Arán, como no podía ser de otro modo, acudiendo a una llamada de auxilio para eliminar una amenaza que tiene que ver con los piratas espaciales. Hasta ahí guay, como siempre; para qué más. Una vez terminada la fase de tutorial, hechas las presentaciones y con nuestro traje Chozo™ sin ninguna habilidad disponible, se nos presenta un nuevo planeta: &lt;em&gt;Viewros&lt;/em&gt;, donde la cronotorre actúa como eje central y en el que cada punto cardinal representa cada uno de los biomas clásicos de la saga.&lt;/p&gt;
+&lt;p&gt;Creo que esta es la parte que más flaquea. A medida que vamos avanzando, iremos viendo cómo estos biomas están conectados a través de un desierto que tendremos que recorrer en moto (para mí, una macarrada), mientras luchamos y coleccionamos trozos de cristal. Quizá esto es lo que más rompe esa conexión a la que estábamos acostumbrados en los Metroid.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/metroid-prime-beyond/metroid-prime-beyond-02.jpg&quot; alt=&quot;Samus en primer plano&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/metroid-prime-beyond/metroid-prime-beyond-04.jpg&quot; alt=&quot;Samus montando en la VI-O-LA (la moto)&quot;&gt;&lt;/p&gt;
+&lt;p&gt;No obstante, el resto del juego está bien. Creo que los &lt;em&gt;NPC&lt;/em&gt; no hacen mal a nadie, no veo que sean tan invasivos y aportan un toque al juego. El desierto podría estar mejor, pero no me disgusta del todo la exploración que hay en él. Los biomas y el apartado artístico me han parecido dignos de elogio, sobre todo el &quot;Valle del Sol&quot;, y la música es suficientemente buena, así como la ambientación.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/metroid-prime-beyond/metroid-prime-beyond-03.jpg&quot; alt=&quot;Una vista del Valle del Sol&quot;&gt;&lt;/p&gt;
+&lt;p&gt;¿Es el mejor Metroid? En absoluto. No obstante, no veo el momento de ver una quinta entrega para comprobar qué ha aprendido Nintendo con este título, que ya se considera una especie de fracaso.&lt;/p&gt;
+</content>
+                </entry><entry>
+                  <title>Hauntii</title>
+                  <link href="https://www.ardi.monster/blog/hauntii" />
+                  <id>https://www.ardi.monster/blog/hauntii</id>
+                  <updated>2026-02-26T23:00:00.0100</updated>
+                  <summary>Un videojuego de puzzles entre fantasmas muy bonito</summary>
+                  <category>Videojuegos</category>
+                  <content xml:lang="es" type="html">&lt;p&gt;Normalmente suelo escribir notas sobre casi todos los títulos a los que juego. Algunas veces no lo hago, aunque no tantas. No por nada, si no porque no me apetece o bien lo voy dejando pasar hasta que lo olvido.&lt;/p&gt;
+&lt;p&gt;Revisando mis capturas de Xbox, vi que tenía guardadas unas pocas (un montón, más bien) de &lt;strong&gt;Hauntii&lt;/strong&gt;, un videojuego que si bien no me impactó especialmente, sí que me gustó. Al instante pensé: &quot;debería dejar constancia de esto&quot;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Como otras veces, te recomiendo que pongas la banda sonora del juego de fondo.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Fantasmas preciosistas&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hauntii/hauntii-1.png&quot; alt=&quot;Escena donde el protagonista habla con una especie de ángel&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Quizá lo que más llame la atención del juego es su &lt;strong&gt;estilo artístico&lt;/strong&gt;. Un grafismo a dos colores con ausencia en el detalle, pero a la vez sobrecargado de elementos. La paleta se va actualizando a medida que avanzamos en la historia.&lt;/p&gt;
+&lt;p&gt;Justo es aquí donde empieza a brillar todo, ya que nuestro protagonista comienza su aventura llegando a una especie de limbo donde estrena su condición de &lt;strong&gt;fantasma&lt;/strong&gt; y que además, no recuerda nada de su antigua vida. En nuestro viaje del héroe tendremos que atravesar diferentes escenarios y biomas a la vez de ir resolviendo multitud de puzzles con la capacidad de exorcizar objetos de toda clase para resolverlos. Todo ello para poder llegar así al descanso eterno.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hauntii/hauntii-2.png&quot; alt=&quot;El protagonista flotando en un abismo de oscuridad y color&quot;&gt;&lt;/p&gt;
+&lt;p&gt;A medida que avanzamos, las mecánicas del juego nos van mostrando escenas de nuestra antigua vida, dándonos la posibilidad de conocer quiénes fuimos en realidad. Todo ello con una fuerte carga emocional. La &lt;strong&gt;ausencia de diálogos&lt;/strong&gt; y la &lt;strong&gt;ambientación sonora&lt;/strong&gt; (insisto, escuchad la banda sonora) consiguen meterte más de lleno en la historia.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hauntii/hauntii-5.png&quot; alt=&quot;El protagonista en primer plano&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hauntii/hauntii-3.png&quot; alt=&quot;Un parque de atracciones&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hauntii/hauntii-4.png&quot; alt=&quot;Una memoria del protagonista&quot;&gt;&lt;/p&gt;
+&lt;p&gt;El juego no dura demasiado, no sé si unas diez horas. Permite conocer una historia con una dificultad no muy elevada y con un apartado artístico desmarcado y con un alto nivel en los detalles y en su banda sonora. Espero que &lt;strong&gt;Moonloop Games&lt;/strong&gt; sigan apostando por traernos juegos de este calibre.&lt;/p&gt;
+</content>
+                </entry><entry>
+                  <title>A link to the past: 2025</title>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2025" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2025</id>
+                  <updated>2026-02-15T20:30:10.0100</updated>
+                  <summary>Una entrada donde hago una retrospectiva de mi ano 2025</summary>
+                  <category>Reflexión</category>
+                  <content xml:lang="es" type="html">&lt;blockquote&gt;
+&lt;p&gt;Mientras escribo esto escucho de fondo a Pascal Comelade y me quejo de mi dolor de espalda.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A mediados de febrero vuelvo a la carga con un resumen de lo que ha sido mi año 2025. El ejercicio de escribir esta retrospectiva me sirve para poner en valor cuáles han sido mis hitos más importantes durante el año y dejar así constancia de ellos.&lt;/p&gt;
+&lt;p&gt;No he podido/querido escribirlo antes porque, en fin, la vida. Vamos a ello:&lt;/p&gt;
+&lt;h2&gt;🍒 Lo del desarrollo&lt;/h2&gt;
+&lt;p&gt;Echo la vista atrás y a los proyectos en los que he ido trabajando este año y, sinceramente, no hay nada en lo que vea que he avanzado de una manera trascendental. Sí, he trabajado con alguna nueva plataforma, he utilizado nuevas librerías y he seguido mejorando como desarrollador y mis habilidades blandas (&lt;em&gt;soft skills&lt;/em&gt;) se han visto incrementadas. Pero nada más allá de eso.&lt;/p&gt;
+&lt;p&gt;Bueno sí.&lt;/p&gt;
+&lt;p&gt;En el trabajo he tenido la oportunidad de crear un Dashboard que, aparentemente, hay gente utilizándolo, por lo que es un éxito para mí: mi primer producto funcional (con su &lt;em&gt;login&lt;/em&gt; y todo). No es gran cosa, pero estoy bastante orgulloso de ello.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-desarrollo-1.jpeg&quot; alt=&quot;Mi nuevo escritorio&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-desarrollo-4.jpeg&quot; alt=&quot;Mi nuevo ordenador&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-desarrollo-2.jpeg&quot; alt=&quot;Bilbostack 2025&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-desarrollo-3.jpeg&quot; alt=&quot;Una fotografía con Midudev&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;📟 Lo de los pódcasts&lt;/h2&gt;
+&lt;p&gt;Como es habitual, sigo escuchando &lt;strong&gt;más de lo mismo&lt;/strong&gt; mientras trato de descubrir nuevos programas que me enganchen, aunque muy lentamente. Si tuviera que resaltar algunos, serían: &lt;a href=&quot;https://blodec.es&quot;&gt;Blodec Podcast&lt;/a&gt;, un pódcast de videojuegos cuyos integrantes, además, se reúnen físicamente, algo que no ocurre tan a menudo.&lt;/p&gt;
+&lt;p&gt;También destacaría &lt;a href=&quot;https://www.ivoox.com/podcast-pixel-sonoro_sq_f11160455_1.html&quot;&gt;Pixel Sonoro&lt;/a&gt;. Un programa donde se habla de música de videojuegos. Un grandísimo descubrimiento, sobre todo porque llena el vacío que tenía desde hace años, cuando dejaron de emitir Podcast Replay.&lt;/p&gt;
+&lt;h2&gt;🎧 Lo de la música&lt;/h2&gt;
+&lt;p&gt;Sí, no ha estado mal. He ido a bastantes conciertos, especialmente desde que el &lt;strong&gt;Pub Anticuario&lt;/strong&gt; abrió sus puertas de nuevo. Algunos son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ídolos del Extrarradio y Agujero&lt;/li&gt;
+&lt;li&gt;La Casa Phantom y Bifäz&lt;/li&gt;
+&lt;li&gt;Los Fresones rebeldes, en Torrelavega&lt;/li&gt;
+&lt;li&gt;Cordura en Los Bancos Atrás&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SPORT&lt;/strong&gt; en el festival de La Agonía de Vivir&lt;/li&gt;
+&lt;li&gt;XX Aniversario de Desenterrador, en Sastraka&lt;/li&gt;
+&lt;li&gt;Muchos en El Anticuario&lt;/li&gt;
+&lt;li&gt;Otros tantos en La Llama, en Torrelavega&lt;/li&gt;
+&lt;li&gt;A nice day for an earthquake&lt;/li&gt;
+&lt;li&gt;JPEGr, en Suances&lt;/li&gt;
+&lt;li&gt;Viva Belgrado, en La Lechera&lt;/li&gt;
+&lt;li&gt;Sierra Nevada, en el New&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y algunos más, seguramente.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-12.jpg&quot; alt=&quot;SPORT en directo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-5.jpg&quot; alt=&quot;Kuma no motor en la Sala New&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-6.jpg&quot; alt=&quot;PIS en directo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-8.jpg&quot; alt=&quot;Manu Flecha en el Anticuario&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-11.jpg&quot; alt=&quot;JPEGr desde la Playa de los Locos&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-3.jpg&quot; alt=&quot;Bisturí tocando en directo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-9.jpg&quot; alt=&quot;JPEGr en el Anticuario&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-1.jpg&quot; alt=&quot;A Nice Day for an Earthquake&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-2.jpg&quot; alt=&quot;Sastraka en el XX Aniversario de Desenterrador&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-4.jpg&quot; alt=&quot;Actuación en Los Bancos de Atrás&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-10.jpg&quot; alt=&quot;Ray Idiota en el Anticuario&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-musica-7.jpg&quot; alt=&quot;Agujero en directo&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;🧩 Lo de los videojuegos&lt;/h2&gt;
+&lt;p&gt;Aparte del lanzamiento de Nintendo Switch 2 y el chasco que me he llevado con las famosas &lt;em&gt;Gamekey Cards&lt;/em&gt;, no ha ido nada mal. Por lo que veo, he terminado diez (10) videojuegos este año. En este orden:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Indiana Jones y el gran círculo&lt;/li&gt;
+&lt;li&gt;Genesis Noir,&lt;/li&gt;
+&lt;li&gt;Hauntii,&lt;/li&gt;
+&lt;li&gt;Doom Eternal,&lt;/li&gt;
+&lt;li&gt;Blasphemous II: Mea Culpa,&lt;/li&gt;
+&lt;li&gt;When the Past Was Around,&lt;/li&gt;
+&lt;li&gt;Mario Kart World,&lt;/li&gt;
+&lt;li&gt;The Witcher: Enhanced Edition,&lt;/li&gt;
+&lt;li&gt;Donkey Kong Bananza&lt;/li&gt;
+&lt;li&gt;Hollow Knight: Silksong.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;De ellos, destacaría por encima de todo los siguientes títulos:&lt;/p&gt;
+&lt;h3&gt;Indiana Wow!&lt;/h3&gt;
+&lt;p&gt;El juego de &lt;strong&gt;Indiana&lt;/strong&gt; (del cual &lt;a href=&quot;https://ardi.monster/blog/indiana-jones-y-el-gran-circulo&quot;&gt;dejé esta nota&lt;/a&gt;). No son muchas las ocasiones en las que experimento el &lt;em&gt;efecto wow&lt;/em&gt; últimamente, especialmente cuando se trata de videojuegos. Creo que el hecho de ser un título en primera persona, en combinación con la calma y el desasosiego del &lt;em&gt;gameplay&lt;/em&gt; (mucha investigación), hizo que disfrutase de cada momento de la aventura, sin ser yo un fan de Indiana.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-1.png&quot; alt=&quot;Un primer plano de Indiana&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-2.png&quot; alt=&quot;Un fragmento del juego&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-3.png&quot; alt=&quot;Una conversación de Indy con un personaje&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-4.png&quot; alt=&quot;Indiana tumbado en el suelo&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Geraldo de Rivia&lt;/h3&gt;
+&lt;p&gt;Otro de los grandes que me ha dejado un sabor de boca excepcional es &lt;em&gt;The Witcher&lt;/em&gt;. Lo intenté empezar hace años y no cuajó del todo, con razón; es un título de 2007 que quizá no haya tenido la mejor de las vejeces.&lt;/p&gt;
+&lt;p&gt;Aun así, la historia, el sistema de combate, &lt;strong&gt;la música&lt;/strong&gt;... todo parecía estar perfectamente combinado para que alguien como yo, que no ha jugado nunca a sus secuelas pero que sí se ha leído sus libros (¡siete en total!), tenga muchísimas ganas de afrontar &lt;em&gt;The Witcher 2&lt;/em&gt; este año. ¡Veremos!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-5.png&quot; alt=&quot;Una zona de cloacas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-6.png&quot; alt=&quot;Una lamia en un calabozo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-7.png&quot; alt=&quot;Geralt contra un lobisome&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-videojuegos-8.png&quot; alt=&quot;Una vista de personajes&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;🍼 Lo demás&lt;/h2&gt;
+&lt;p&gt;¡Ah! Qué voy a decir. A principios de año (más bien a finales del anterior) me dieron una de las mejores noticias que se le puede dar a alguien: &lt;strong&gt;iba a ser padre&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Desde el inicio del embarazo y hasta la llegada del bebé, ha sido toda una odisea que no cambiaría por nada del mundo. Hemos actualizado la casa para la llegada de un nuevo inquilino, aprendido cómo funciona y evoluciona un cuerpo gestante; hemos discutido, reído y llorado. He entrado en contacto con mi yo más personal y hablado conmigo mismo en retrospectiva (quizá elabore esto más en otra entrada) y, por lo general, hemos preparado el nido para que nuestro pequeño Bosco se encuentre lo más a gusto posible.&lt;/p&gt;
+&lt;p&gt;Aparte de la odisea de la paternidad, ha habido unos cuantos hitos que no quiero dejar de lado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mi amigo invisible me regaló el disco de &quot;Plantasía&quot; en vinilo.&lt;/li&gt;
+&lt;li&gt;Mi abuela Salus tuvo que dejar su casa y, en consecuencia, pude rescatar un montón de juguetes de mi infancia.&lt;/li&gt;
+&lt;li&gt;Salí &lt;a href=&quot;https://www.ardi.monster/blog/30-dias-en-bici/2025&quot;&gt;30 Días en bici durante todo abril&lt;/a&gt;. Aunque este año me costó mucho.&lt;/li&gt;
+&lt;li&gt;Asistí a Bilbostack y conocí a Midudev. Fan total.&lt;/li&gt;
+&lt;li&gt;Después de cuatro años, actualicé mi ordenador. Macbook Pro M4.&lt;/li&gt;
+&lt;li&gt;Decidí migrar a redes federadas como &lt;a href=&quot;https://mastodon.social/@ardillan&quot;&gt;Mastodon&lt;/a&gt; y &lt;a href=&quot;https://pixelfed.social/ardi&quot;&gt;Pixelfed&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Al conocer que iba a ser padre, me dejé bigote por primera vez en mi vida. Me dio bastante vergüenza.&lt;/li&gt;
+&lt;li&gt;Fui a ver una exposición de Chema Madoz.&lt;/li&gt;
+&lt;li&gt;Rodé con mi bici desde Astillero a Puente Viesgo, en varias ocasiones.&lt;/li&gt;
+&lt;li&gt;Asistí a un &lt;em&gt;escape room&lt;/em&gt; de la Asociación Octubre. De los más guays a los que he ido.&lt;/li&gt;
+&lt;li&gt;Me aficioné a tomar Kajún, de Redneck™.&lt;/li&gt;
+&lt;li&gt;Engordé bastante (es lo que hay).&lt;/li&gt;
+&lt;li&gt;Pude ver a Isidro Ferrer en Los Corrales de Buelna. Aún no me lo creo.&lt;/li&gt;
+&lt;li&gt;La Pindia organizó una charla sobre bicicletas hechas a mano. Una auténtica delicia.&lt;/li&gt;
+&lt;li&gt;Compramos y nos pusieron un armario nuevo. Increíble cómo nos ha cambiado la casa.&lt;/li&gt;
+&lt;li&gt;Realicé un informe de puntos negros que aún no he presentado.&lt;/li&gt;
+&lt;li&gt;Hice mi primer vídeo como cicloturista.&lt;/li&gt;
+&lt;li&gt;Participé en mi primer concurso de tortillas.&lt;/li&gt;
+&lt;li&gt;Dobra Bar cerró sus puertas. Me alegro de haber sido partícipe de su aventura.&lt;/li&gt;
+&lt;li&gt;Me corté la melena, nuevamente.&lt;/li&gt;
+&lt;li&gt;Asistí a un parto. Espeluznante.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Además, me he estrenado como videoaficionado. Aquí va un vídeo de Torrelavega a Suances en bicicleta:&lt;/p&gt;
+&lt;h3&gt;Desde que amanece, apetece&lt;/h3&gt;
+&lt;h2&gt;Algunas fotos de lo que ha sido mi año&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-1.jpg&quot; alt=&quot;Placa de Bicicletas M. Muñoz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-2.jpg&quot; alt=&quot;Mi cosecha de guindillas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-7.jpg&quot; alt=&quot;Unos edificios&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-4.jpg&quot; alt=&quot;Un autorretrato mío con el disco de Plantasia&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-3.jpg&quot; alt=&quot;Un mapa de trenes de Cantabria de 1952&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-8.jpg&quot; alt=&quot;Mis juguetes de cuando era niño&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-5.jpg&quot; alt=&quot;Un libro de Bicicletas para niños&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-6.jpg&quot; alt=&quot;Una flor hecha de LEGO&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-17.jpg&quot; alt=&quot;Mi sombra junto a la de Sara&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-10.jpg&quot; alt=&quot;Una vista de un camino&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-11.jpg&quot; alt=&quot;Una metáfora visual de un reloj antiguo con arena&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-12.jpg&quot; alt=&quot;Exposición de Chema Madoz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-13.jpg&quot; alt=&quot;Yo en un ascensor con mi bicicleta&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-14.jpg&quot; alt=&quot;Videojuego: When the past was around&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-15.jpg&quot; alt=&quot;Un retrato de Sara, embarazada&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-16.jpg&quot; alt=&quot;Una vista de un sendero al lado del mar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-9.jpg&quot; alt=&quot;Un puesto de Libros libres&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-18.jpg&quot; alt=&quot;Sara dando una charla&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-19.jpg&quot; alt=&quot;Un mando de Nintendo Switch, edición Splatoon&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-20.jpg&quot; alt=&quot;La Pindia&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-21.jpg&quot; alt=&quot;Una cinta pirata de VHS de Aladdin&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-22.jpg&quot; alt=&quot;Un cactus&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-23.jpg&quot; alt=&quot;Mi casa con sus nuevos colores&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-24.jpg&quot; alt=&quot;Un poto&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-25.jpg&quot; alt=&quot;Un tirador de un gatito&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-26.jpg&quot; alt=&quot;Libro de Gloria Fuertes&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-30.jpg&quot; alt=&quot;Carlos con una cena copiosa&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-28.jpg&quot; alt=&quot;Un retrato con mi nuevo mandil&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-27.jpg&quot; alt=&quot;Lee libros y monta en bici, pero no hagas las dos cosas a la vez&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-29.jpg&quot; alt=&quot;Un reloj de cuco moderno&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-35.jpg&quot; alt=&quot;Unas flores muy coloridas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-31.jpg&quot; alt=&quot;Un error de enfoque&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-33.jpg&quot; alt=&quot;Cyberpunk 2077 para Nintendo Switch 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-34.jpg&quot; alt=&quot;Una recreación con muñecos&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-32.jpg&quot; alt=&quot;Un regalo de Adolfo, el librero&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-36.jpg&quot; alt=&quot;Un bodegón de plantas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-37.jpg&quot; alt=&quot;Uno de los primeros paseos con Bosco&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-38.jpg&quot; alt=&quot;Espacio dentro de Caligrama&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-39.jpg&quot; alt=&quot;Otro paseo con Bosco&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-40.jpg&quot; alt=&quot;Un retrato mío. Con bigote y visera&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-41.jpg&quot; alt=&quot;Un retrato con Bosco&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-42.jpg&quot; alt=&quot;Una Redneck&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-46.jpg&quot; alt=&quot;Metroid 4: Beyond&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-49.jpg&quot; alt=&quot;Un tiramisú&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-44.jpg&quot; alt=&quot;Café Pindio&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-45.jpg&quot; alt=&quot;Con Bosco en otro porteador&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-47.jpg&quot; alt=&quot;Jugando a Metroid 4&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-43.jpg&quot; alt=&quot;Con Bosco en el porteador&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/a-link-to-the-past-2025/a-link-to-the-past-2025-48.jpg&quot; alt=&quot;Un sótano con un neón que dice: El infierno es divertido&quot;&gt;&lt;/p&gt;
+</content>
+                </entry><entry>
+                  <title>Hollow Knight: Silksong</title>
+                  <link href="https://www.ardi.monster/blog/hollow-knight-silksong" />
+                  <id>https://www.ardi.monster/blog/hollow-knight-silksong</id>
+                  <updated>2025-11-10T23:40:00.0100</updated>
+                  <summary>Una nueva aventura que, bajo el titulo de Hollow Knight, hara que nos pongamos en la piel de Hornet a traves de Telalejana</summary>
+                  <category>Videojuegos</category>
+                  <content xml:lang="es" type="html">&lt;p&gt;Qué puedo decir de Hollow Knight. Hace seis años terminaba su primera parte y escribía &lt;a href=&quot;https://www.ardi.monster/blog/hollow-knight&quot;&gt;esta pequeña nota&lt;/a&gt;. Al leer el texto de nuevo, me doy cuenta de lo poco que hablé sobre lo que significó para mí este juego.&lt;/p&gt;
+&lt;p&gt;En ningún momento comento lo genial que fue descubrir la historia de los &lt;strong&gt;Wyrm&lt;/strong&gt; o del &lt;strong&gt;Rey Pálido&lt;/strong&gt;; lo estresante que resultó terminar la batalla contra esos dichosos bichos bola; o el halo de misterio que rodeaba a una especie de araña llamada &lt;strong&gt;Hornet&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;La decadencia de Telalejana&lt;/h3&gt;
+&lt;p&gt;O &lt;em&gt;Pharloom&lt;/em&gt;, en su versión original. Es aquí donde se desarrolla la historia de Hollow Knight: Silksong, un nuevo &lt;em&gt;metroidvania&lt;/em&gt; en el que nos ponemos en la piel de Hornet, una simpática bicha-araña que, tras escapar de sus raptores al principio del juego, deberá ascender a través de diferentes biomas para descubrir los misterios que mantienen presos a cientos de bichos peregrinos en la vasta tierra de &lt;strong&gt;Telalejana&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-01.jpg&quot; alt=&quot;Hornet recorriendo la Gruta Musgosa&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-02.jpg&quot; alt=&quot;Animación de nueva habilidad para Hornet&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-03.jpg&quot; alt=&quot;La primera visita a Campanilla&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-04.jpg&quot; alt=&quot;Hornet a punto de realizar un viaje rápido&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;Poshanka!&lt;/h2&gt;
+&lt;p&gt;Al no querer hacer una reseña al uso, no voy a centrarme en hablar de mecánicas o la dificultad del juego.&lt;/p&gt;
+&lt;p&gt;En lo que sí quiero hacer hincapié es en recordar cuánto he disfrutado mientras visitaba la &lt;strong&gt;Ciudadela&lt;/strong&gt;, &lt;strong&gt;Campanilla&lt;/strong&gt; o &lt;strong&gt;La Losa&lt;/strong&gt;. No se me irá de la cabeza las veces que habré imitado las canciones de Sherma o Shakra, o lo horrible que ha sido ascender por Telalejana al son de su perfecta y milimétrica banda sonora.&lt;/p&gt;
+&lt;p&gt;Tampoco dejaré de pensar en que este es el primer juego que he terminado tras el nacimiento de Bosco. Un juego que, entre pañal y pañal, he conseguido completar en ochenta y cinco horas.&lt;/p&gt;
+&lt;p&gt;Solo deseo que, en un futuro no muy lejano, sea él quien pueda disfrutar y sufrir en sus propias manos lo que supone todo este ascenso hacia las cumbres de Telalejana.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-05.jpg&quot; alt=&quot;Hornet ascendiendo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-06.jpg&quot; alt=&quot;Un NPC preparando una pócima misteriosa&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-07.jpg&quot; alt=&quot;Hornet contra Bestia Campana&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/hollow-knight-silksong/hollow-knight-silksong-08.jpg&quot; alt=&quot;Hornet reclamando una habilidad&quot;&gt;&lt;/p&gt;
+</content>
+                </entry><entry>
                   <title>Mi querida bicicleta</title>
-                  <link href="https://ardi.monster/blog/libros-sobre-ruedas/mi-querida-bicicleta" />
-                  <id>https://ardi.monster/blog/libros-sobre-ruedas/mi-querida-bicicleta</id>
+                  <link href="https://www.ardi.monster/blog/libros-sobre-ruedas/mi-querida-bicicleta" />
+                  <id>https://www.ardi.monster/blog/libros-sobre-ruedas/mi-querida-bicicleta</id>
                   <updated>2025-06-01T18:00:10.0100</updated>
                   <summary>Un libro donde Miguel Delibes cuenta sus andanzas en bicicleta a traves de diferentes epocas.</summary>
                   <category>Libros, Bicicleta</category>
@@ -29,8 +283,8 @@
 </content>
                 </entry><entry>
                   <title>Pato va en bici</title>
-                  <link href="https://ardi.monster/blog/libros-sobre-ruedas/pato-va-en-bici" />
-                  <id>https://ardi.monster/blog/libros-sobre-ruedas/pato-va-en-bici</id>
+                  <link href="https://www.ardi.monster/blog/libros-sobre-ruedas/pato-va-en-bici" />
+                  <id>https://www.ardi.monster/blog/libros-sobre-ruedas/pato-va-en-bici</id>
                   <updated>2025-04-13T16:30:10.0100</updated>
                   <summary>Un libro increible con el que podras divertirte junto a pato y su bici sin que importe tu edad</summary>
                   <category>Libros, Bicicleta</category>
@@ -48,8 +302,8 @@
 </content>
                 </entry><entry>
                   <title>30 Dias en Bici</title>
-                  <link href="https://ardi.monster/blog/30-dias-en-bici/2025" />
-                  <id>https://ardi.monster/blog/30-dias-en-bici/2025</id>
+                  <link href="https://www.ardi.monster/blog/30-dias-en-bici/2025" />
+                  <id>https://www.ardi.monster/blog/30-dias-en-bici/2025</id>
                   <updated>2025-04-01T17:30:10.0100</updated>
                   <summary>Un ano mas recopilando mi periplo en bicicleta durante abril</summary>
                   <category>Reflexión, Bicicletas</category>
@@ -284,8 +538,8 @@
 </content>
                 </entry><entry>
                   <title>Menos coches, como moverse de manera sostenible</title>
-                  <link href="https://ardi.monster/blog/libros-sobre-ruedas/menos-coches-como-moverse-de-manera-sostenible" />
-                  <id>https://ardi.monster/blog/libros-sobre-ruedas/menos-coches-como-moverse-de-manera-sostenible</id>
+                  <link href="https://www.ardi.monster/blog/libros-sobre-ruedas/menos-coches-como-moverse-de-manera-sostenible" />
+                  <id>https://www.ardi.monster/blog/libros-sobre-ruedas/menos-coches-como-moverse-de-manera-sostenible</id>
                   <updated>2025-03-28T16:30:10.0100</updated>
                   <summary>Un pequeno libro que podria incluso considerarse incluso como un &apos;manual de instrucciones para utilizar nuestra bicicleta.&apos;</summary>
                   <category>Libros, Bicicleta</category>
@@ -323,8 +577,8 @@
 </content>
                 </entry><entry>
                   <title>Todas las bicicletas que tuve</title>
-                  <link href="https://ardi.monster/blog/libros-sobre-ruedas/todas-las-bicicletas-que-tuve" />
-                  <id>https://ardi.monster/blog/libros-sobre-ruedas/todas-las-bicicletas-que-tuve</id>
+                  <link href="https://www.ardi.monster/blog/libros-sobre-ruedas/todas-las-bicicletas-que-tuve" />
+                  <id>https://www.ardi.monster/blog/libros-sobre-ruedas/todas-las-bicicletas-que-tuve</id>
                   <updated>2025-03-23T10:30:10.0100</updated>
                   <summary>Las bicicletas son maquinas impulsadas por una misma. Una decide hacia donde quiere desplazarse</summary>
                   <category>Libros, Bicicleta</category>
@@ -354,8 +608,8 @@
 </content>
                 </entry><entry>
                   <title>When the past was around</title>
-                  <link href="https://ardi.monster/blog/when-the-past-was-around" />
-                  <id>https://ardi.monster/blog/when-the-past-was-around</id>
+                  <link href="https://www.ardi.monster/blog/when-the-past-was-around" />
+                  <id>https://www.ardi.monster/blog/when-the-past-was-around</id>
                   <updated>2025-03-22T17:00:00.0100</updated>
                   <summary>Una historia interactiva con mucho arte</summary>
                   <category>Videojuegos</category>
@@ -376,8 +630,8 @@
 </content>
                 </entry><entry>
                   <title>Como ir a la oficina en bici</title>
-                  <link href="https://ardi.monster/blog/como-ir-a-la-oficina-en-bici" />
-                  <id>https://ardi.monster/blog/como-ir-a-la-oficina-en-bici</id>
+                  <link href="https://www.ardi.monster/blog/como-ir-a-la-oficina-en-bici" />
+                  <id>https://www.ardi.monster/blog/como-ir-a-la-oficina-en-bici</id>
                   <updated>2025-03-09T17:50:10.0100</updated>
                   <summary>Un resumen de que cosas me funcionan para moverme en bici por la ciudad y el extrarradio</summary>
                   <category>Reflexión, Bicicletas</category>
@@ -423,8 +677,8 @@
 </content>
                 </entry><entry>
                   <title>A link to the past: 2024</title>
-                  <link href="https://ardi.monster/blog/a-link-to-the-past-2024" />
-                  <id>https://ardi.monster/blog/a-link-to-the-past-2024</id>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2024" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2024</id>
                   <updated>2025-02-01T16:45:10.0100</updated>
                   <summary>Resumen de mi ano 2024. Un resumen que incluye discos, comida, bicicletas y videojuegos.</summary>
                   <category>Reflexión</category>
@@ -600,8 +854,8 @@
 </content>
                 </entry><entry>
                   <title>Genesis Noir</title>
-                  <link href="https://ardi.monster/blog/genesis-noir" />
-                  <id>https://ardi.monster/blog/genesis-noir</id>
+                  <link href="https://www.ardi.monster/blog/genesis-noir" />
+                  <id>https://www.ardi.monster/blog/genesis-noir</id>
                   <updated>2025-01-31T16:00:00.0100</updated>
                   <summary>Una novela visual con puzles donde se mezcla el cine negro con el Big Bang.</summary>
                   <category>Videojuegos</category>
@@ -623,8 +877,8 @@
 </content>
                 </entry><entry>
                   <title>Indiana Jones y el Gran Circulo</title>
-                  <link href="https://ardi.monster/blog/indiana-jones-y-el-gran-circulo" />
-                  <id>https://ardi.monster/blog/indiana-jones-y-el-gran-circulo</id>
+                  <link href="https://www.ardi.monster/blog/indiana-jones-y-el-gran-circulo" />
+                  <id>https://www.ardi.monster/blog/indiana-jones-y-el-gran-circulo</id>
                   <updated>2025-01-27T23:40:00.0100</updated>
                   <summary>Una aventura en primera persona de Indiana Jones</summary>
                   <category>Videojuegos</category>
@@ -647,8 +901,8 @@
 </content>
                 </entry><entry>
                   <title>COCOON</title>
-                  <link href="https://ardi.monster/blog/cocoon" />
-                  <id>https://ardi.monster/blog/cocoon</id>
+                  <link href="https://www.ardi.monster/blog/cocoon" />
+                  <id>https://www.ardi.monster/blog/cocoon</id>
                   <updated>2025-01-21T20:30:00.0100</updated>
                   <summary>Una aventura de puzzle donde deberas visitar diferentes mundos en forma de esfera</summary>
                   <category>Videojuegos</category>
@@ -664,8 +918,8 @@
 </content>
                 </entry><entry>
                   <title>Minute of Islands</title>
-                  <link href="https://ardi.monster/blog/minute-of-island" />
-                  <id>https://ardi.monster/blog/minute-of-island</id>
+                  <link href="https://www.ardi.monster/blog/minute-of-island" />
+                  <id>https://www.ardi.monster/blog/minute-of-island</id>
                   <updated>2024-12-07T19:00:00.0100</updated>
                   <summary>Un plataformas colorido donde la narrativa juega un papel importante</summary>
                   <category>Videojuegos</category>
@@ -685,8 +939,8 @@
 </content>
                 </entry><entry>
                   <title>Death&apos;s Door</title>
-                  <link href="https://ardi.monster/blog/deaths-door" />
-                  <id>https://ardi.monster/blog/deaths-door</id>
+                  <link href="https://www.ardi.monster/blog/deaths-door" />
+                  <id>https://www.ardi.monster/blog/deaths-door</id>
                   <updated>2024-10-29T19:00:00.0100</updated>
                   <summary>Isometrio, tetrico, enternecedor.</summary>
                   <category>Videojuegos</category>
@@ -706,8 +960,8 @@
 </content>
                 </entry><entry>
                   <title>Little Nightmares II</title>
-                  <link href="https://ardi.monster/blog/little-nightmares-II" />
-                  <id>https://ardi.monster/blog/little-nightmares-II</id>
+                  <link href="https://www.ardi.monster/blog/little-nightmares-II" />
+                  <id>https://www.ardi.monster/blog/little-nightmares-II</id>
                   <updated>2024-09-26T23:25:10.0100</updated>
                   <summary>Una manera de entender lo bonito que es el terror</summary>
                   <category>Videojuegos</category>
@@ -728,8 +982,8 @@
 </content>
                 </entry><entry>
                   <title>A jugglers tale</title>
-                  <link href="https://ardi.monster/blog/a-jugglers-tale" />
-                  <id>https://ardi.monster/blog/a-jugglers-tale</id>
+                  <link href="https://www.ardi.monster/blog/a-jugglers-tale" />
+                  <id>https://www.ardi.monster/blog/a-jugglers-tale</id>
                   <updated>2024-08-08T17:50:10.0100</updated>
                   <summary>Un plataformas rapido donde veremos como la vida de Abby pende de un hilo. O cuatro.</summary>
                   <category>Videojuegos</category>
@@ -749,8 +1003,8 @@
 </content>
                 </entry><entry>
                   <title>Little Nightmares</title>
-                  <link href="https://ardi.monster/blog/little-nightmares" />
-                  <id>https://ardi.monster/blog/little-nightmares</id>
+                  <link href="https://www.ardi.monster/blog/little-nightmares" />
+                  <id>https://www.ardi.monster/blog/little-nightmares</id>
                   <updated>2024-04-27T19:00:00.0100</updated>
                   <summary>Videojuego con una estetica horriblemente cuqui</summary>
                   <category>Videojuegos</category>
@@ -772,8 +1026,8 @@
 </content>
                 </entry><entry>
                   <title>Papetura</title>
-                  <link href="https://ardi.monster/blog/papetura" />
-                  <id>https://ardi.monster/blog/papetura</id>
+                  <link href="https://www.ardi.monster/blog/papetura" />
+                  <id>https://www.ardi.monster/blog/papetura</id>
                   <updated>2024-04-16T23:40:00.0100</updated>
                   <summary>Papel de mundo. Hecho a mano</summary>
                   <category>Videojuegos</category>
@@ -793,8 +1047,8 @@
 </content>
                 </entry><entry>
                   <title>League of Enthusiastic Losers</title>
-                  <link href="https://ardi.monster/blog/league-of-enthusiastic-losers" />
-                  <id>https://ardi.monster/blog/league-of-enthusiastic-losers</id>
+                  <link href="https://www.ardi.monster/blog/league-of-enthusiastic-losers" />
+                  <id>https://www.ardi.monster/blog/league-of-enthusiastic-losers</id>
                   <updated>2024-04-14T17:00:00.0100</updated>
                   <summary>Un vistazo preciosista al Moscu en los noventa</summary>
                   <category>Desarrollo</category>
@@ -811,8 +1065,8 @@
 </content>
                 </entry><entry>
                   <title>30 Dias en Bici</title>
-                  <link href="https://ardi.monster/blog/30-dias-en-bici-2024" />
-                  <id>https://ardi.monster/blog/30-dias-en-bici-2024</id>
+                  <link href="https://www.ardi.monster/blog/30-dias-en-bici-2024" />
+                  <id>https://www.ardi.monster/blog/30-dias-en-bici-2024</id>
                   <updated>2024-04-01T15:30:10.0100</updated>
                   <summary>Un pequeno hilo donde voy mostrando cada dia con mi bicicleta en abril</summary>
                   <category>Reflexión</category>
@@ -983,8 +1237,8 @@
 </content>
                 </entry><entry>
                   <title>A link to the past: 2023</title>
-                  <link href="https://ardi.monster/blog/a-link-to-the-past-2023" />
-                  <id>https://ardi.monster/blog/a-link-to-the-past-2023</id>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2023" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2023</id>
                   <updated>2024-03-23T15:30:10.0100</updated>
                   <summary>Un resumen de mi ano 2023 donde hablo de la musica que he escuchado, los videojuegos que he jugado y los lugares que he visitado.</summary>
                   <category>Reflexión</category>
@@ -1118,8 +1372,8 @@
 </content>
                 </entry><entry>
                   <title>What remains of Edith Finch</title>
-                  <link href="https://ardi.monster/blog/what-remains-of-edith-finch" />
-                  <id>https://ardi.monster/blog/what-remains-of-edith-finch</id>
+                  <link href="https://www.ardi.monster/blog/what-remains-of-edith-finch" />
+                  <id>https://www.ardi.monster/blog/what-remains-of-edith-finch</id>
                   <updated>2024-02-25T16:30:00.0100</updated>
                   <summary>Un vistazo al legado de Edith Finch</summary>
                   <category>Videojuegos</category>
@@ -1139,8 +1393,8 @@
 </content>
                 </entry><entry>
                   <title>Firewatch</title>
-                  <link href="https://ardi.monster/blog/firewatch" />
-                  <id>https://ardi.monster/blog/firewatch</id>
+                  <link href="https://www.ardi.monster/blog/firewatch" />
+                  <id>https://www.ardi.monster/blog/firewatch</id>
                   <updated>2024-01-29T20:10:00.0100</updated>
                   <summary>Firewatch es un juego calmado, colorido y conversacional donde caminas y disfrutas</summary>
                   <category>Videojuegos</category>
@@ -1163,8 +1417,8 @@
 </content>
                 </entry><entry>
                   <title>A link to the past: 2022</title>
-                  <link href="https://ardi.monster/blog/a-link-to-the-past-2022" />
-                  <id>https://ardi.monster/blog/a-link-to-the-past-2022</id>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2022" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2022</id>
                   <updated>2023-05-07T23:00:10.0100</updated>
                   <summary>Un resumen de mi ano 2022 donde hablo de la musica que he escuchado, los videojuegos que he jugado y los lugares que he visitado.</summary>
                   <category>Reflexión</category>
@@ -1279,8 +1533,8 @@
 </content>
                 </entry><entry>
                   <title>Figment</title>
-                  <link href="https://ardi.monster/blog/figment" />
-                  <id>https://ardi.monster/blog/figment</id>
+                  <link href="https://www.ardi.monster/blog/figment" />
+                  <id>https://www.ardi.monster/blog/figment</id>
                   <updated>2022-11-25T23:35:00.0100</updated>
                   <summary>Un viaje al interior del cerebro, con sus luces y sus sombras.</summary>
                   <category>Videojuegos</category>
@@ -1293,8 +1547,8 @@
 </content>
                 </entry><entry>
                   <title>Celeste</title>
-                  <link href="https://ardi.monster/blog/celeste" />
-                  <id>https://ardi.monster/blog/celeste</id>
+                  <link href="https://www.ardi.monster/blog/celeste" />
+                  <id>https://www.ardi.monster/blog/celeste</id>
                   <updated>2022-11-23T23:35:00.0100</updated>
                   <summary>Madeline necesita escalar la montana Celeste, cueste lo que cueste.</summary>
                   <category>Videojuegos</category>
@@ -1312,8 +1566,8 @@
 </content>
                 </entry><entry>
                   <title>Nuphy Air 75</title>
-                  <link href="https://ardi.monster/blog/nuphy-air-75" />
-                  <id>https://ardi.monster/blog/nuphy-air-75</id>
+                  <link href="https://www.ardi.monster/blog/nuphy-air-75" />
+                  <id>https://www.ardi.monster/blog/nuphy-air-75</id>
                   <updated>2022-11-05T13:30:00.0100</updated>
                   <summary>Un teclado mecanico con muy buenas caracteristicas.</summary>
                   <category>General</category>
@@ -1342,8 +1596,8 @@
 </content>
                 </entry><entry>
                   <title>A link to the past: 2021</title>
-                  <link href="https://ardi.monster/blog/a-link-to-the-past-2021" />
-                  <id>https://ardi.monster/blog/a-link-to-the-past-2021</id>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2021" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2021</id>
                   <updated>2022-03-01T10:00:10.0100</updated>
                   <summary>Resumen de mi ano 2021, que podria resumirse en tres palabras: un dragon, un portatil y una reforma.</summary>
                   <category>Reflexión</category>
@@ -1422,8 +1676,8 @@
 </content>
                 </entry><entry>
                   <title>LastPass CLI</title>
-                  <link href="https://ardi.monster/blog/last-pass-cli" />
-                  <id>https://ardi.monster/blog/last-pass-cli</id>
+                  <link href="https://www.ardi.monster/blog/last-pass-cli" />
+                  <id>https://www.ardi.monster/blog/last-pass-cli</id>
                   <updated>2021-10-04T20:40:00.0100</updated>
                   <summary>Como utilizar LastPass desde la linea de comandos y sin interfaz web</summary>
                   <category>Desarrollo</category>
@@ -1461,8 +1715,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>A link to the past: 2020</title>
-                  <link href="https://ardi.monster/blog/a-link-to-the-past-2020" />
-                  <id>https://ardi.monster/blog/a-link-to-the-past-2020</id>
+                  <link href="https://www.ardi.monster/blog/a-link-to-the-past-2020" />
+                  <id>https://www.ardi.monster/blog/a-link-to-the-past-2020</id>
                   <updated>2021-01-06T19:23:10.0100</updated>
                   <summary>Un pequeno resumen de lo que me ha ocurrido en 2020, lo que he aprendido, lo que no, lo que he jugado, lo que me gustaria jugar...</summary>
                   <category>Reflexión</category>
@@ -1556,8 +1810,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>La curiosa vida de Florence</title>
-                  <link href="https://ardi.monster/blog/florence" />
-                  <id>https://ardi.monster/blog/florence</id>
+                  <link href="https://www.ardi.monster/blog/florence" />
+                  <id>https://www.ardi.monster/blog/florence</id>
                   <updated>2020-09-15T12:40:00.0100</updated>
                   <summary>Titulo donde nos embarcaremos en una corta pero intensa aventura dentro del mundo de Florence.</summary>
                   <category>Videojuegos</category>
@@ -1571,8 +1825,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>ZeroSSL</title>
-                  <link href="https://ardi.monster/blog/zero-ssl" />
-                  <id>https://ardi.monster/blog/zero-ssl</id>
+                  <link href="https://www.ardi.monster/blog/zero-ssl" />
+                  <id>https://www.ardi.monster/blog/zero-ssl</id>
                   <updated>2020-03-21T15:50:00.0100</updated>
                   <summary>ZeroSSL permite generar un certificado valido en muy poco tiempo</summary>
                   <category>Desarrollo</category>
@@ -1615,8 +1869,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Candle: a traves de los ojos de Teku</title>
-                  <link href="https://ardi.monster/blog/candle-the-power-of-the-flame" />
-                  <id>https://ardi.monster/blog/candle-the-power-of-the-flame</id>
+                  <link href="https://www.ardi.monster/blog/candle-the-power-of-the-flame" />
+                  <id>https://www.ardi.monster/blog/candle-the-power-of-the-flame</id>
                   <updated>2019-07-25T19:00:00.0100</updated>
                   <summary>Aventura grafica espanola con un diseno y artes esquisitos</summary>
                   <category>Videojuegos</category>
@@ -1629,8 +1883,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Slain: Back from Hell</title>
-                  <link href="https://ardi.monster/blog/slain-back-from-hell" />
-                  <id>https://ardi.monster/blog/slain-back-from-hell</id>
+                  <link href="https://www.ardi.monster/blog/slain-back-from-hell" />
+                  <id>https://www.ardi.monster/blog/slain-back-from-hell</id>
                   <updated>2019-07-17T20:00:00.0100</updated>
                   <summary>Un plataformas de estilo clasico con un toque sangriento</summary>
                   <category>Videojuegos</category>
@@ -1642,8 +1896,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Donkey Kong Country</title>
-                  <link href="https://ardi.monster/blog/donkey-kong-country-tropical-freeze" />
-                  <id>https://ardi.monster/blog/donkey-kong-country-tropical-freeze</id>
+                  <link href="https://www.ardi.monster/blog/donkey-kong-country-tropical-freeze" />
+                  <id>https://www.ardi.monster/blog/donkey-kong-country-tropical-freeze</id>
                   <updated>2019-07-17T20:00:00.0100</updated>
                   <summary>Bajo la piel de Donkey deberemos atravesar obstaculos en una multitud de niveles de plataforma</summary>
                   <category>Videojuegos</category>
@@ -1657,8 +1911,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Cadence of Hyrule</title>
-                  <link href="https://ardi.monster/blog/cadence-of-hyrule" />
-                  <id>https://ardi.monster/blog/cadence-of-hyrule</id>
+                  <link href="https://www.ardi.monster/blog/cadence-of-hyrule" />
+                  <id>https://www.ardi.monster/blog/cadence-of-hyrule</id>
                   <updated>2019-07-17T19:00:00.0100</updated>
                   <summary>Un videojuego que ofrece la delicia de recorrer Hyrule en su estilo mas clasico bajo una banda sonora de espanto</summary>
                   <category>Videojuegos</category>
@@ -1670,8 +1924,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Octopath traveller</title>
-                  <link href="https://ardi.monster/blog/octopath-traveller" />
-                  <id>https://ardi.monster/blog/octopath-traveller</id>
+                  <link href="https://www.ardi.monster/blog/octopath-traveller" />
+                  <id>https://www.ardi.monster/blog/octopath-traveller</id>
                   <updated>2019-05-30T12:00:00.0100</updated>
                   <summary>Una aventura clasica de 16 bits mezclada con un 3D moderno. Octopath Traveller nos permite jugar a una super Super Nintendo</summary>
                   <category>Videojuegos</category>
@@ -1685,8 +1939,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>OwlBoy: el nacimiento de un heroe</title>
-                  <link href="https://ardi.monster/blog/owl-boy" />
-                  <id>https://ardi.monster/blog/owl-boy</id>
+                  <link href="https://www.ardi.monster/blog/owl-boy" />
+                  <id>https://www.ardi.monster/blog/owl-boy</id>
                   <updated>2019-05-27T22:00:00.0100</updated>
                   <summary>Owlboy es un juego de aventura en el que nos pondremos en la piel de Otus, un timido aprendiz de buho que tendra que enfrentarse a su destino</summary>
                   <category>Videojuegos</category>
@@ -1701,8 +1955,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Hollow Knight</title>
-                  <link href="https://ardi.monster/blog/hollow-knight" />
-                  <id>https://ardi.monster/blog/hollow-knight</id>
+                  <link href="https://www.ardi.monster/blog/hollow-knight" />
+                  <id>https://www.ardi.monster/blog/hollow-knight</id>
                   <updated>2019-05-26T23:40:00.0100</updated>
                   <summary>Hollow Knight rinde culto al dios insecto en una aventura llena plataformas con un arte y banda sonora realmente cuidadas</summary>
                   <category>Videojuegos</category>
@@ -1717,8 +1971,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Bienvenido a Gatsby</title>
-                  <link href="https://ardi.monster/blog/bienvenido-a-gatsby" />
-                  <id>https://ardi.monster/blog/bienvenido-a-gatsby</id>
+                  <link href="https://www.ardi.monster/blog/bienvenido-a-gatsby" />
+                  <id>https://www.ardi.monster/blog/bienvenido-a-gatsby</id>
                   <updated>2019-05-22T20:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo, Bestiario</category>
@@ -1728,8 +1982,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Desarrollo de Aplicaciones Web</title>
-                  <link href="https://ardi.monster/blog/desarrollo-de-aplicaciones-web" />
-                  <id>https://ardi.monster/blog/desarrollo-de-aplicaciones-web</id>
+                  <link href="https://www.ardi.monster/blog/desarrollo-de-aplicaciones-web" />
+                  <id>https://www.ardi.monster/blog/desarrollo-de-aplicaciones-web</id>
                   <updated>2019-03-01T20:00:00.0100</updated>
                   <summary>Resumen del segundo ano del ciclo superior de Desarrollo de Aplicaciones Web. Listado de asignaturas, horas y explicacion de cada una de ellas</summary>
                   <category>Desarrollo</category>
@@ -1785,8 +2039,8 @@ Website: www.japanesecomposers.chiptune
 </content>
                 </entry><entry>
                   <title>Desarrollo de Aplicaciones Multiplataforma</title>
-                  <link href="https://ardi.monster/blog/desarrollo-aplicaciones-multiplataforma" />
-                  <id>https://ardi.monster/blog/desarrollo-aplicaciones-multiplataforma</id>
+                  <link href="https://www.ardi.monster/blog/desarrollo-aplicaciones-multiplataforma" />
+                  <id>https://www.ardi.monster/blog/desarrollo-aplicaciones-multiplataforma</id>
                   <updated>2019-03-01T20:00:00.0100</updated>
                   <summary>Resumen del primer ano del ciclo superior de Desarrollo de Aplicaciones Multiplataforma. Listado de asignaturas, horas y explicacion de cada una de ellas</summary>
                   <category>Desarrollo, Bestiario</category>
@@ -1859,8 +2113,8 @@ irefox
 </content>
                 </entry><entry>
                   <title>El poder de los datos</title>
-                  <link href="https://ardi.monster/blog/el-poder-de-los-datos" />
-                  <id>https://ardi.monster/blog/el-poder-de-los-datos</id>
+                  <link href="https://www.ardi.monster/blog/el-poder-de-los-datos" />
+                  <id>https://www.ardi.monster/blog/el-poder-de-los-datos</id>
                   <updated>2018-11-01T20:00:00.0100</updated>
                   <summary>Idea para mejorar la calidad y transparencia de la ciudad de Torrelavega mediante el uso de datos abiertos</summary>
                   <category>Reflexión, Desarrollo, Bestiario</category>
@@ -1896,8 +2150,8 @@ irefox
 </content>
                 </entry><entry>
                   <title>Del codigo al pixel</title>
-                  <link href="https://ardi.monster/blog/del-codigo-al-pixel" />
-                  <id>https://ardi.monster/blog/del-codigo-al-pixel</id>
+                  <link href="https://www.ardi.monster/blog/del-codigo-al-pixel" />
+                  <id>https://www.ardi.monster/blog/del-codigo-al-pixel</id>
                   <updated>2018-06-30T20:00:00.0100</updated>
                   <summary>Mi charla sobre interfaces de usuario. Centrada en la historia de las interfaces desde principios de siglo hasta nuestros dias.</summary>
                   <category>Desarrollo</category>
@@ -1939,8 +2193,8 @@ incrustada la presentación aquí abajo para que echés un vistazo rápido.&lt;/
 </content>
                 </entry><entry>
                   <title>IONIC</title>
-                  <link href="https://ardi.monster/blog/coders-cantabria-ionic-angular" />
-                  <id>https://ardi.monster/blog/coders-cantabria-ionic-angular</id>
+                  <link href="https://www.ardi.monster/blog/coders-cantabria-ionic-angular" />
+                  <id>https://www.ardi.monster/blog/coders-cantabria-ionic-angular</id>
                   <updated>2018-03-30T20:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo</category>
@@ -1967,8 +2221,8 @@ varias aplicaciones para diferentes plataformas (como Android e iOS).&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>CakePHP + macOS</title>
-                  <link href="https://ardi.monster/blog/cake-php-mac-high-sierra" />
-                  <id>https://ardi.monster/blog/cake-php-mac-high-sierra</id>
+                  <link href="https://www.ardi.monster/blog/cake-php-mac-high-sierra" />
+                  <id>https://www.ardi.monster/blog/cake-php-mac-high-sierra</id>
                   <updated>2018-03-30T20:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo</category>
@@ -2007,8 +2261,8 @@ el siguiente comando&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>WordCamp 2017</title>
-                  <link href="https://ardi.monster/blog/wordcamp-cantabria" />
-                  <id>https://ardi.monster/blog/wordcamp-cantabria</id>
+                  <link href="https://www.ardi.monster/blog/wordcamp-cantabria" />
+                  <id>https://www.ardi.monster/blog/wordcamp-cantabria</id>
                   <updated>2017-12-01T12:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo, Eventos</category>
@@ -2023,8 +2277,8 @@ el siguiente comando&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>Electron</title>
-                  <link href="https://ardi.monster/blog/coders-cantabria-electron" />
-                  <id>https://ardi.monster/blog/coders-cantabria-electron</id>
+                  <link href="https://www.ardi.monster/blog/coders-cantabria-electron" />
+                  <id>https://www.ardi.monster/blog/coders-cantabria-electron</id>
                   <updated>2017-05-01T12:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo</category>
@@ -2046,8 +2300,8 @@ el siguiente comando&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>Antony Crook</title>
-                  <link href="https://ardi.monster/blog/antony-crook" />
-                  <id>https://ardi.monster/blog/antony-crook</id>
+                  <link href="https://www.ardi.monster/blog/antony-crook" />
+                  <id>https://www.ardi.monster/blog/antony-crook</id>
                   <updated>2017-02-28T20:00:00.0100</updated>
                   <summary></summary>
                   <category>Fotografía</category>
@@ -2060,8 +2314,8 @@ el siguiente comando&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>Bienvenido a Jekyll</title>
-                  <link href="https://ardi.monster/blog/bienvenido-a-jekyll" />
-                  <id>https://ardi.monster/blog/bienvenido-a-jekyll</id>
+                  <link href="https://www.ardi.monster/blog/bienvenido-a-jekyll" />
+                  <id>https://www.ardi.monster/blog/bienvenido-a-jekyll</id>
                   <updated>2017-01-01T20:00:00.0100</updated>
                   <summary></summary>
                   <category>Desarrollo</category>
@@ -2081,8 +2335,8 @@ el siguiente comando&lt;/p&gt;
 </content>
                 </entry><entry>
                   <title>Torrelavega a traves del cartel</title>
-                  <link href="https://ardi.monster/blog/torrelavega-a-traves-del-cartel" />
-                  <id>https://ardi.monster/blog/torrelavega-a-traves-del-cartel</id>
+                  <link href="https://www.ardi.monster/blog/torrelavega-a-traves-del-cartel" />
+                  <id>https://www.ardi.monster/blog/torrelavega-a-traves-del-cartel</id>
                   <updated>2015-12-01T12:00:00.0100</updated>
                   <summary>Muestra de carteles de la ciudad de Torrelavega a traves de la historia de sus fiestas. Historia del diseno que va desde finales de 1800 hasta nuestros dias</summary>
                   <category>Diseño</category>
@@ -2097,8 +2351,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Personaliza la barra de navegacion en Android</title>
-                  <link href="https://ardi.monster/blog/colorea-la-barra-de-chrome-en-android" />
-                  <id>https://ardi.monster/blog/colorea-la-barra-de-chrome-en-android</id>
+                  <link href="https://www.ardi.monster/blog/colorea-la-barra-de-chrome-en-android" />
+                  <id>https://www.ardi.monster/blog/colorea-la-barra-de-chrome-en-android</id>
                   <updated>2014-12-15T15:30:00.0100</updated>
                   <summary>Personaliza la barra de navegacion de tu aplicacion en Android</summary>
                   <category>Desarrollo</category>
@@ -2111,8 +2365,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Cassette-Boy</title>
-                  <link href="https://ardi.monster/blog/casette-boy" />
-                  <id>https://ardi.monster/blog/casette-boy</id>
+                  <link href="https://www.ardi.monster/blog/casette-boy" />
+                  <id>https://www.ardi.monster/blog/casette-boy</id>
                   <updated>2014-09-02T15:30:00.0100</updated>
                   <summary>Utiliza cintas de casette para hacer cajas de videojuegos de Game Boy</summary>
                   <category>Videojuegos, Bestiario</category>
@@ -2129,8 +2383,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Skala Preview</title>
-                  <link href="https://ardi.monster/blog/skala-preview" />
-                  <id>https://ardi.monster/blog/skala-preview</id>
+                  <link href="https://www.ardi.monster/blog/skala-preview" />
+                  <id>https://www.ardi.monster/blog/skala-preview</id>
                   <updated>2014-08-18T15:30:00.0100</updated>
                   <summary>Aplicacion que permite duplicar el contenido de tus disenos en tu dispositivo movil</summary>
                   <category>Diseño</category>
@@ -2146,8 +2400,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Android Niceties</title>
-                  <link href="https://ardi.monster/blog/android-niceties" />
-                  <id>https://ardi.monster/blog/android-niceties</id>
+                  <link href="https://www.ardi.monster/blog/android-niceties" />
+                  <id>https://www.ardi.monster/blog/android-niceties</id>
                   <updated>2014-01-12T15:30:00.0100</updated>
                   <summary>Muestrario de aplicaciones de Android donde destacan por su elaborado diseno</summary>
                   <category>Diseño</category>
@@ -2155,8 +2409,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Cinch</title>
-                  <link href="https://ardi.monster/blog/cinch" />
-                  <id>https://ardi.monster/blog/cinch</id>
+                  <link href="https://www.ardi.monster/blog/cinch" />
+                  <id>https://www.ardi.monster/blog/cinch</id>
                   <updated>2013-12-10T15:30:00.0100</updated>
                   <summary>Aplicacion para macOS que permite gestionar las ventanas del escritorio.</summary>
                   <category>General</category>
@@ -2168,8 +2422,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>¿Para que tantos formatos?</title>
-                  <link href="https://ardi.monster/blog/para-que-tantos-formatos" />
-                  <id>https://ardi.monster/blog/para-que-tantos-formatos</id>
+                  <link href="https://www.ardi.monster/blog/para-que-tantos-formatos" />
+                  <id>https://www.ardi.monster/blog/para-que-tantos-formatos</id>
                   <updated>2013-09-19T22:00:00.0100</updated>
                   <summary>Listado de formatos de imagen explicados punto por punto</summary>
                   <category>General</category>
@@ -2256,8 +2510,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Phoster</title>
-                  <link href="https://ardi.monster/blog/phoster" />
-                  <id>https://ardi.monster/blog/phoster</id>
+                  <link href="https://www.ardi.monster/blog/phoster" />
+                  <id>https://www.ardi.monster/blog/phoster</id>
                   <updated>2013-07-03T15:30:00.0100</updated>
                   <summary>Aplicacion con la que se pueden realizar posters mediante una serie de pasos</summary>
                   <category>Diseño</category>
@@ -2288,8 +2542,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>The Rentals</title>
-                  <link href="https://ardi.monster/blog/the-rentals" />
-                  <id>https://ardi.monster/blog/the-rentals</id>
+                  <link href="https://www.ardi.monster/blog/the-rentals" />
+                  <id>https://www.ardi.monster/blog/the-rentals</id>
                   <updated>2012-10-29T15:30:00.0100</updated>
                   <summary>The Rentals es una banda estadounidense con una larga trayectoria a sus espaldas</summary>
                   <category>Música</category>
@@ -2312,8 +2566,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Dali + Disney</title>
-                  <link href="https://ardi.monster/blog/dali-disney" />
-                  <id>https://ardi.monster/blog/dali-disney</id>
+                  <link href="https://www.ardi.monster/blog/dali-disney" />
+                  <id>https://www.ardi.monster/blog/dali-disney</id>
                   <updated>2012-10-22T15:30:00.0100</updated>
                   <summary>Pieza audiovisual donde se encuentra el arte de dali animado como si una pelicula de disney se tratase</summary>
                   <category>General</category>
@@ -2321,8 +2575,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Susan Kare</title>
-                  <link href="https://ardi.monster/blog/susan-kare" />
-                  <id>https://ardi.monster/blog/susan-kare</id>
+                  <link href="https://www.ardi.monster/blog/susan-kare" />
+                  <id>https://www.ardi.monster/blog/susan-kare</id>
                   <updated>2012-08-25T15:30:00.0100</updated>
                   <summary>Susan Kare es una disenadora grafica estadounidense</summary>
                   <category>Diseño</category>
@@ -2332,8 +2586,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>The Extraordinary Ordinary Life Of Jose Gonzalez</title>
-                  <link href="https://ardi.monster/blog/jose-gonzalez" />
-                  <id>https://ardi.monster/blog/jose-gonzalez</id>
+                  <link href="https://www.ardi.monster/blog/jose-gonzalez" />
+                  <id>https://www.ardi.monster/blog/jose-gonzalez</id>
                   <updated>2012-04-19T15:30:00.0100</updated>
                   <summary>Jose Gonzalez es un cantante sueco</summary>
                   <category>Música</category>
@@ -2342,8 +2596,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Los carteles de Pony Bravo</title>
-                  <link href="https://ardi.monster/blog/los-carteles-de-pony-bravo" />
-                  <id>https://ardi.monster/blog/los-carteles-de-pony-bravo</id>
+                  <link href="https://www.ardi.monster/blog/los-carteles-de-pony-bravo" />
+                  <id>https://www.ardi.monster/blog/los-carteles-de-pony-bravo</id>
                   <updated>2011-12-21T15:30:00.0100</updated>
                   <summary>Daniel Alonso es integrante del grupo Pony Bravo</summary>
                   <category>Diseño</category>
@@ -2352,8 +2606,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>It&apos;s all around you</title>
-                  <link href="https://ardi.monster/blog/tortoise" />
-                  <id>https://ardi.monster/blog/tortoise</id>
+                  <link href="https://www.ardi.monster/blog/tortoise" />
+                  <id>https://www.ardi.monster/blog/tortoise</id>
                   <updated>2011-12-19T15:30:00.0100</updated>
                   <summary>Tortoise son una banda de Chicago. Considerados los padres del post-rock</summary>
                   <category>Música</category>
@@ -2362,8 +2616,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Las buenas noches</title>
-                  <link href="https://ardi.monster/blog/las-buenas-noches" />
-                  <id>https://ardi.monster/blog/las-buenas-noches</id>
+                  <link href="https://www.ardi.monster/blog/las-buenas-noches" />
+                  <id>https://www.ardi.monster/blog/las-buenas-noches</id>
                   <updated>2011-12-07T15:30:00.0100</updated>
                   <summary>Las buenas noches son un grupo de musica sevillano</summary>
                   <category>Música</category>
@@ -2373,8 +2627,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Yossi Lemel</title>
-                  <link href="https://ardi.monster/blog/yossi-lemel" />
-                  <id>https://ardi.monster/blog/yossi-lemel</id>
+                  <link href="https://www.ardi.monster/blog/yossi-lemel" />
+                  <id>https://www.ardi.monster/blog/yossi-lemel</id>
                   <updated>2011-12-05T15:30:00.0100</updated>
                   <summary>Yossi Yemel, un disenador israeli que deja mensajes claros y sin tapujos</summary>
                   <category>Diseño</category>
@@ -2384,8 +2638,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Monstruos en Family Tree</title>
-                  <link href="https://ardi.monster/blog/monstruos-en-family-tree" />
-                  <id>https://ardi.monster/blog/monstruos-en-family-tree</id>
+                  <link href="https://www.ardi.monster/blog/monstruos-en-family-tree" />
+                  <id>https://www.ardi.monster/blog/monstruos-en-family-tree</id>
                   <updated>2011-12-02T15:30:00.0100</updated>
                   <summary>Ilustrador de Nashvaille que trabaja bajo la marca Family Tree</summary>
                   <category>Diseño</category>
@@ -2394,8 +2648,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>最後の晩餐</title>
-                  <link href="https://ardi.monster/blog/最後の晩餐" />
-                  <id>https://ardi.monster/blog/最後の晩餐</id>
+                  <link href="https://www.ardi.monster/blog/最後の晩餐" />
+                  <id>https://www.ardi.monster/blog/最後の晩餐</id>
                   <updated>2011-11-29T15:30:00.0100</updated>
                   <summary>Video de Mouse on the keys tocando en directo en el 21st Century Mouseum of Contemporary Art</summary>
                   <category>Música</category>
@@ -2404,8 +2658,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>The Shrine &#x2F; An argument</title>
-                  <link href="https://ardi.monster/blog/the-shrine-an-argument" />
-                  <id>https://ardi.monster/blog/the-shrine-an-argument</id>
+                  <link href="https://www.ardi.monster/blog/the-shrine-an-argument" />
+                  <id>https://www.ardi.monster/blog/the-shrine-an-argument</id>
                   <updated>2011-11-28T15:30:00.0100</updated>
                   <summary>Video de Fleet Foxes de su album “Helplessness Blues”</summary>
                   <category>Música</category>
@@ -2414,8 +2668,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>The Third &amp; The Seventh</title>
-                  <link href="https://ardi.monster/blog/the-third-and-the-seventh" />
-                  <id>https://ardi.monster/blog/the-third-and-the-seventh</id>
+                  <link href="https://www.ardi.monster/blog/the-third-and-the-seventh" />
+                  <id>https://www.ardi.monster/blog/the-third-and-the-seventh</id>
                   <updated>2011-11-23T15:30:00.0100</updated>
                   <summary>Video donde se muestran las diferentes formas con las que se puede disfrutar de la arquitectura</summary>
                   <category>Diseño</category>
@@ -2425,8 +2679,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Munich X</title>
-                  <link href="https://ardi.monster/blog/munich-x" />
-                  <id>https://ardi.monster/blog/munich-x</id>
+                  <link href="https://www.ardi.monster/blog/munich-x" />
+                  <id>https://www.ardi.monster/blog/munich-x</id>
                   <updated>2011-11-09T15:30:00.0100</updated>
                   <summary>Munich es una marca de zapatillas conocida a nivel mundial</summary>
                   <category>General</category>
@@ -2435,8 +2689,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Tom Waits</title>
-                  <link href="https://ardi.monster/blog/monster-of-tom-waits" />
-                  <id>https://ardi.monster/blog/monster-of-tom-waits</id>
+                  <link href="https://www.ardi.monster/blog/monster-of-tom-waits" />
+                  <id>https://www.ardi.monster/blog/monster-of-tom-waits</id>
                   <updated>2011-11-04T15:30:00.0100</updated>
                   <summary>Tom Waits, una de las voces mas importantes del planeta</summary>
                   <category>Música, Bestiario</category>
@@ -2456,8 +2710,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Louie Mantia</title>
-                  <link href="https://ardi.monster/blog/louie-mantia" />
-                  <id>https://ardi.monster/blog/louie-mantia</id>
+                  <link href="https://www.ardi.monster/blog/louie-mantia" />
+                  <id>https://www.ardi.monster/blog/louie-mantia</id>
                   <updated>2011-11-02T15:30:00.0100</updated>
                   <summary>Disenador de interfaces e iconos estadounidense</summary>
                   <category>Diseño</category>
@@ -2467,8 +2721,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Explosions in the Sky</title>
-                  <link href="https://ardi.monster/blog/explosions-in-the-sky" />
-                  <id>https://ardi.monster/blog/explosions-in-the-sky</id>
+                  <link href="https://www.ardi.monster/blog/explosions-in-the-sky" />
+                  <id>https://www.ardi.monster/blog/explosions-in-the-sky</id>
                   <updated>2011-10-31T15:30:00.0100</updated>
                   <summary>Video de la banda de Texas: explosions in the sky</summary>
                   <category>Música</category>
@@ -2477,8 +2731,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Hola, me llamo Lago Andrusia</title>
-                  <link href="https://ardi.monster/blog/lago-andrusia" />
-                  <id>https://ardi.monster/blog/lago-andrusia</id>
+                  <link href="https://www.ardi.monster/blog/lago-andrusia" />
+                  <id>https://www.ardi.monster/blog/lago-andrusia</id>
                   <updated>2011-10-06T15:30:00.0100</updated>
                   <summary>Proyecto donde se realiza un logotipo cada dia para cada lago que hay en Minnesota</summary>
                   <category>Diseño</category>
@@ -2487,8 +2741,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Un gato, un perro y Shugo Tokumaru</title>
-                  <link href="https://ardi.monster/blog/un-gato-un-perro-y-shugo-tokumaru" />
-                  <id>https://ardi.monster/blog/un-gato-un-perro-y-shugo-tokumaru</id>
+                  <link href="https://www.ardi.monster/blog/un-gato-un-perro-y-shugo-tokumaru" />
+                  <id>https://www.ardi.monster/blog/un-gato-un-perro-y-shugo-tokumaru</id>
                   <updated>2011-09-28T15:30:00.0100</updated>
                   <summary>Tokumaru es un musica japones que es capaz de realizar piezas musicales hasta con juguetes</summary>
                   <category>Música</category>
@@ -2497,8 +2751,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Bobby Neel Adams</title>
-                  <link href="https://ardi.monster/blog/bobby-neel-adams" />
-                  <id>https://ardi.monster/blog/bobby-neel-adams</id>
+                  <link href="https://www.ardi.monster/blog/bobby-neel-adams" />
+                  <id>https://www.ardi.monster/blog/bobby-neel-adams</id>
                   <updated>2011-09-28T15:30:00.0100</updated>
                   <summary>Fotografo nacido en North Caroline</summary>
                   <category>General</category>
@@ -2508,8 +2762,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Tortoise</title>
-                  <link href="https://ardi.monster/blog/tortoise-arquitectura" />
-                  <id>https://ardi.monster/blog/tortoise-arquitectura</id>
+                  <link href="https://www.ardi.monster/blog/tortoise-arquitectura" />
+                  <id>https://www.ardi.monster/blog/tortoise-arquitectura</id>
                   <updated>2011-09-25T15:30:00.0100</updated>
                   <summary>Banda estadounidense que podria ser considerada como la pionera de la musica Post-rock</summary>
                   <category>Música</category>
@@ -2519,8 +2773,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Mykonos</title>
-                  <link href="https://ardi.monster/blog/fleet-foxes-mykonos" />
-                  <id>https://ardi.monster/blog/fleet-foxes-mykonos</id>
+                  <link href="https://www.ardi.monster/blog/fleet-foxes-mykonos" />
+                  <id>https://www.ardi.monster/blog/fleet-foxes-mykonos</id>
                   <updated>2011-09-22T15:30:00.0100</updated>
                   <summary>Videoclip en stopmotion de la banda Fleet Foxes</summary>
                   <category>Música</category>
@@ -2531,8 +2785,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Vicente Garcia Morillo</title>
-                  <link href="https://ardi.monster/blog/vicente-garcia" />
-                  <id>https://ardi.monster/blog/vicente-garcia</id>
+                  <link href="https://www.ardi.monster/blog/vicente-garcia" />
+                  <id>https://www.ardi.monster/blog/vicente-garcia</id>
                   <updated>2011-08-31T15:30:00.0100</updated>
                   <summary>Disenor grafico madrileno</summary>
                   <category>Diseño</category>
@@ -2541,8 +2795,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>Srger</title>
-                  <link href="https://ardi.monster/blog/srger" />
-                  <id>https://ardi.monster/blog/srger</id>
+                  <link href="https://www.ardi.monster/blog/srger" />
+                  <id>https://www.ardi.monster/blog/srger</id>
                   <updated>2011-08-29T15:30:00.0100</updated>
                   <summary>Disenador grafico sevillano</summary>
                   <category>Diseño</category>
@@ -2552,8 +2806,8 @@ En unos casos, el nombre del fichero recoge el de la Colección de documentació
 </content>
                 </entry><entry>
                   <title>ARGH!</title>
-                  <link href="https://ardi.monster/blog/argh-comics" />
-                  <id>https://ardi.monster/blog/argh-comics</id>
+                  <link href="https://www.ardi.monster/blog/argh-comics" />
+                  <id>https://www.ardi.monster/blog/argh-comics</id>
                   <updated>2011-08-28T15:30:00.0100</updated>
                   <summary>Serie de comics donde colaboran diferentes dibujantes aportado su vision</summary>
                   <category>General</category>
