@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "rm -rf .next/cache && next build",
+    "build": "rm -rf .next/cache && next build && tsx src/lib/generate-rss.ts",
     "postbuild": "tsx src/lib/generate-rss.ts",
     "start": "next start",
     "lint": "eslint",
