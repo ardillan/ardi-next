@@ -7,7 +7,7 @@
   text-align: center;
   margin: 1rem auto;
   font-family: var(--font-heading);
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   font-size: clamp(1.5rem, 4vw + 1rem, 80px);
 }
 

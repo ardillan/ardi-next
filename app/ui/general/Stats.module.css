@@ -51,13 +51,13 @@
 
 .progress[value]::-webkit-progress-value {
   background: var(--color-primary);
-  background-color: var(--color-primary);
+  background-color: rgba(var(--color-primary), 1);
   transition: width 300ms ease;
 }
 
 .progress::-moz-progress-bar {
   background: var(--color-primary);
-  background-color: var(--color-primary);
+  background-color: rgba(var(--color-primary), 1);
   transition: width 300ms ease;
 }
 

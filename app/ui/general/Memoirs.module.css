@@ -13,12 +13,12 @@ ul.memoirs > li > a {
 }
 
 ul.memoirs > li > a > small {
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
 }
 
 ul.memoirs > li > a {
   transition: all 0.15s;
-  background: var(--card-background);
+  background: rgba(var(--card-background), 1);
 }
 
 ul.memoirs > li > a:hover {

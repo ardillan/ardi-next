@@ -25,16 +25,20 @@
 
 :root {
   /* Colors */
-  --honey-yellow: #ffc430;
-  --pink-phanter: #f32164;
-  --dark-navy: #13131d;
-  --darker-navy: #0d0d15;
-  --phantom-white: #f6eee2;
-  --darker-phantom-white: #fde0b9;
+  --honey-yellow: 255, 196, 48;
+  --pink-phanter: 243, 33, 100;
+  --dark-navy: 19, 19, 29;
+  --darker-navy: 13, 13, 21;
+  --phantom-white: 246, 238, 226;
+  --darker-phantom-white: 253, 224, 185;
 
-  --red-wine: #c72a5a;
-  --sweet-brown: #ecbe84;
-  --text-marine: #2a2a2a;
+  --red-wine: 199, 42, 90;
+  --sweet-brown: 236, 190, 132;
+  --text-marine: 42, 42, 42;
+
+  /* Shadows */
+  --light-shadows: 0 1px 13px #ababab, 0 1px 2px #ffffff;
+  --black-shadows: 0 1px 3px #13131d, 0 1px 2px #13131d;
 
   /* Fonts */
   --font-heading: "Picnic";
@@ -48,6 +52,7 @@
   --color-secondary: var(--sweet-brown);
 
   --card-background: var(--darker-phantom-white);
+  --card-shadow: var(--light-shadows);
 
   --background: var(--phantom-white);
 
@@ -60,6 +65,7 @@
   --color-secondary: var(--pink-phanter);
 
   --card-background: var(--darker-navy);
+  --card-shadow: var(--dark-shadows);
 
   --background: var(--dark-navy);
 

@@ -27,7 +27,7 @@
 .title {
   font-family: var(--font-heading, inherit);
   font-size: 3rem;
-  color: var(--color-primary, #000);
+  color: rgba(var(--color-primary), 1);
   line-height: 2.5rem;
 }
 
@@ -69,7 +69,7 @@
 
 .background {
   position: absolute;
-  background: #00000066;
+  background: rgba(var(--card-background), 1);
   width: 100vw;
   top: 0;
   left: 0;

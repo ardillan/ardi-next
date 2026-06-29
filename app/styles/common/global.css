@@ -1,5 +1,5 @@
 html {
-  background: var(--background);
-  color: var(--font-color-primary);
+  background: rgba(var(--background), 1);
+  color: rgba(var(--font-color-primary), 1);
   font-family: "DINish";
 }

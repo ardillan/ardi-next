@@ -47,7 +47,7 @@
   margin-bottom: 1.5rem;
   ::marker {
     font-size: 0.8rem;
-    color: var(--color-primary);
+    color: rgba(var(--color-primary), 1);
     font-weight: 800;
   }
 }
@@ -58,7 +58,7 @@
   padding-left: 1rem;
   margin-bottom: 1.5rem;
   li::marker {
-    color: var(--color-primary);
+    color: rgba(var(--color-primary), 1);
   }
 }
 
@@ -104,7 +104,7 @@
   border-radius: 10px;
   padding-bottom: 20px;
   margin-bottom: 15px;
-  border: 2px solid var(--color-secondary) !important;
+  border: 2px solid rgba(var(--color-secondary), 1) !important;
   background: #181821;
 }
 
@@ -116,9 +116,9 @@
 }
 
 .markdownContent a {
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   text-decoration: underline wavy;
-  text-decoration-color: var(--color-secondary);
+  text-decoration-color: rgba(rgba(var(--color-secondary), 1), 1);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
@@ -132,14 +132,14 @@
   .markdownContent a {
     text-decoration: underline solid;
     font-weight: 800;
-    text-decoration-color: var(--color-secondary);
+    text-decoration-color: rgba(var(--color-secondary), 1);
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
   }
 }
 
 .markdownContent h3 {
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   font-family: var(--font-heading);
   font-size: 1.5rem;
   line-height: 1.6rem;
@@ -153,7 +153,7 @@
 }
 
 .markdownContent h2 {
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   font-family: var(--font-heading);
   font-size: 1.8rem;
   line-height: 1.6rem;

@@ -11,7 +11,7 @@
 }
 
 .games li {
-  background: var(--card-background);
+  background: rgba(var(--card-background), 1);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 
 .games li small {
   font-size: 0.75rem;
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
 }
 
 .games li small.dlc {
@@ -36,5 +36,5 @@
 }
 
 .dlcUncomplete {
-  color: var(--font-color-primary);
+  color: rgba(var(--font-color-primary), 1);
 }

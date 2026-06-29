@@ -35,7 +35,7 @@
 }
 
 .postImages h3 {
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   font-weight: 600;
   font-size: 1rem;
   margin: 0;

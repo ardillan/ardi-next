@@ -8,7 +8,7 @@
   text-align: center;
   margin: 1rem auto;
   font-family: var(--font-heading);
-  color: var(--color-primary);
+  color: rgba(var(--color-primary), 1);
   font-size: clamp(1.5rem, 4vw + 1rem, 70px);
 }
 
@@ -34,12 +34,9 @@
   object-fit: cover;
   aspect-ratio: 1 / 1;
   height: max-content;
-  border: 1px solid #ffffff1a;
   margin: 1rem 0;
   border-radius: 10px;
-  box-shadow:
-    #13131d 0px 1px 3px,
-    #13131d 0px 1px 2px;
+  box-shadow: var(--card-shadow);
   transition: all 0.2s;
 }
 
