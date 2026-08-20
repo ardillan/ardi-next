@@ -27,6 +27,7 @@ export const Facts = ({ count = 2 }: { count?: number }) => {
         >
           {inside}
         </Link>
+        <br />
         {after}
       </>
     );
@@ -37,7 +38,7 @@ export const Facts = ({ count = 2 }: { count?: number }) => {
       {facts.map((item, index) => (
         <React.Fragment key={index}>
           {renderFact(item.fact, item.link)}
-          {index < facts.length - 1 ? ", " : ""}
+          {index < facts.length - 1 ? "o " : ""}
         </React.Fragment>
       ))}
     </>

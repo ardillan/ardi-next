@@ -16,7 +16,7 @@ const Welcome = async () => {
 
         <p>
           <span>
-            Tal vez me recuerdes por <Facts />
+            Tal vez me recuerdes <Facts />
           </span>
         </p>
       </div>

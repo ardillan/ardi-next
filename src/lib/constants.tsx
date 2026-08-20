@@ -46,20 +46,24 @@ export const NAVIGATION: Array<INavigationLink> = [
 
 export const RANDOMFACTS = [
   {
-    fact: "haber completado {{Super Hexagon}}",
+    fact: "por haber completado {{Super Hexagon}}",
     link: "https://es.wikipedia.org/wiki/Super_Hexagon",
   },
   {
-    fact: "ser fan de {{Scatman}}",
+    fact: "por ser fan de {{Scatman}}",
     link: "https://es.wikipedia.org/wiki/Scatman_John",
   },
   {
-    fact: "gustarme la {{pizza con piña}}",
+    fact: "por gustarme la {{pizza con piña}}",
     link: "https://es.wikipedia.org/wiki/Sam_Panopoulos",
   },
   {
-    fact: "hablar de {{Grim Fandango}}",
+    fact: "por hablar de {{Grim Fandango}}",
     link: "https://es.wikipedia.org/wiki/Grim_Fandango",
+  },
+  {
+    fact: "por mis fotos de {{Pixelfed}}",
+    link: "https://pixelfed.social/ardi",
   },
 ];
 
