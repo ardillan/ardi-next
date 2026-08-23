@@ -9,13 +9,13 @@ category:
   - Memorias
 ---
 
-Hoy renuevo mi sistema operativo interno. Lo elevo a la versión 3.8 y lanzo una serie de mejoras tanto internas como externas: mejor rendimiendo y menos consumo de recursos; mejor interfaz visual, adaptada a los tiempos que corren y varias correciones de errores en general, que hacían falta.
+Hoy renuevo mi sistema operativo interno. Lo elevo a la versión 3.8 y lanzo una serie de mejoras tanto internas como externas: mejor rendimiento y menos consumo de recursos; mejor interfaz visual, adaptada a los tiempos que corren, y varias correcciones de errores en general, que hacían falta.
 
 Ahora en serio, hoy hago treinta y ocho (38) años. Si bien es cierto que la edad nunca me ha supuesto nada especial, sí empiezo a ver en el horizonte esos tan ansiados cuarenta (40) años. No obstante, esta entrada no la escribo para hacer una reflexión acerca de la senectud, simplemente quiero relatar brevemente mi día, ya que ha sido bastante especial.
 
 En primer lugar, es la primera vez que mi hijo, Bosco, me ve cumplir años. Me parece increíble que este pequeño caos de carne y hueso que ha llegado a nuestro mundo haya presenciado el primer cumpleaños de su viejo.
 
-Por otro lado, he recibido regalos. Unos cuantos que me esperaba y otros cuantos que no: un cartera y camiseta de Carhartt, un dibujo y pulseras de lana, un libro sobre la historia de Bioshock y el vinilo de "Tour de france", de Kraftwerk. También algo de dinero, que nunca viene mal.
+Por otro lado, he recibido regalos. Unos cuantos que me esperaba y otros cuantos que no: una cartera y camiseta de Carhartt, un dibujo y pulseras de lana, un libro sobre la historia de Bioshock y el vinilo de "Tour de France", de Kraftwerk. También algo de dinero, que nunca viene mal.
 
 ![Tour de France, de Kraftwerk](./01.webp)
 
@@ -25,7 +25,7 @@ Por otro lado, he recibido regalos. Unos cuantos que me esperaba y otros cuantos
 
 ![Un dibujo de Jara](./04.webp)
 
-Además, por la mañana participé en el concurso de Tortillas de mi ciudad. El año pasado tuve el honor de hacerlo junto a César. En esta ocasión tuve que ir sin él. La verdad, ha sido divertido. Durante el evento conocí a un chico que también le habían dejado a su suerte y estuve charlando con él mientras cocinábamos amenizando así la mañana.
+Además, por la mañana participé en el concurso de tortillas de mi ciudad. El año pasado tuve el honor de hacerlo junto a César. En esta ocasión tuve que ir sin él. La verdad, ha sido divertido. Durante el evento conocí a un chico al que también habían dejado a su suerte y estuve charlando con él mientras cocinábamos, amenizando así la mañana.
 
 No gané nada, pero me lo pasé bastante bien.
 
@@ -35,4 +35,4 @@ El resto del día ha estado bastante bien, hemos paseado, tomado algún vermú, 
 
 ![Café y merienda](./06.webp)
 
-A veces no hace falta planear tanto las cosas. Hoy hemos ido viendo cómo evoluciaba la cosa, sin prisa y con el ánimo alto. El resto se ha escrito sólo, resultando ser un cumpleaños perfecto junto a mi familia.
+A veces no hace falta planear tanto las cosas. Hoy hemos ido viendo cómo evolucionaba la cosa, sin prisa y con el ánimo alto. El resto se ha escrito solo, resultando ser un cumpleaños perfecto junto a mi familia.
