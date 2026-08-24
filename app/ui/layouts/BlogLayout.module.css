@@ -1,6 +1,8 @@
 .header {
   text-align: center;
   margin: 5rem auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .header h1 {

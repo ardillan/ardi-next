@@ -2,6 +2,11 @@ ul.memoirs {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr;
+  max-width: 900px;
+  margin: auto;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 ul.memoirs > li > a {
