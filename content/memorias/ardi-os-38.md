@@ -1,9 +1,9 @@
 ---
 title: ArdiOS 3.8
-subtitle:
+subtitle: Nomai Salvaje
 date: "2026-08-23T23:00:10.0100"
 type: "blog"
-description: Nueva versión de mi kernel
+description: Nuevo lanzamiento de mi kernel, esta vez en su versión 3.8
 featuredImage: ""
 category:
   - Memorias
